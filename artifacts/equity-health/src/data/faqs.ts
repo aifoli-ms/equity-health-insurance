@@ -2,35 +2,35 @@ import { FAQ } from "@/types";
 
 export const faqs: FAQ[] = [
   {
-    question: "How do I enroll in an Equity Health Insurance plan?",
-    answer: "Enrolling is easy. You can start by scheduling a consultation with our team through this website, or by visiting any of our branch offices. Our representatives will guide you through the available plans and help you choose the best fit for your needs.",
+    question: "What areas do you cover?",
+    answer: "Our services are available across Ghana, with a strong provider network in major cities like Accra, Kumasi, Takoradi, and Tamale. We also offer international coverage under selected packages.",
   },
   {
-    question: "What are the coverage periods for your plans?",
-    answer: "Our standard health insurance plans are offered on an annual basis, requiring renewal every 12 months. Coverage typically begins immediately upon successful enrollment and premium payment, subject to any waiting periods for specific conditions.",
+    question: "Can individuals apply for health insurance?",
+    answer: "Yes. We provide health insurance for individuals, families, students, corporates, and tourists.",
   },
   {
-    question: "How do I make a claim?",
-    answer: "At most of our networked healthcare providers, you simply present your Equity Health Insurance card. The facility will process the claim directly with us (cashless service). For reimbursement claims, you can submit the required documents at any of our offices.",
+    question: "How do I purchase a plan?",
+    answer: "You can contact our Accra office directly, request a quote on our website, or call to speak with one of our sales representatives for guidance.",
   },
   {
-    question: "Are pre-existing conditions covered?",
-    answer: "Coverage for pre-existing conditions varies by plan. Generally, there is a waiting period (e.g., 3 to 6 months) before treatments for pre-existing conditions are covered. Please refer to the specific plan details for exact terms.",
+    question: "Do you cover pre-existing conditions?",
+    answer: "Coverage for pre-existing conditions depends on the selected package and terms. Our team will explain all inclusions and exclusions before enrollment.",
   },
   {
-    question: "Can I add dependants to my plan?",
-    answer: "Yes, our Ebusua Family plan is specifically designed to cover up to 6 family members. Corporate plans also often include options for covering employee dependants. You can add dependants during enrollment or at the time of your annual renewal.",
+    question: "What is included in the Corporate Package?",
+    answer: "It includes outpatient consultations, specialist care, hospitalization, laboratory services, surgeries, dental and optical care, and emergency services for employees.",
   },
   {
-    question: "Can I change my plan after enrolling?",
-    answer: "Plan upgrades or downgrades are typically permitted during the annual renewal period. However, under certain qualifying life events (like marriage or the birth of a child), changes may be accommodated mid-term. Please contact our support team for assistance.",
+    question: "Can I upgrade my plan?",
+    answer: "Yes. Clients can upgrade their plans at renewal or mid-term subject to policy terms and conditions.",
   },
   {
-    question: "What payment methods do you accept?",
-    answer: "We accept various payment methods including mobile money, bank transfers, cheques, and direct debits for corporate clients. We strive to make premium payments as convenient as possible.",
+    question: "How fast are claims processed?",
+    answer: "Most claims are processed within a few business days, thanks to our efficient TPA system.",
   },
   {
-    question: "Is Equity Health Insurance regulated?",
-    answer: "Yes, we are fully licensed and regulated by the National Insurance Commission (NIC) of Ghana, ensuring that we adhere to the highest standards of operational integrity and financial stability.",
+    question: "How do I contact Equity Health Insurance Ghana?",
+    answer: "Call us, send an email, or visit our head office in Accra. Our friendly support team is always ready to assist you. Call now: +233 501353135.",
   },
 ];

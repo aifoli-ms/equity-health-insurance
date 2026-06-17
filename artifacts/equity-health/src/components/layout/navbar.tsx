@@ -1,34 +1,37 @@
 import { Link, useLocation } from "wouter";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
-import { Button } from "@/components/ui/button";
+
+const navLinks = [
+  { href: "/", label: "Home" },
+  { href: "/plans", label: "Plans" },
+  { href: "/providers", label: "Provider Directory" },
+  { href: "/about", label: "About Us" },
+];
 
 export function Navbar() {
   const [location] = useLocation();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
-  const links = [
-    { href: "/", label: "Home" },
-    { href: "/plans/corporate", label: "Plans" },
-    { href: "/providers", label: "Provider Directory" },
-    { href: "/contact", label: "Contact" },
-  ];
+  const isActive = (href: string) =>
+    location === href || (href.includes("plans") && location.startsWith("/plans"));
 
   return (
     <nav className="bg-brand-navy sticky top-0 z-50 w-full shadow-sm">
-      <div className="container mx-auto px-4 md:px-6 h-16 flex items-center justify-between">
-        <Link href="/" className="text-white text-xl font-bold tracking-tight">
+      <div className="container mx-auto px-4 md:px-6 h-20 flex items-center">
+        {/* Logo — left */}
+        <Link href="/" className="text-white text-2xl font-bold tracking-tight shrink-0">
           Equity Health
         </Link>
 
-        {/* Desktop Menu */}
-        <div className="hidden md:flex space-x-8 items-center">
-          {links.map((link) => (
+        {/* Centre links */}
+        <div className="hidden md:flex flex-1 items-center justify-center gap-10">
+          {navLinks.map((link) => (
             <Link
               key={link.href}
               href={link.href}
-              className={`text-white text-sm font-medium pb-1 border-b-2 transition-colors ${
-                location === link.href || (location.startsWith("/plans") && link.href.includes("plans"))
+              className={`text-white text-base font-medium pb-1 border-b-2 transition-colors ${
+                isActive(link.href)
                   ? "border-brand-red"
                   : "border-transparent hover:border-brand-red/50"
               }`}
@@ -38,9 +41,23 @@ export function Navbar() {
           ))}
         </div>
 
-        {/* Mobile Menu Toggle */}
+        {/* Contact pill — right */}
+        <div className="hidden md:flex shrink-0">
+          <Link
+            href="/contact"
+            className={`text-base font-semibold px-6 py-2.5 rounded-full transition-colors ${
+              location === "/contact"
+                ? "bg-brand-red text-white"
+                : "bg-brand-red text-white hover:bg-brand-red/85"
+            }`}
+          >
+            Contact
+          </Link>
+        </div>
+
+        {/* Mobile toggle */}
         <button
-          className="md:hidden text-white p-2"
+          className="md:hidden text-white p-2 ml-auto"
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           aria-label="Toggle Menu"
         >
@@ -51,15 +68,15 @@ export function Navbar() {
       {/* Mobile Menu */}
       {isMobileMenuOpen && (
         <div className="md:hidden bg-brand-navy border-t border-brand-navy-light px-4 py-4 space-y-4">
-          {links.map((link) => (
+          {[...navLinks, { href: "/contact", label: "Contact" }].map((link) => (
             <Link
               key={link.href}
               href={link.href}
               onClick={() => setIsMobileMenuOpen(false)}
-              className={`block text-white text-base font-medium py-2 ${
-                location === link.href || (location.startsWith("/plans") && link.href.includes("plans"))
+              className={`block text-base font-medium py-2 transition-colors ${
+                isActive(link.href) || location === link.href
                   ? "text-brand-red border-l-4 border-brand-red pl-2"
-                  : "pl-3"
+                  : "text-white pl-3"
               }`}
             >
               {link.label}

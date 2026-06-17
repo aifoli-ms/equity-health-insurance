@@ -1,11 +1,52 @@
 import { motion } from "framer-motion";
 import { Link } from "wouter";
+import { useState, useEffect, useCallback } from "react";
+import useEmblaCarousel from "embla-carousel-react";
 import { plans } from "@/data/plans";
-import { Shield, Users, Building2, Clock, Award, HeartPulse, ArrowRight } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Shield, Users, Building2, Clock, Award, HeartPulse, ArrowRight, ChevronLeft, ChevronRight } from "lucide-react";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 
+const HERO_IMAGES = [
+  "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1920&q=80&auto=format&fit=crop",
+  "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=1920&q=80&auto=format&fit=crop",
+  "https://images.unsplash.com/photo-1538108149393-fbbd81895907?w=1920&q=80&auto=format&fit=crop",
+  "https://images.unsplash.com/photo-1551601651-2851e8522bf4?w=1920&q=80&auto=format&fit=crop",
+];
+
 export default function Home() {
+  const [activeImg, setActiveImg] = useState(0);
+
+  useEffect(() => {
+    const id = setInterval(() => {
+      setActiveImg((i) => (i + 1) % HERO_IMAGES.length);
+    }, 5000);
+    return () => clearInterval(id);
+  }, []);
+
+  const [emblaRef, emblaApi] = useEmblaCarousel({ align: "start", loop: true });
+  const [selectedIndex, setSelectedIndex] = useState(0);
+  const scrollPrev = useCallback(() => emblaApi?.scrollPrev(), [emblaApi]);
+  const scrollNext = useCallback(() => emblaApi?.scrollNext(), [emblaApi]);
+
+  useEffect(() => {
+    if (!emblaApi) return;
+    const onSelect = () => setSelectedIndex(emblaApi.selectedScrollSnap());
+    emblaApi.on("select", onSelect);
+    onSelect();
+  }, [emblaApi]);
+
+  useEffect(() => {
+    if (!emblaApi) return;
+    const id = setInterval(() => emblaApi.scrollNext(), 3000);
+    const node = emblaApi.rootNode();
+    const pause = () => clearInterval(id);
+    node.addEventListener("mouseenter", pause);
+    return () => {
+      clearInterval(id);
+      node.removeEventListener("mouseenter", pause);
+    };
+  }, [emblaApi]);
+
   const fadeInUp = {
     hidden: { opacity: 0, y: 40 },
     visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } }
@@ -14,31 +55,82 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-[100dvh] w-full">
       {/* Hero Section */}
-      <section className="relative w-full bg-brand-navy text-white overflow-hidden py-20 md:py-32 lg:py-40">
+      <section className="relative w-full text-white overflow-hidden py-20 md:py-32 lg:py-40">
+        {/* Background image carousel */}
+        {HERO_IMAGES.map((src, i) => (
+          <img
+            key={src}
+            src={src}
+            alt=""
+            aria-hidden="true"
+            className="absolute inset-0 w-full h-full object-cover transition-opacity duration-1000"
+            style={{ opacity: i === activeImg ? 1 : 0 }}
+          />
+        ))}
+        {/* Dark overlay for text legibility */}
+        <div className="absolute inset-0 bg-gradient-to-r from-black/75 via-black/55 to-black/35" />
+
+        {/* Slide indicators */}
+        <div className="absolute bottom-6 left-1/2 -translate-x-1/2 flex gap-2 z-10">
+          {HERO_IMAGES.map((_, i) => (
+            <button
+              key={i}
+              onClick={() => setActiveImg(i)}
+              aria-label={`Go to slide ${i + 1}`}
+              className={`w-2 h-2 rounded-full transition-all duration-300 ${i === activeImg ? "bg-brand-red w-6" : "bg-white/40 hover:bg-white/70"}`}
+            />
+          ))}
+        </div>
+
         <div className="container mx-auto px-4 md:px-6 relative z-10">
-          <motion.div 
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true }}
-            variants={fadeInUp}
-            className="max-w-3xl"
-          >
-            <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold tracking-tight mb-6 leading-tight">
-              Your Health,<br />
-              <span className="text-brand-red">Our Priority</span>
-            </h1>
-            <p className="text-lg md:text-xl text-text-muted mb-8 max-w-2xl leading-relaxed">
-              Ghana's most trusted, NIC-regulated health insurance provider. We offer comprehensive, affordable coverage tailored for individuals, families, and growing businesses.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4">
-              <Link href="/contact" className="inline-flex items-center justify-center bg-brand-red hover:bg-brand-red/90 text-white font-semibold h-14 px-8 rounded-md transition-colors" data-testid="button-hero-consultation">
-                Schedule Consultation
-              </Link>
-              <Link href="/plans/corporate" className="inline-flex items-center justify-center bg-brand-navy-light hover:bg-brand-navy-light/80 text-white font-medium h-14 px-8 rounded-md transition-colors border border-brand-navy-light" data-testid="button-hero-plans">
-                Explore Plans
-              </Link>
-            </div>
-          </motion.div>
+          <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-12 lg:gap-16">
+            <motion.div
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+              variants={fadeInUp}
+              className="max-w-2xl"
+            >
+              <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold tracking-tight mb-6 leading-tight">
+                Your Health,<br />
+                <span className="text-brand-red">Our Priority</span>
+              </h1>
+              <p className="text-lg md:text-xl text-white/80 mb-8 max-w-2xl leading-relaxed">
+                We provide comprehensive, value-for-money and unrivalled healthcare insurance benefits and plans that suit every medical need and pocket through a network of reliable, accredited Health Service Providers across Ghana.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4">
+                <Link href="/contact" className="inline-flex items-center justify-center bg-brand-red hover:bg-brand-red/90 text-white font-semibold h-14 px-8 rounded-md transition-colors" data-testid="button-hero-consultation">
+                  Schedule Consultation
+                </Link>
+                <Link href="/plans" className="inline-flex items-center justify-center bg-brand-navy-light hover:bg-brand-navy-light/80 text-white font-medium h-14 px-8 rounded-md transition-colors border border-brand-navy-light" data-testid="button-hero-plans">
+                  Explore Plans
+                </Link>
+              </div>
+            </motion.div>
+
+            {/* Trust panel */}
+            <motion.div
+              initial={{ opacity: 0, x: 30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: 0.2 }}
+              className="lg:shrink-0 lg:w-72 xl:w-80"
+            >
+              <div className="bg-black/40 backdrop-blur-md rounded-2xl border border-white/15 divide-y divide-white/10 overflow-hidden">
+                {[
+                  { value: "35+", label: "Combined Years of Experience" },
+                  { value: "682+", label: "Trusted Clients" },
+                  { value: "23+", label: "Staff Members" },
+                  { value: "Nationwide", label: "Coverage Across Ghana" },
+                ].map((stat) => (
+                  <div key={stat.label} className="px-6 py-4">
+                    <div className="text-2xl font-bold text-white mb-0.5">{stat.value}</div>
+                    <div className="text-xs font-semibold uppercase tracking-widest text-white/60">{stat.label}</div>
+                  </div>
+                ))}
+              </div>
+            </motion.div>
+          </div>
         </div>
       </section>
 
@@ -58,40 +150,70 @@ export default function Home() {
             </p>
           </motion.div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
-            {plans.map((plan, index) => (
-              <motion.div
-                key={plan.slug}
-                initial="hidden"
-                whileInView="visible"
-                viewport={{ once: true, margin: "-50px" }}
-                variants={{
-                  hidden: { opacity: 0, y: 30 },
-                  visible: { opacity: 1, y: 0, transition: { duration: 0.5, delay: index * 0.1 } }
-                }}
-              >
-                <Card className="h-full flex flex-col bg-white border-brand-navy-light/10 shadow-sm hover:shadow-md transition-shadow">
-                  <CardHeader>
-                    <div className="mb-2 text-sm font-semibold text-brand-red bg-brand-red-light/30 inline-block px-3 py-1 rounded-full w-fit">
-                      {plan.category}
-                    </div>
-                    <CardTitle className="text-xl md:text-2xl text-brand-navy">{plan.name}</CardTitle>
-                    <CardDescription className="text-text-muted min-h-[40px]">{plan.tagline}</CardDescription>
-                  </CardHeader>
-                  <CardContent className="flex-grow">
-                    <div className="flex items-baseline mb-6">
-                      <span className="text-3xl font-bold text-brand-navy">GH₵{plan.monthlyPremium}</span>
-                      <span className="text-text-muted ml-2">/month</span>
-                    </div>
-                  </CardContent>
-                  <CardFooter>
-                    <Link href={`/plans/${plan.slug}`} className="w-full flex items-center justify-center border-2 border-brand-navy text-brand-navy hover:bg-brand-navy hover:text-white font-medium py-3 rounded-md transition-colors group" data-testid={`link-plan-${plan.slug}`}>
-                      Learn More <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
-                    </Link>
-                  </CardFooter>
-                </Card>
-              </motion.div>
-            ))}
+          <div className="relative">
+            <div ref={emblaRef} className="overflow-hidden cursor-grab active:cursor-grabbing">
+              <div className="-ml-6 flex">
+                {plans.map((plan) => (
+                  <div
+                    key={plan.slug}
+                    className="flex-[0_0_25%] min-w-0 pl-6"
+                  >
+                    <Card className="h-full flex flex-col bg-white border-brand-navy-light/10 shadow-sm hover:shadow-md transition-shadow">
+                      <CardHeader>
+                        <div className="mb-2 text-sm font-semibold text-brand-red bg-brand-red-light/30 inline-block px-3 py-1 rounded-full w-fit">
+                          {plan.category}
+                        </div>
+                        <CardTitle className="text-xl text-brand-navy leading-snug">{plan.name}</CardTitle>
+                        <CardDescription className="text-text-muted text-sm leading-snug mt-1">{plan.tagline}</CardDescription>
+                      </CardHeader>
+                      <CardContent className="flex-grow">
+                        <div className="flex items-baseline mb-4">
+                          <span className="text-3xl font-bold text-brand-navy">GH₵{plan.monthlyPremium}</span>
+                          <span className="text-text-muted ml-2">/month</span>
+                        </div>
+                      </CardContent>
+                      <CardFooter>
+                        <Link href={`/plans/${plan.slug}`} className="w-full flex items-center justify-center border-2 border-brand-navy text-brand-navy hover:bg-brand-navy hover:text-white font-medium py-3 rounded-md transition-colors group" data-testid={`link-plan-${plan.slug}`}>
+                          Learn More <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
+                        </Link>
+                      </CardFooter>
+                    </Card>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Side nav buttons */}
+            <button
+              onClick={scrollPrev}
+              aria-label="Previous plan"
+              className="absolute -left-8 top-[45%] -translate-y-1/2 text-brand-navy/30 hover:text-brand-red transition-colors"
+            >
+              <ChevronLeft className="w-7 h-7" strokeWidth={1.5} />
+            </button>
+            <button
+              onClick={scrollNext}
+              aria-label="Next plan"
+              className="absolute -right-8 top-[45%] -translate-y-1/2 text-brand-navy/30 hover:text-brand-red transition-colors"
+            >
+              <ChevronRight className="w-7 h-7" strokeWidth={1.5} />
+            </button>
+
+            {/* Dot indicators */}
+            <div className="flex justify-center gap-2 mt-8">
+              {plans.map((_, i) => (
+                <button
+                  key={i}
+                  onClick={() => emblaApi?.scrollTo(i)}
+                  aria-label={`Go to plan ${i + 1}`}
+                  className={`h-2 rounded-full transition-all duration-300 ${
+                    i === selectedIndex
+                      ? "bg-brand-red w-6"
+                      : "bg-brand-navy/25 w-2 hover:bg-brand-navy/50"
+                  }`}
+                />
+              ))}
+            </div>
           </div>
         </div>
       </section>
@@ -114,21 +236,21 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12">
             {[
-              { icon: Shield, title: "Regulated & Trusted", desc: "Fully licensed by the National Insurance Commission (NIC) of Ghana." },
-              { icon: Building2, title: "Wide Provider Network", desc: "Access to top hospitals, clinics, and pharmacies nationwide." },
-              { icon: Clock, title: "Fast Claim Processing", desc: "Cashless service at most facilities and quick reimbursement turnaround." },
-              { icon: Users, title: "Family & Corporate Focused", desc: "Tailored plans that scale from individuals to large enterprises." },
-              { icon: HeartPulse, title: "Comprehensive Coverage", desc: "From routine checkups to specialist care and emergencies." },
-              { icon: Award, title: "Award-Winning Service", desc: "Recognized for outstanding customer support and care management." },
+              { icon: Shield, title: "Local Expertise, Global Standards", desc: "We combine in-depth knowledge of Ghana's healthcare landscape with world-class best practices in insurance." },
+              { icon: Building2, title: "Wide Accredited Network", desc: "Access hospitals, clinics, pharmacies, dental, laboratories, diagnostics and optical centres across the country." },
+              { icon: Clock, title: "Fast Claims Processing", desc: "Our claims process is simple, efficient, and technology-driven for quick turnaround." },
+              { icon: Users, title: "Customer-Centered Service", desc: "We go beyond insurance to build lasting relationships with our clients." },
+              { icon: HeartPulse, title: "Transparent & Affordable Pricing", desc: "No hidden charges — our packages are clear, competitive, and fair." },
+              { icon: Award, title: "Award-Winning Company", desc: "Recognized for outstanding service excellence, customer care, and integrity." },
             ].map((feature, i) => (
-              <motion.div 
+              <motion.div
                 key={i}
                 initial="hidden"
                 whileInView="visible"
-                viewport={{ once: true }}
+                viewport={{ once: true, margin: "-40px" }}
                 variants={{
-                  hidden: { opacity: 0, scale: 0.95 },
-                  visible: { opacity: 1, scale: 1, transition: { duration: 0.4, delay: i * 0.1 } }
+                  hidden: { opacity: 0, y: 20 },
+                  visible: { opacity: 1, y: 0, transition: { duration: 0.4, delay: i * 0.08 } }
                 }}
                 className="flex gap-4 items-start"
               >

@@ -1,11 +1,10 @@
 export interface Plan {
   slug: string;
   name: string;
-  category: "Corporate" | "Ebusua" | "Retail" | "Micro";
+  category: "Corporate" | "Ebusua" | "Retail" | "Daakye Apomuden" | "ABS" | "NHIS Top-Up" | "Micro";
   tagline: string;
   monthlyPremium: number;
   features: string[];
-  notIncluded?: string[];
 }
 
 export interface Provider {
