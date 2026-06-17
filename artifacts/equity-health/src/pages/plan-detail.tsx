@@ -1,13 +1,19 @@
 import { useParams, Link } from "wouter";
-import { plans } from "@/data/plans";
-import { CheckCircle2, ArrowLeft } from "lucide-react";
+import { usePlan } from "@/hooks/use-api";
+import { CheckCircle2, ArrowLeft, Loader2 } from "lucide-react";
 import { motion } from "framer-motion";
 
 export default function PlanDetail() {
   const params = useParams();
-  const planSlug = params.slug;
-  const planIndex = plans.findIndex(p => p.slug === planSlug);
-  const plan = planIndex !== -1 ? plans[planIndex] : undefined;
+  const { data: plan, isLoading } = usePlan(params.slug || "");
+
+  if (isLoading) {
+    return (
+      <div className="min-h-[60vh] flex items-center justify-center bg-bg-surface">
+        <Loader2 className="w-8 h-8 animate-spin text-brand-red" />
+      </div>
+    );
+  }
 
   if (!plan) {
     return (

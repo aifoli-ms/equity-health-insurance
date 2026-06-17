@@ -1,33 +1,43 @@
 import { motion } from "framer-motion";
-import { Shield, HeartPulse, Users, Award, Target, Eye } from "lucide-react";
+import { Shield, HeartPulse, Users, Award, Target, Eye, Zap, Heart, Lightbulb, Handshake } from "lucide-react";
 
 const stats = [
-  { value: "35+", label: "Combined Years of Experience" },
-  { value: "682+", label: "Trusted Clients" },
+  { value: "35+", label: "Years Experience" },
+  { value: "682+", label: "Happy Clients" },
   { value: "23+", label: "Staff Members" },
   { value: "Nationwide", label: "Coverage Across Ghana" },
 ];
 
 const values = [
   {
-    icon: Shield,
-    title: "Integrity",
-    desc: "We operate with full transparency, holding ourselves to the highest ethical standards in every policy, claim, and client interaction.",
+    icon: Handshake,
+    title: "Respect",
+    desc: "We value treating everyone with dignity, fairness, and courtesy.",
   },
   {
-    icon: HeartPulse,
-    title: "Care",
-    desc: "Health is personal. We treat every member as an individual, not a policy number, and design our services around real human needs.",
+    icon: Shield,
+    title: "Integrity",
+    desc: "We uphold the highest ethical standards and maintain transparency.",
+  },
+  {
+    icon: Zap,
+    title: "Speed",
+    desc: "We provide prompt service to ensure timely assistance.",
+  },
+  {
+    icon: Heart,
+    title: "Empathy",
+    desc: "We understand and empathize with customers' unique needs.",
+  },
+  {
+    icon: Lightbulb,
+    title: "Innovation",
+    desc: "We seek innovative solutions to enhance the health insurance experience.",
   },
   {
     icon: Users,
-    title: "Inclusion",
-    desc: "From informal workers to large enterprises, we believe quality healthcare protection should be accessible to every Ghanaian.",
-  },
-  {
-    icon: Award,
-    title: "Excellence",
-    desc: "We continuously raise our standards — in claims processing speed, network quality, and the support we provide to our members.",
+    title: "Teamwork",
+    desc: "We foster collaboration, communication, and mutual respect among our employees.",
   },
 ];
 
@@ -60,14 +70,15 @@ export default function About() {
           >
             <p className="text-brand-red text-sm font-semibold uppercase tracking-widest mb-4">About Us</p>
             <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-6">
-              Protecting Ghana's Health<br />
-              <span className="text-brand-red">Since Day One.</span>
+              Best Private<br />
+              <span className="text-brand-red">Health Insurance in Ghana.</span>
             </h1>
             <p className="text-white/75 text-lg md:text-xl leading-relaxed max-w-2xl">
-              Equity Health Insurance Ghana is a premier health insurance provider headquartered in
-              Accra, dedicated to delivering reliable, affordable, and comprehensive health insurance
-              solutions for individuals, families, students, tourists, corporate organizations, and
-              international clients.
+              Equity Health Insurance Ghana (EHI) is a trusted private health insurance provider,
+              registered as a limited liability company and licensed under Act 852 of the National
+              Health Insurance Authority (2012). We are committed to delivering comprehensive,
+              reliable and affordable health insurance tailored to meet the unique needs of
+              individuals, families, and corporate organizations.
             </p>
           </motion.div>
         </div>
@@ -95,10 +106,10 @@ export default function About() {
         </div>
       </section>
 
-      {/* Mission & Vision */}
+      {/* Objective, Mission & Vision */}
       <section className="py-20 md:py-32 bg-bg-surface">
         <div className="container mx-auto px-4 md:px-6">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-20">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-16">
             <motion.div
               initial="hidden"
               whileInView="visible"
@@ -107,13 +118,14 @@ export default function About() {
             >
               <div className="flex items-center gap-3 mb-6">
                 <div className="bg-brand-red-light text-brand-red p-3 rounded-lg">
-                  <Target className="w-6 h-6" />
+                  <Award className="w-6 h-6" />
                 </div>
-                <h2 className="text-2xl font-bold text-brand-navy">Our Mission</h2>
+                <h2 className="text-2xl font-bold text-brand-navy">Our Objective</h2>
               </div>
               <p className="text-text-muted text-lg leading-relaxed">
-                To make healthcare accessible, affordable, and dependable for all in Ghana and
-                beyond by offering high-quality health insurance solutions that meet diverse needs.
+                To provide fast, quality, reliable and accessible health care in the health
+                insurance industry through prompt payment of claims to all our health service
+                providers across the country.
               </p>
             </motion.div>
 
@@ -126,20 +138,39 @@ export default function About() {
             >
               <div className="flex items-center gap-3 mb-6">
                 <div className="bg-brand-red-light text-brand-red p-3 rounded-lg">
+                  <Target className="w-6 h-6" />
+                </div>
+                <h2 className="text-2xl font-bold text-brand-navy">Our Mission</h2>
+              </div>
+              <p className="text-text-muted text-lg leading-relaxed">
+                To continuously improve healthcare access through excellent customer-centric
+                services, in a cost-effective and timely manner.
+              </p>
+            </motion.div>
+
+            <motion.div
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+              custom={2}
+              variants={fadeUp}
+            >
+              <div className="flex items-center gap-3 mb-6">
+                <div className="bg-brand-red-light text-brand-red p-3 rounded-lg">
                   <Eye className="w-6 h-6" />
                 </div>
                 <h2 className="text-2xl font-bold text-brand-navy">Our Vision</h2>
               </div>
               <p className="text-text-muted text-lg leading-relaxed">
-                To be Ghana's most respected and innovative health insurance provider, recognized
-                for service excellence, customer care, and integrity.
+                To be the leading health insurance company to deliver quality health insurance
+                in Ghana and the wider African market.
               </p>
             </motion.div>
           </div>
         </div>
       </section>
 
-      {/* Values */}
+      {/* Core Values */}
       <section className="py-20 md:py-32 bg-bg-main">
         <div className="container mx-auto px-4 md:px-6">
           <motion.div
@@ -149,13 +180,10 @@ export default function About() {
             variants={fadeUp}
             className="text-center mb-16"
           >
-            <h2 className="text-3xl md:text-4xl font-bold text-brand-navy mb-4">What We Stand For</h2>
-            <p className="text-text-muted text-lg max-w-2xl mx-auto">
-              Our values are not a wall poster — they shape every decision we make.
-            </p>
+            <h2 className="text-3xl md:text-4xl font-bold text-brand-navy mb-4">Our Core Values</h2>
           </motion.div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10">
             {values.map((v, i) => (
               <motion.div
                 key={v.title}

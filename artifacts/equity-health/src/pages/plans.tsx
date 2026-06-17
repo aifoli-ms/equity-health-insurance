@@ -1,6 +1,6 @@
 import { Link } from "wouter";
 import { motion } from "framer-motion";
-import { plans } from "@/data/plans";
+import { usePlans } from "@/hooks/use-api";
 import { ArrowRight, CheckCircle2 } from "lucide-react";
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 
@@ -14,6 +14,8 @@ const fadeInUp = {
 };
 
 export default function Plans() {
+  const { data: plans = [] } = usePlans();
+
   return (
     <div className="w-full min-h-[100dvh] bg-bg-surface">
 

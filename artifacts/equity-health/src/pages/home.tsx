@@ -2,9 +2,8 @@ import { motion } from "framer-motion";
 import { Link } from "wouter";
 import { useState, useEffect, useCallback } from "react";
 import useEmblaCarousel from "embla-carousel-react";
-import { plans } from "@/data/plans";
-import { Shield, Users, Building2, Clock, Award, HeartPulse, ArrowRight, ChevronLeft, ChevronRight } from "lucide-react";
-import { CheckCircle2 } from "lucide-react";
+import { usePlans } from "@/hooks/use-api";
+import { Shield, Users, Building2, Clock, Award, HeartPulse, ArrowRight, ChevronLeft, ChevronRight, CheckCircle2 } from "lucide-react";
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 
 const HERO_IMAGES = [
@@ -15,6 +14,7 @@ const HERO_IMAGES = [
 ];
 
 export default function Home() {
+  const { data: plans = [] } = usePlans();
   const [activeImg, setActiveImg] = useState(0);
 
   useEffect(() => {

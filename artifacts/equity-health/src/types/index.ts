@@ -10,9 +10,9 @@ export interface Plan {
 }
 
 export interface Provider {
-  id: string;
+  id: number;
   name: string;
-  category: "Hospital" | "Pharmacy" | "Dental";
+  category: string;
   location: string;
   address: string;
   phone: string;
