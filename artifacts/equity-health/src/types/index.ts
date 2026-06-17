@@ -4,6 +4,8 @@ export interface Plan {
   category: "Corporate" | "Ebusua" | "Retail" | "Daakye Apomuden" | "ABS" | "NHIS Top-Up" | "Micro";
   tagline: string;
   monthlyPremium: number;
+  targetAudience: string;
+  popular?: boolean;
   features: string[];
 }
 

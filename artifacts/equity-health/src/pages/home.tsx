@@ -4,7 +4,8 @@ import { useState, useEffect, useCallback } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import { plans } from "@/data/plans";
 import { Shield, Users, Building2, Clock, Award, HeartPulse, ArrowRight, ChevronLeft, ChevronRight } from "lucide-react";
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
+import { CheckCircle2 } from "lucide-react";
+import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 
 const HERO_IMAGES = [
   "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1920&q=80&auto=format&fit=crop",
@@ -164,13 +165,25 @@ export default function Home() {
                           {plan.category}
                         </div>
                         <CardTitle className="text-xl text-brand-navy leading-snug">{plan.name}</CardTitle>
-                        <CardDescription className="text-text-muted text-sm leading-snug mt-1">{plan.tagline}</CardDescription>
+                        <p className="text-text-muted text-sm mt-1">{plan.targetAudience}</p>
                       </CardHeader>
                       <CardContent className="flex-grow">
-                        <div className="flex items-baseline mb-4">
+                        <div className="flex items-baseline mb-5">
                           <span className="text-3xl font-bold text-brand-navy">GH₵{plan.monthlyPremium}</span>
                           <span className="text-text-muted ml-2">/month</span>
                         </div>
+                        <p className="text-xs font-semibold text-text-muted uppercase tracking-wider mb-3">Plan includes:</p>
+                        <ul className="space-y-2">
+                          {plan.features.slice(0, 4).map((f, i) => (
+                            <li key={i} className="flex items-start gap-2 text-sm text-brand-navy">
+                              <CheckCircle2 className="w-4 h-4 text-whatsapp-green shrink-0 mt-0.5" />
+                              {f}
+                            </li>
+                          ))}
+                          {plan.features.length > 4 && (
+                            <li className="text-sm text-text-muted">+{plan.features.length - 4} more benefits</li>
+                          )}
+                        </ul>
                       </CardContent>
                       <CardFooter>
                         <Link href={`/plans/${plan.slug}`} className="w-full flex items-center justify-center border-2 border-brand-navy text-brand-navy hover:bg-brand-navy hover:text-white font-medium py-3 rounded-md transition-colors group" data-testid={`link-plan-${plan.slug}`}>

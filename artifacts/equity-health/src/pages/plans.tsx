@@ -1,8 +1,8 @@
 import { Link } from "wouter";
 import { motion } from "framer-motion";
 import { plans } from "@/data/plans";
-import { ArrowRight } from "lucide-react";
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
+import { ArrowRight, CheckCircle2 } from "lucide-react";
+import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 
 const fadeInUp = {
   hidden: { opacity: 0, y: 24 },
@@ -17,7 +17,7 @@ export default function Plans() {
   return (
     <div className="w-full min-h-[100dvh] bg-bg-surface">
 
-      {/* Header — compact two-column */}
+      {/* Header */}
       <section className="bg-brand-navy text-white py-10 md:py-14">
         <div className="container mx-auto px-4 md:px-6">
           <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-4">
@@ -56,29 +56,29 @@ export default function Plans() {
               >
                 <Card className="w-full flex flex-col bg-white border-brand-navy-light/10 shadow-sm hover:shadow-md transition-shadow">
                   <CardHeader className="pb-3">
-                    <div className="mb-3 text-xs font-semibold text-brand-red bg-brand-red-light/30 inline-block px-3 py-1 rounded-full w-fit uppercase tracking-wide">
+                    <div className="mb-2 text-xs font-semibold text-brand-red bg-brand-red-light/30 inline-block px-3 py-1 rounded-full w-fit uppercase tracking-wide">
                       {plan.category}
                     </div>
-                    {/* Fixed-height title block so all cards align */}
                     <div className="min-h-[3.5rem]">
                       <CardTitle className="text-lg md:text-xl text-brand-navy leading-snug">{plan.name}</CardTitle>
                     </div>
-                    <CardDescription className="text-text-muted text-sm leading-snug min-h-[2.5rem]">{plan.tagline}</CardDescription>
+                    <p className="text-text-muted text-sm">{plan.targetAudience}</p>
                   </CardHeader>
                   <CardContent className="flex-grow pt-0">
-                    <div className="flex items-baseline mb-4">
+                    <div className="flex items-baseline mb-5">
                       <span className="text-2xl font-bold text-brand-navy">GH₵{plan.monthlyPremium}</span>
                       <span className="text-text-muted text-sm ml-2">/month</span>
                     </div>
-                    <ul className="space-y-1.5">
+                    <p className="text-xs font-semibold text-text-muted uppercase tracking-wider mb-3">Plan includes:</p>
+                    <ul className="space-y-2">
                       {plan.features.slice(0, 4).map((f, i) => (
-                        <li key={i} className="text-sm text-text-muted flex items-start gap-2">
-                          <span className="text-brand-red mt-0.5 shrink-0">•</span>
+                        <li key={i} className="flex items-start gap-2 text-sm text-brand-navy">
+                          <CheckCircle2 className="w-4 h-4 text-whatsapp-green shrink-0 mt-0.5" />
                           {f}
                         </li>
                       ))}
                       {plan.features.length > 4 && (
-                        <li className="text-sm text-brand-red/70 font-medium">+{plan.features.length - 4} more</li>
+                        <li className="text-sm text-text-muted">+{plan.features.length - 4} more benefits</li>
                       )}
                     </ul>
                   </CardContent>

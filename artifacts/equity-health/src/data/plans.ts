@@ -7,6 +7,8 @@ export const plans: Plan[] = [
     category: "Corporate",
     tagline: "Comprehensive medical cover for employees and their dependants, flexible and tailored to your workforce",
     monthlyPremium: 850,
+    targetAudience: "For businesses & organizations",
+    popular: true,
     features: [
       "Medical consultations",
       "Laboratory investigations",
@@ -30,6 +32,7 @@ export const plans: Plan[] = [
     category: "Ebusua",
     tagline: "Specifically designed to meet the needs of individuals and families",
     monthlyPremium: 420,
+    targetAudience: "For families & individuals",
     features: [
       "General consultations",
       "Specialist care",
@@ -47,6 +50,7 @@ export const plans: Plan[] = [
     category: "Daakye Apomuden",
     tagline: "Short-term and lifelong health benefits, providing security and peace of mind",
     monthlyPremium: 350,
+    targetAudience: "For long-term security",
     features: [
       "Short-term health benefits",
       "Lifelong health coverage",
@@ -63,6 +67,7 @@ export const plans: Plan[] = [
     category: "Retail",
     tagline: "Affordable, flexible health insurance for individuals and families",
     monthlyPremium: 180,
+    targetAudience: "For individuals & families",
     features: [
       "Outpatient consultations",
       "Diagnostic tests",
@@ -78,6 +83,7 @@ export const plans: Plan[] = [
     category: "ABS",
     tagline: "A simple and affordable health plan with three levels of cover",
     monthlyPremium: 120,
+    targetAudience: "For budget-conscious individuals",
     features: [
       "Three levels of cover",
       "Basic outpatient care",
@@ -93,6 +99,7 @@ export const plans: Plan[] = [
     category: "NHIS Top-Up",
     tagline: "Extra healthcare benefits on top of your existing NHIS cover",
     monthlyPremium: 95,
+    targetAudience: "For NHIS cardholders",
     features: [
       "Supplements NHIS coverage",
       "Extended outpatient benefits",
@@ -108,6 +115,7 @@ export const plans: Plan[] = [
     category: "Micro",
     tagline: "Low-cost health insurance plans designed for the general public, with special options for C&AGD members",
     monthlyPremium: 80,
+    targetAudience: "For the general public",
     features: [
       "Primary care",
       "Doctor consultations",
