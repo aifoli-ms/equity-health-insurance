@@ -1,0 +1,78 @@
+Build a professional, responsive corporate website for "Equity Health Insurance Ghana."
+
+TECH STACK
+- Next.js 14+ (App Router), TypeScript, Tailwind CSS, shadcn/ui
+- next/font for typography — use "Inter" or "Manrope" as the primary font, do not leave default Tailwind sans
+- next/image for all images, using placeholder images (solid color block + descriptive label, or a placeholder image service) — do not leave broken image paths
+
+STRICT CONSTRAINT: FRONTEND UI ONLY
+Do not build backend APIs, server actions, database connections, or authentication flows. All data must come from static, typed mock arrays defined in /types and /data. I will handle backend integration myself.
+
+TAILWIND THEME — CUSTOM COLORS
+Add these exact tokens to the Tailwind config:
+- brand-navy: #0B132B (primary navbar, footer background, primary headings, main text)
+- brand-navy-light: #1C2541 (card borders, secondary UI elements, hover states)
+- brand-red: #ED1C24 (strictly for primary CTA buttons and active link underlines — NOT the WhatsApp widget)
+- brand-red-light: #F9D2D3 (subtle warning backgrounds, light accent tags)
+- whatsapp-green: #25D366 (reserved exclusively for the floating WhatsApp button)
+- bg-main: #FFFFFF (main page backgrounds)
+- bg-surface: #F8F9FA (alternating sections, pricing cards, FAQ backgrounds)
+- text-muted: #64748B (descriptive paragraph text, footer links, form placeholders)
+
+Rule: never use brand-red or whatsapp-green as a large background fill — both stay reserved for buttons/highlights to keep a clean medical aesthetic.
+
+ACCESSIBILITY REQUIREMENT
+Any button or text rendered on a brand-red background must meet WCAG AA contrast. Use white button text at minimum 16px semibold (or 18px+ bold) to clear the 3:1 large-text threshold against #ED1C24.
+
+TYPED MOCK DATA
+Define TypeScript interfaces before writing any component that consumes mock data:
+
+interface Plan {
+  slug: string;
+  name: string;
+  category: "Corporate" | "Ebusua" | "Retail" | "Micro";
+  tagline: string;
+  monthlyPremium: number;
+  features: string[];      // for checkmark grid
+  notIncluded?: string[];
+}
+
+interface Provider {
+  id: string;
+  name: string;
+  category: "Hospital" | "Pharmacy" | "Dental";
+  location: string;
+  address: string;
+  phone: string;
+}
+
+Populate /data/plans.ts with 4 Plan objects (Corporate, Ebusua, Retail, Micro) and /data/providers.ts with at least 12 Provider objects spread across all three categories.
+
+PAGES & FEATURES
+
+1. Homepage (/)
+   - Hero section: headline, subtext, "Schedule Consultation" CTA button (brand-red, white semibold text)
+   - "Our Plans" section: 4 cards (one per Plan category), each linking to /plans/[slug]
+   - "Why Choose Us" section: 4-6 feature items with icons (lucide-react), short heading + description each
+
+2. Plans (/plans/[slug])
+   - Dynamic route using generateStaticParams() over the mock Plan array — NOT a single tabbed/state-switched page
+   - Render plan overview (name, tagline, monthly premium), a checkmark grid of features, and a separate "not included" list styled distinctly (e.g. muted/greyed out)
+   - 404/notFound() if slug doesn't match any mock plan
+
+3. HSP Directory (/providers)
+   - Client component with a text search input and category filter buttons (All, Hospital, Pharmacy, Dental)
+   - Filter logic: AND condition — a provider must match BOTH the active category (or "All") AND the search text (matched against name and location)
+   - Empty state: if no providers match, show a clear "No providers found matching your search" message — do not render a blank list
+
+4. Contact Us (/contact)
+   - FAQ accordion using shadcn/ui Accordion component, populated from a static FAQ mock array (question/answer pairs)
+   - Static contact form UI only: name, email, phone, message fields + submit button — no onSubmit logic, no validation library, purely visual
+   - Include a visible disclaimer near the form: "This form is for demonstration purposes only"
+
+5. Global layout elements
+   - Persistent floating WhatsApp button, fixed bottom-right, all pages, using whatsapp-green background and an actual WhatsApp logo SVG (use react-icons' FaWhatsapp or an inline SVG — do not substitute a generic chat/phone icon from lucide-react, which has no WhatsApp glyph)
+   - Footer (brand-navy background): site links, contact info, and a placeholder regulatory disclosure line, e.g. "Equity Health Insurance Ghana is regulated by the National Insurance Commission (NIC). License No. [placeholder]."
+
+NAVIGATION
+Persistent navbar (brand-navy background) linking Home, Plans, Provider Directory, Contact. Active route should show an underline in brand-red.

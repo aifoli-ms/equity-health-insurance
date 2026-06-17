@@ -1,0 +1,85 @@
+import { Plan } from "@/types";
+
+export const plans: Plan[] = [
+  {
+    slug: "corporate",
+    name: "Corporate Care",
+    category: "Corporate",
+    tagline: "Comprehensive coverage for businesses of all sizes",
+    monthlyPremium: 850,
+    features: [
+      "Inpatient & outpatient care",
+      "Emergency services",
+      "Specialist consultations",
+      "Dental & optical cover",
+      "Maternity care",
+      "Prescription medication",
+      "Mental health support",
+      "Group discounts available",
+    ],
+    notIncluded: [
+      "Cosmetic procedures",
+      "Pre-existing conditions (first 6 months)",
+    ],
+  },
+  {
+    slug: "ebusua",
+    name: "Ebusua Family",
+    category: "Ebusua",
+    tagline: "Affordable family health coverage for every household",
+    monthlyPremium: 420,
+    features: [
+      "Coverage for up to 6 family members",
+      "Inpatient & outpatient care",
+      "Paediatric care",
+      "Maternity care",
+      "Emergency services",
+      "Prescription drugs",
+    ],
+    notIncluded: [
+      "Dental procedures",
+      "Cosmetic surgery",
+      "Pre-existing conditions (first 3 months)",
+    ],
+  },
+  {
+    slug: "retail",
+    name: "Retail Select",
+    category: "Retail",
+    tagline: "Flexible individual health cover, tailored to you",
+    monthlyPremium: 180,
+    features: [
+      "Outpatient consultations",
+      "Diagnostic tests",
+      "Emergency care",
+      "Prescription medication",
+      "Annual health check",
+    ],
+    notIncluded: [
+      "Inpatient stays",
+      "Specialist referrals",
+      "Dental & optical",
+      "Maternity",
+    ],
+  },
+  {
+    slug: "micro",
+    name: "Micro Shield",
+    category: "Micro",
+    tagline: "Accessible health protection for informal workers",
+    monthlyPremium: 65,
+    features: [
+      "Basic outpatient care",
+      "Emergency first aid",
+      "Essential medications",
+      "Malaria & common illness cover",
+    ],
+    notIncluded: [
+      "Inpatient hospitalization",
+      "Specialist care",
+      "Surgical procedures",
+      "Maternity",
+      "Dental & optical",
+    ],
+  },
+];
