@@ -1,5 +1,7 @@
 import { Link } from "wouter";
+import { Phone } from "lucide-react";
 import { FaFacebookF, FaInstagram, FaYoutube, FaLinkedinIn } from "react-icons/fa";
+import { contactInfo } from "@/data/contact";
 
 export function Footer() {
   return (
@@ -26,13 +28,21 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-text-muted mb-6">
-          <Link href="/" className="hover:text-white transition-colors">Home</Link>
-          <Link href="/about" className="hover:text-white transition-colors">About Us</Link>
-          <Link href="/plans" className="hover:text-white transition-colors">Plans</Link>
-          <Link href="/providers" className="hover:text-white transition-colors">HSP List</Link>
-          <Link href="/contact" className="hover:text-white transition-colors">Contact</Link>
-          <a href="tel:+233501515122" className="hover:text-white transition-colors">0501515122/4</a>
+        <div className="flex flex-col sm:flex-row sm:items-center gap-4 sm:gap-6 text-sm text-text-muted mb-6">
+          <div className="flex flex-wrap gap-x-6 gap-y-2">
+            <Link href="/" className="hover:text-white transition-colors">Home</Link>
+            <Link href="/about" className="hover:text-white transition-colors">About Us</Link>
+            <Link href="/plans" className="hover:text-white transition-colors">Plans</Link>
+            <Link href="/providers" className="hover:text-white transition-colors">HSP List</Link>
+            <Link href="/contact" className="hover:text-white transition-colors">Contact</Link>
+          </div>
+          <a
+            href={contactInfo.phoneHref}
+            className="inline-flex items-center gap-1.5 text-brand-red font-medium hover:text-brand-red/80 transition-colors"
+          >
+            <Phone className="w-3.5 h-3.5" />
+            {contactInfo.phone}
+          </a>
         </div>
 
         <div className="pt-4 border-t border-brand-navy-light text-center md:text-left">

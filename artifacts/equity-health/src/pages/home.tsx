@@ -3,7 +3,7 @@ import { Link } from "wouter";
 import { useState, useEffect, useCallback } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import { usePlans } from "@/hooks/use-api";
-import { Shield, Users, Building2, Clock, Award, HeartPulse, ArrowRight, ChevronLeft, ChevronRight, CheckCircle2 } from "lucide-react";
+import { Shield, Users, Building2, Clock, Award, HeartPulse, ArrowRight, ChevronLeft, ChevronRight, CheckCircle2, Quote } from "lucide-react";
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 
 const HERO_IMAGES = [
@@ -50,7 +50,7 @@ export default function Home() {
 
   const fadeInUp = {
     hidden: { opacity: 0, y: 40 },
-    visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } }
+    visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" as const } }
   };
 
   return (
@@ -273,6 +273,72 @@ export default function Home() {
                 <div>
                   <h3 className="text-lg font-bold text-brand-navy mb-2">{feature.title}</h3>
                   <p className="text-text-muted">{feature.desc}</p>
+                </div>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+      {/* Testimonials */}
+      <section className="py-20 md:py-32 bg-bg-surface w-full">
+        <div className="container mx-auto px-4 md:px-6">
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, margin: "-100px" }}
+            variants={fadeInUp}
+            className="text-center mb-16"
+          >
+            <h2 className="text-3xl md:text-4xl font-bold text-brand-navy mb-4">What Our Clients Say</h2>
+            <p className="text-text-muted text-lg max-w-2xl mx-auto">
+              Hear from individuals and businesses who trust Equity Health Insurance for their healthcare needs.
+            </p>
+          </motion.div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {[
+              {
+                quote: "Equity Health made the entire process seamless — from enrollment to claims. My family feels secure knowing we have reliable coverage whenever we need it.",
+                name: "Akua Mensah",
+                role: "Family Plan Member",
+                photo: "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=200&h=200&q=80&fit=crop&crop=face",
+              },
+              {
+                quote: "As an HR manager, finding the right group plan was critical. Equity Health offered us competitive rates and outstanding support for our 120+ employees.",
+                name: "Kwame Asante",
+                role: "HR Manager, Goldfields Corp.",
+                photo: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=200&h=200&q=80&fit=crop&crop=face",
+              },
+              {
+                quote: "Their claims processing is remarkably fast. I was reimbursed within days, and the customer service team kept me informed every step of the way.",
+                name: "Esi Owusu-Adjei",
+                role: "Individual Plan Member",
+                photo: "https://images.unsplash.com/photo-1589156280159-27698a70f29e?w=200&h=200&q=80&fit=crop&crop=face",
+              },
+            ].map((t, i) => (
+              <motion.div
+                key={i}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true, margin: "-40px" }}
+                variants={{
+                  hidden: { opacity: 0, y: 20 },
+                  visible: { opacity: 1, y: 0, transition: { duration: 0.4, delay: i * 0.1 } },
+                }}
+                className="bg-white rounded-2xl p-8 shadow-sm border border-brand-navy-light/10 flex flex-col"
+              >
+                <Quote className="w-8 h-8 text-brand-red/30 mb-4 shrink-0" />
+                <p className="text-brand-navy leading-relaxed flex-grow">{t.quote}</p>
+                <div className="flex items-center gap-4 mt-6 pt-6 border-t border-brand-navy-light/10">
+                  <img
+                    src={t.photo}
+                    alt={t.name}
+                    className="w-12 h-12 rounded-full object-cover border-2 border-brand-red-light"
+                  />
+                  <div>
+                    <div className="font-bold text-brand-navy text-sm">{t.name}</div>
+                    <div className="text-xs text-text-muted">{t.role}</div>
+                  </div>
                 </div>
               </motion.div>
             ))}
