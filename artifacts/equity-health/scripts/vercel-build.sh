@@ -34,7 +34,7 @@ VCEOF
 rm -rf "$OUT/static"
 mv dist/public "$OUT/static"
 
-# 5. Create route config with SPA fallback
+# 5. Create route config (matches Vercel's expected structure)
 cat > "$OUT/config.json" << 'CFGEOF'
 {
   "version": 3,
@@ -46,8 +46,10 @@ cat > "$OUT/config.json" << 'CFGEOF'
       "check": true
     },
     { "src": "^/api(/.*)?$", "status": 404 },
+    { "handle": "error" },
+    { "status": 404, "src": "^(?!/api).*$", "dest": "/index.html" },
     { "handle": "miss" },
-    { "src": "^(?!/api).*$", "dest": "/index.html", "status": 200 }
+    { "src": "/(.*)", "dest": "/index.html", "status": 200 }
   ]
 }
 CFGEOF
