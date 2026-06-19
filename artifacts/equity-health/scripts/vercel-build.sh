@@ -14,13 +14,12 @@ PORT=5000 BASE_PATH=/ pnpm run build
   --platform=node \
   --target=node20 \
   --format=esm \
-  --outfile=api/index.js \
+  --outfile=api/index.ts \
   --external:pg-native \
   --tsconfig=api/tsconfig.json \
   '--banner:js=import{createRequire}from"module";const require=createRequire(import.meta.url);'
 
-# Remove TS sources so Vercel's @vercel/node builder only sees the bundled JS
-rm api/index.ts api/tsconfig.json
-rm -rf server/
+# Remove server/ sources and tsconfig — the bundle is self-contained
+rm -rf server/ api/tsconfig.json
 
 echo "Build complete: SPA + bundled API"
