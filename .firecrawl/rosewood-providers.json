@@ -1,0 +1,4825 @@
+[
+  {
+    "name": "37 Military Hospital",
+    "category": "Hospital",
+    "location": "37, Accra",
+    "address": "37",
+    "phone": "050-1409246"
+  },
+  {
+    "name": "Worldview Pharmacy",
+    "category": "Pharmacy",
+    "location": "37, Accra",
+    "address": "Adinkra Heights, Opposite 37 Military Hospital",
+    "phone": "0303972929"
+  },
+  {
+    "name": "G2 Laboratory",
+    "category": "Laboratory",
+    "location": "37, Accra",
+    "address": "Near 37 roundabout",
+    "phone": "020-7736761"
+  },
+  {
+    "name": "Add Pharma",
+    "category": "Pharmacy",
+    "location": "37, Accra",
+    "address": "Inside the Computer Training Centre",
+    "phone": "0533-604992"
+  },
+  {
+    "name": "Maple Leaf Chemist",
+    "category": "Pharmacy",
+    "location": "Accra Central, Accra",
+    "address": "Accra Central-behind standchart head office",
+    "phone": "0302-668291"
+  },
+  {
+    "name": "PA health Clinic",
+    "category": "Hospital",
+    "location": "Accra Central, Accra",
+    "address": "Anyaa palas town trotro station, cantoments",
+    "phone": "0244-274807"
+  },
+  {
+    "name": "Centum Clinic",
+    "category": "Hospital",
+    "location": "Accra Central, Accra",
+    "address": "Accra Insde Sic life Mall",
+    "phone": "0302-630194"
+  },
+  {
+    "name": "Cedar Medical Centre",
+    "category": "Laboratory",
+    "location": "Accra Central, Accra",
+    "address": "Accra,Off Graphic Road",
+    "phone": "0248-089898"
+  },
+  {
+    "name": "Zoe pharmaceuticals limited",
+    "category": "Pharmacy",
+    "location": "Accra Central, Accra",
+    "address": "Mamprobi Accra",
+    "phone": "0242-625998"
+  },
+  {
+    "name": "Grit Pharmacy",
+    "category": "Pharmacy",
+    "location": "Accra Central, Accra",
+    "address": "Accra insde The Octagon",
+    "phone": "0550-500125"
+  },
+  {
+    "name": "Third Eye Care & Vision Centre",
+    "category": "Optical",
+    "location": "Accra Central, Accra",
+    "address": "Ridge sunny fm",
+    "phone": "0543-287008"
+  },
+  {
+    "name": "Gilead Medical & Dental Centre",
+    "category": "Hospital",
+    "location": "Accra Central, Accra",
+    "address": "Kanda Highway North Ridge",
+    "phone": "030-2227196"
+  },
+  {
+    "name": "Greater Accra Regional Hospital(Ridge Hospital)",
+    "category": "Hospital",
+    "location": "Accra Central, Accra",
+    "address": "Ridge Hospital",
+    "phone": "024-2050545"
+  },
+  {
+    "name": "Plus Medical Centre",
+    "category": "Hospital",
+    "location": "Accra Central, Accra",
+    "address": "Ridge 10 Examination Drive WAEC",
+    "phone": "050-1231003"
+  },
+  {
+    "name": "Roberts & Sons Optical",
+    "category": "Optical",
+    "location": "Accra Central, Accra",
+    "address": "Adabraka near champion foods",
+    "phone": "0302-222601"
+  },
+  {
+    "name": "Max- mum Care plus",
+    "category": "Hospital",
+    "location": "Accra Central, Accra",
+    "address": "Adabraka Behind Apollo theatre",
+    "phone": "0542-678302"
+  },
+  {
+    "name": "Frontline Pharmacy",
+    "category": "Pharmacy",
+    "location": "Accra Central, Accra",
+    "address": "Kwame Nkrumah Avenue, Adabraka",
+    "phone": "050-4966094"
+  },
+  {
+    "name": "ADD Pharma",
+    "category": "Pharmacy",
+    "location": "Accra Central, Accra",
+    "address": "Ridge Inside Movenpick Independence Ave",
+    "phone": "0266-388182"
+  },
+  {
+    "name": "Top-Up Pharmacy",
+    "category": "Pharmacy",
+    "location": "Accra Central, Accra",
+    "address": "Adabraka",
+    "phone": "050-1682628"
+  },
+  {
+    "name": "Eye Express Limited",
+    "category": "Optical",
+    "location": "Accra Central, Accra",
+    "address": "Ridge Near Ridge Towers",
+    "phone": "0302-901478"
+  },
+  {
+    "name": "Mark's Dental Clinic",
+    "category": "Dental",
+    "location": "Accra Central, Accra",
+    "address": "Ist Floor, Valco Trust Hse, Ridge",
+    "phone": "050-2734606"
+  },
+  {
+    "name": "Life Healthcare Clinic",
+    "category": "Hospital",
+    "location": "Accra Mall, Accra",
+    "address": "Inside Accra Shopping Mall",
+    "phone": "028-9547929"
+  },
+  {
+    "name": "The Mall Pharmacy",
+    "category": "Pharmacy",
+    "location": "Accra Mall, Accra",
+    "address": "Inside Accra Shopping Mall",
+    "phone": "0531-086544"
+  },
+  {
+    "name": "Sunshine Diagnostics Centre",
+    "category": "Diagnostics",
+    "location": "Airport City & Residential Area, Accra",
+    "address": "Airport residential Area Opposite Association International School, PLOT 83A Senchi St, Accra",
+    "phone": "0579-701722"
+  },
+  {
+    "name": "Airport Women Hospital",
+    "category": "Hospital",
+    "location": "Airport City & Residential Area, Accra",
+    "address": "Airport residential Area",
+    "phone": "0302-736107"
+  },
+  {
+    "name": "Nyaho Medical Centre",
+    "category": "Hospital",
+    "location": "Airport City & Residential Area, Accra",
+    "address": "35 Aviation Rd, Airport",
+    "phone": "0209404051"
+  },
+  {
+    "name": "Airport Clinic",
+    "category": "Hospital",
+    "location": "Airport City & Residential Area, Accra",
+    "address": "Airport",
+    "phone": "0264-553737"
+  },
+  {
+    "name": "Van-J Eye Care",
+    "category": "Optical",
+    "location": "Airport City & Residential Area, Accra",
+    "address": "Dzorwulu Last Bus stop",
+    "phone": "030-2784257"
+  },
+  {
+    "name": "Third Eye care and Vision centre",
+    "category": "Optical",
+    "location": "Airport City & Residential Area, Accra",
+    "address": "Airport residential Area",
+    "phone": "0245-938389"
+  },
+  {
+    "name": "Delcielo Optical Service",
+    "category": "Optical",
+    "location": "Airport City & Residential Area, Accra",
+    "address": "Airport City - UNA Home,Adj.Marina mall",
+    "phone": "0551-111192"
+  },
+  {
+    "name": "Claron Health International",
+    "category": "Hospital",
+    "location": "Airport City & Residential Area, Accra",
+    "address": "Airport residential Area",
+    "phone": "0302-771017"
+  },
+  {
+    "name": "St.Lukes Clinic",
+    "category": "Hospital",
+    "location": "Airport City & Residential Area, Accra",
+    "address": "Airport residential Area",
+    "phone": "030-2775405"
+  },
+  {
+    "name": "NM's Dental",
+    "category": "Dental",
+    "location": "Airport City & Residential Area, Accra",
+    "address": "Dzorwulu",
+    "phone": "0244-344932"
+  },
+  {
+    "name": "St.Andrews Clinic",
+    "category": "Hospital",
+    "location": "Airport City & Residential Area, Accra",
+    "address": "Roman Ridge",
+    "phone": "0302-2761188"
+  },
+  {
+    "name": "Healthcare Network LTD (Healthnet)",
+    "category": "Hospital",
+    "location": "Airport City & Residential Area, Accra",
+    "address": "Airport",
+    "phone": "0302-798221"
+  },
+  {
+    "name": "Worldview Pharmacy",
+    "category": "Pharmacy",
+    "location": "Airport City & Residential Area, Accra",
+    "address": "9 Arku-Korsah Road Roman Ridge shopping Arcade",
+    "phone": "0302-767067"
+  },
+  {
+    "name": "Zoe Premium Dental Centre",
+    "category": "Dental",
+    "location": "Airport City & Residential Area, Accra",
+    "address": "Dzorwulu - 14 Nii Noi Kwame Street",
+    "phone": "0530-154632"
+  },
+  {
+    "name": "Dr.Agarwal Eye Hospital",
+    "category": "Optical",
+    "location": "Tesano, Accra",
+    "address": "Tesano Close Tesano Police station",
+    "phone": "0553-019311"
+  },
+  {
+    "name": "Hobat Clinic",
+    "category": "Hospital",
+    "location": "Tesano, Accra",
+    "address": "Tesano",
+    "phone": "0302-220833"
+  },
+  {
+    "name": "Urika Medical Centre",
+    "category": "Hospital",
+    "location": "Tesano, Accra",
+    "address": "Tesano",
+    "phone": "0242-206486"
+  },
+  {
+    "name": "Metropolis Health Care",
+    "category": "Laboratory",
+    "location": "Tesano, Accra",
+    "address": "Tesano",
+    "phone": "0552571610"
+  },
+  {
+    "name": "Blessings Clinic Ltd",
+    "category": "Hospital",
+    "location": "Tesano, Accra",
+    "address": "Tesano",
+    "phone": "020-8227003"
+  },
+  {
+    "name": "Amasha Partners",
+    "category": "Optical",
+    "location": "Achimota, Accra",
+    "address": "Achimota, old station Rd",
+    "phone": "0303-962230"
+  },
+  {
+    "name": "Dome Community Hospital",
+    "category": "Diagnostics",
+    "location": "Achimota, Accra",
+    "address": "Dome old station",
+    "phone": "0549-375883"
+  },
+  {
+    "name": "Trust Clinic",
+    "category": "Diagnostics",
+    "location": "Achimota, Accra",
+    "address": "Dome",
+    "phone": "0244-776428"
+  },
+  {
+    "name": "Egon German Clinic",
+    "category": "Diagnostics",
+    "location": "Achimota, Accra",
+    "address": "Abelenkpe",
+    "phone": "0302-775772"
+  },
+  {
+    "name": "Tantra Community Hospital",
+    "category": "Diagnostics",
+    "location": "Achimota, Accra",
+    "address": "Tantra Hills",
+    "phone": "0268-597091"
+  },
+  {
+    "name": "Express life healthcare pharmacy",
+    "category": "Pharmacy",
+    "location": "Achimota, Accra",
+    "address": "Shop no 5, Achimota mall, Shop no 5, Accra mall",
+    "phone": "0242-687010"
+  },
+  {
+    "name": "NK Salem medical centre",
+    "category": "Hospital",
+    "location": "Achimota, Accra",
+    "address": "Achimota Abofu GH Media Street",
+    "phone": "030-2427920"
+  },
+  {
+    "name": "Excel Dental Clinic",
+    "category": "Dental",
+    "location": "Achimota, Accra",
+    "address": "Achimota new stn near shell filling stn",
+    "phone": "0542-575691"
+  },
+  {
+    "name": "Midway Clinic",
+    "category": "Diagnostics",
+    "location": "Achimota, Accra",
+    "address": "Achimota Abofu",
+    "phone": "0302-950173"
+  },
+  {
+    "name": "County Plus Medical Centre",
+    "category": "Diagnostics",
+    "location": "Achimota, Accra",
+    "address": "Dome Pillar 2",
+    "phone": "0247-969978"
+  },
+  {
+    "name": "Urgent Care Hospital",
+    "category": "Diagnostics",
+    "location": "Achimota, Accra",
+    "address": "Achimota,Mile 7",
+    "phone": "028-7067462"
+  },
+  {
+    "name": "Accra Physiotherapy&Sports Clinic",
+    "category": "Physiotherapy",
+    "location": "Achimota, Accra",
+    "address": "Abelenkpe",
+    "phone": "0302-774146"
+  },
+  {
+    "name": "Delcielo Optical Services",
+    "category": "Optical",
+    "location": "Achimota, Accra",
+    "address": "Achimota Neoplan,Opp.ADB",
+    "phone": "0551-700099"
+  },
+  {
+    "name": "Lucy Memorial Hospital",
+    "category": "Diagnostics",
+    "location": "Achimota, Accra",
+    "address": "Ofankor",
+    "phone": "0501-5622084"
+  },
+  {
+    "name": "M & D Medical Centre",
+    "category": "Diagnostics",
+    "location": "Achimota, Accra",
+    "address": "Medie",
+    "phone": "030-2939939"
+  },
+  {
+    "name": "Unimed Hospital",
+    "category": "Diagnostics",
+    "location": "Achimota, Accra",
+    "address": "Ofankor",
+    "phone": "0302-242222"
+  },
+  {
+    "name": "Buck Hospital",
+    "category": "Diagnostics",
+    "location": "Achimota, Accra",
+    "address": "Dome",
+    "phone": "0592-196003"
+  },
+  {
+    "name": "MDS Lancet Laboratory",
+    "category": "Laboratory",
+    "location": "Achimota, Accra",
+    "address": "Kissieman",
+    "phone": "050-1633790"
+  },
+  {
+    "name": "Ghana Atomic Energy Commission Hospital",
+    "category": "Diagnostics",
+    "location": "Achimota, Accra",
+    "address": "Atomic-Kwabenya",
+    "phone": "057-6096697"
+  },
+  {
+    "name": "Moorfield Eye Care and Optical Services",
+    "category": "Optical",
+    "location": "Achimota, Accra",
+    "address": "Kwabenya",
+    "phone": "0550-191166"
+  },
+  {
+    "name": "Aneeja Surgical & Medical Hospital",
+    "category": "Diagnostics",
+    "location": "Achimota, Accra",
+    "address": "Tantra Hills",
+    "phone": "027-5555598"
+  },
+  {
+    "name": "Best Heart Medical Center",
+    "category": "Hospital",
+    "location": "Achimota, Accra",
+    "address": "Amasaman -Nsakina, Policeman Junction",
+    "phone": "0549-368489"
+  },
+  {
+    "name": "Dome Community Clinic",
+    "category": "Diagnostics",
+    "location": "Achimota, Accra",
+    "address": "Dome - Nii Tettey codjoe clo.",
+    "phone": "0244-757436"
+  },
+  {
+    "name": "Trust Clinic",
+    "category": "Hospital",
+    "location": "Adenta, Accra",
+    "address": "Adenta Mall",
+    "phone": "030-2761974-8"
+  },
+  {
+    "name": "Adenta Clinic",
+    "category": "Hospital",
+    "location": "Adenta, Accra",
+    "address": "Adenta",
+    "phone": "0302-502392"
+  },
+  {
+    "name": "Oracare Dental Clinic",
+    "category": "Dental",
+    "location": "Adenta, Accra",
+    "address": "Adenta Mall",
+    "phone": "0302-972742"
+  },
+  {
+    "name": "Crystal Eye Clinic",
+    "category": "Optical",
+    "location": "Adenta, Accra",
+    "address": "Adenta Housing Down",
+    "phone": "0302-514723"
+  },
+  {
+    "name": "Good News Eye Centre",
+    "category": "Optical",
+    "location": "Adenta, Accra",
+    "address": "Adenta,Ashiyie Pokua Plaza",
+    "phone": "0553-41315"
+  },
+  {
+    "name": "Fresh Luk Eye Centre",
+    "category": "Optical",
+    "location": "Adenta, Accra",
+    "address": "Adenta",
+    "phone": "0247-612654"
+  },
+  {
+    "name": "Stipps Pharmacy",
+    "category": "Pharmacy",
+    "location": "Adenta, Accra",
+    "address": "Adenta",
+    "phone": "0302-959867"
+  },
+  {
+    "name": "Swan Clinic &Medical Lab",
+    "category": "Hospital",
+    "location": "Adenta, Accra",
+    "address": "Adenta west",
+    "phone": "020-9093110"
+  },
+  {
+    "name": "Boston Medical Centre",
+    "category": "Diagnostics",
+    "location": "Adenta, Accra",
+    "address": "Adenta New Legon",
+    "phone": "050-7320138"
+  },
+  {
+    "name": "Sandford  World Clinic",
+    "category": "Diagnostics",
+    "location": "Adenta, Accra",
+    "address": "No 208, Powerland Junction, West Adenta (off Rees Junction-Agbogba road)",
+    "phone": "0202-645982"
+  },
+  {
+    "name": "Robert & Sons Optical",
+    "category": "Optical",
+    "location": "Adenta, Accra",
+    "address": "Adenta opposite WASS",
+    "phone": "050-9244409"
+  },
+  {
+    "name": "Crown Medical Centre",
+    "category": "Diagnostics",
+    "location": "Adenta, Accra",
+    "address": "Adenta,103 Hallelujah broadway Ritz junction to Agbogba road,behind the Nasona filling station(Powerland)",
+    "phone": "030-2554476"
+  },
+  {
+    "name": "E&E Medical Centre",
+    "category": "Diagnostics",
+    "location": "Adenta, Accra",
+    "address": "Adenta behind Nhis building,Opposite Adenta SSNIT Flat Block 4&5",
+    "phone": "0302905478"
+  },
+  {
+    "name": "Mother Love Hospital",
+    "category": "Hospital",
+    "location": "Adenta, Accra",
+    "address": "Adenta",
+    "phone": "0506-037350"
+  },
+  {
+    "name": "Glowhite Dental Clinic",
+    "category": "Dental",
+    "location": "Adenta, Accra",
+    "address": "Agbogba - 41 Ecowas Road",
+    "phone": "0271-842345"
+  },
+  {
+    "name": "Classic Diagnostic & Medical clinic",
+    "category": "Hospital",
+    "location": "Adenta, Accra",
+    "address": "Agbogba Nyahoo street",
+    "phone": "030-2968016"
+  },
+  {
+    "name": "Greenlawn Hospital",
+    "category": "Hospital",
+    "location": "Adenta, Accra",
+    "address": "Oyarifa Ghana flag",
+    "phone": "030-3971560"
+  },
+  {
+    "name": "Akcess Dental Clinic",
+    "category": "Dental",
+    "location": "Adenta, Accra",
+    "address": "Oyarifa Mall(Ayi Mensah)",
+    "phone": "0509-980124"
+  },
+  {
+    "name": "Permeff Eye Care",
+    "category": "Optical",
+    "location": "Adenta, Accra",
+    "address": "Oyarifa,Opp.WhIte house Aburi rd",
+    "phone": "0243-286000"
+  },
+  {
+    "name": "Vision Hospital",
+    "category": "Hospital",
+    "location": "Adenta, Accra",
+    "address": "East Oyarifa",
+    "phone": "050-1580851"
+  },
+  {
+    "name": "Medcare Plus Clinic",
+    "category": "Hospital",
+    "location": "Adenta, Accra",
+    "address": "Abokobi - Agbogba Junction",
+    "phone": "0509-243264"
+  },
+  {
+    "name": "Lead Opticals",
+    "category": "Optical",
+    "location": "Adenta, Accra",
+    "address": "Oyarifa,Yew Street Opp.Kuottam Estate -Abokoni RD.",
+    "phone": "0206-181805"
+  },
+  {
+    "name": "Vicdoris Pharmacy",
+    "category": "Pharmacy",
+    "location": "Asylum Down, Accra",
+    "address": "near Paloma",
+    "phone": "0303-976837"
+  },
+  {
+    "name": "Impact Medical & Diagnostic Centre",
+    "category": "Hospital",
+    "location": "Asylum Down, Accra",
+    "address": "Asylum down",
+    "phone": "020-0153279"
+  },
+  {
+    "name": "Afrah International Hospital",
+    "category": "Hospital",
+    "location": "Asylum Down, Accra",
+    "address": "Asylum down",
+    "phone": "0302-267151"
+  },
+  {
+    "name": "Athon Memorial hospital Annex(King David Hospital)",
+    "category": "Hospital",
+    "location": "Asylum Down, Accra",
+    "address": "Kotobabi",
+    "phone": "031-7031479"
+  },
+  {
+    "name": "Anthon Memorial Hospital",
+    "category": "Hospital",
+    "location": "Asylum Down, Accra",
+    "address": "Kotobabi",
+    "phone": "030-3963679"
+  },
+  {
+    "name": "Medylife Healthcare",
+    "category": "Hospital",
+    "location": "Asylum Down, Accra",
+    "address": "Kokomlemle",
+    "phone": "0555-887766"
+  },
+  {
+    "name": "Metropolis Health care",
+    "category": "Laboratory",
+    "location": "Asylum Down, Accra",
+    "address": "Ring Road Opp.Nima Police station",
+    "phone": "0543-028001"
+  },
+  {
+    "name": "Delcielo Optical Services",
+    "category": "Optical",
+    "location": "Asylum Down, Accra",
+    "address": "Ring Road central inbtween UBA&Ecobank",
+    "phone": "0244-926488"
+  },
+  {
+    "name": "Add Pharma",
+    "category": "Pharmacy",
+    "location": "Asylum Down, Accra",
+    "address": "Next to Stratcomm",
+    "phone": "0509-123957"
+  },
+  {
+    "name": "Patholab Solutions",
+    "category": "Laboratory",
+    "location": "Adabraka, Accra",
+    "address": "Adabraka..behind Krif Ghana Limited",
+    "phone": "0302-252932"
+  },
+  {
+    "name": "Health Screen Ghana Clinic",
+    "category": "Hospital",
+    "location": "Adabraka, Accra",
+    "address": "Adabraka Workers College",
+    "phone": "020-4598700"
+  },
+  {
+    "name": "Odorna Clinic",
+    "category": "Hospital",
+    "location": "Adabraka, Accra",
+    "address": "Adama Avenue, Adabraka",
+    "phone": "0302-220046"
+  },
+  {
+    "name": "Total House Clinic",
+    "category": "Hospital",
+    "location": "Adabraka, Accra",
+    "address": "Kojo Thompson behind old shell head office",
+    "phone": "054-5507913"
+  },
+  {
+    "name": "Life Healthcare Clinic",
+    "category": "Dental",
+    "location": "Airport Hills, Accra",
+    "address": "Inside Palace Mall \u2026Flower Pot",
+    "phone": "0302-948892"
+  },
+  {
+    "name": "Violet Medical Center",
+    "category": "Pharmacy",
+    "location": "Dome, Accra",
+    "address": "Kwabenya near Musuku Roundabout",
+    "phone": "0540-599383"
+  },
+  {
+    "name": "The Community Hospital",
+    "category": "Dental",
+    "location": "Dome, Accra",
+    "address": "Musuku - Ashongman Estate",
+    "phone": "0302-927155"
+  },
+  {
+    "name": "Jebs Eye care",
+    "category": "Optical",
+    "location": "Dome, Accra",
+    "address": "Ashongman Estate Near Faith Works School",
+    "phone": "0248-928282"
+  },
+  {
+    "name": "Lapaz Community Hospital Annex",
+    "category": "Optical",
+    "location": "Dome, Accra",
+    "address": "Kisseman after golf park",
+    "phone": "030-2414167"
+  },
+  {
+    "name": "Medifem Specialsit Hospital",
+    "category": "Optical",
+    "location": "Dome, Accra",
+    "address": "Westlands-Haatso Gimpa Road",
+    "phone": "050-1259902"
+  },
+  {
+    "name": "Superior Medical Centre",
+    "category": "Hospital",
+    "location": "Dome, Accra",
+    "address": "Dome Parakuo Estate",
+    "phone": "0302-400328"
+  },
+  {
+    "name": "Korle Bu Teaching Hospital",
+    "category": "Optical",
+    "location": "Dansoman, Accra",
+    "address": "Korle-Bu",
+    "phone": "0244-880165"
+  },
+  {
+    "name": "All Smile Dental Clinic",
+    "category": "Dental",
+    "location": "Dansoman, Accra",
+    "address": "Dansoman",
+    "phone": "050 - 9041394"
+  },
+  {
+    "name": "MDS Lancet Laboratory",
+    "category": "Laboratory",
+    "location": "Dansoman, Accra",
+    "address": "Behind Barclays Bank , Dansoman Roundabout",
+    "phone": "050-4101190"
+  },
+  {
+    "name": "The Trust Hospital",
+    "category": "Dental",
+    "location": "Dansoman, Accra",
+    "address": "Dansoman - SSNIT Flat",
+    "phone": "0246-591175"
+  },
+  {
+    "name": "Van -J Eye care",
+    "category": "Optical",
+    "location": "Dansoman, Accra",
+    "address": "Dansoman Near Exhibition",
+    "phone": "020-2028558"
+  },
+  {
+    "name": "SYNLAB Ghana",
+    "category": "Laboratory",
+    "location": "Dansoman, Accra",
+    "address": "Ridge Road, Roman Ridge Accra",
+    "phone": "0245-360363"
+  },
+  {
+    "name": "Premier Healthcare Limited",
+    "category": "Diagnostics",
+    "location": "Dansoman, Accra",
+    "address": "Laterbiokohie 11 Street",
+    "phone": "0303-970088"
+  },
+  {
+    "name": "Barnor Memorial Hospital",
+    "category": "Hospital",
+    "location": "Dansoman, Accra",
+    "address": "Laterbiokohie",
+    "phone": "0249-316049"
+  },
+  {
+    "name": "Robert Memorial  Clinic",
+    "category": "Hospital",
+    "location": "Dansoman, Accra",
+    "address": "Laterbiokohie",
+    "phone": "020-00024081"
+  },
+  {
+    "name": "The Specialist Hospital",
+    "category": "Hospital",
+    "location": "Dansoman, Accra",
+    "address": "Dansoman behind SSNIT Flat",
+    "phone": "0548-553707"
+  },
+  {
+    "name": "Primecare Medical Centre",
+    "category": "Hospital",
+    "location": "Dansoman, Accra",
+    "address": "Mataheko",
+    "phone": "020-0024801"
+  },
+  {
+    "name": "West Point Chemist",
+    "category": "Pharmacy",
+    "location": "Dansoman, Accra",
+    "address": "Mamprobi",
+    "phone": "0302-660934"
+  },
+  {
+    "name": "Iris Optometric Practice",
+    "category": "Optical",
+    "location": "Dansoman, Accra",
+    "address": "Korle-Bu",
+    "phone": "0277-671221"
+  },
+  {
+    "name": "1st Foundation Clinic",
+    "category": "Hospital",
+    "location": "Dansoman, Accra",
+    "address": "Dansoman Market",
+    "phone": "0244-146767"
+  },
+  {
+    "name": "Metropolitan Medical Centre",
+    "category": "Diagnostics",
+    "location": "Dansoman, Accra",
+    "address": "Dansoman Round about",
+    "phone": "020 8750076"
+  },
+  {
+    "name": "Supreme Specialist Scan & Hospital",
+    "category": "Diagnostics",
+    "location": "Dansoman, Accra",
+    "address": "Dansoman",
+    "phone": "0302-316665"
+  },
+  {
+    "name": "Rayan Hospital",
+    "category": "Hospital",
+    "location": "Dansoman, Accra",
+    "address": "Dansoman Asore-daho",
+    "phone": "0268322944"
+  },
+  {
+    "name": "ST.Thomas Eye Care",
+    "category": "Optical",
+    "location": "Dansoman, Accra",
+    "address": "Mataheko",
+    "phone": "0246-866580"
+  },
+  {
+    "name": "Metropolis Health Care",
+    "category": "Laboratory",
+    "location": "Dansoman, Accra",
+    "address": "korle-Bu Opposite the Main gate",
+    "phone": "0552-557659"
+  },
+  {
+    "name": "Poku Dental Clinic",
+    "category": "Dental",
+    "location": "Dansoman, Accra",
+    "address": "Dansoman",
+    "phone": "0243-068535"
+  },
+  {
+    "name": "ADD Pharma",
+    "category": "Pharmacy",
+    "location": "Dansoman, Accra",
+    "address": "Korle Bu Infront of Bukom Boxing Arena",
+    "phone": "0501-571460"
+  },
+  {
+    "name": "MDS Lancet Laboratory",
+    "category": "Laboratory",
+    "location": "Dansoman, Accra",
+    "address": "Guggisberg Avenue, Opposite Korle bu Teaching Hospital.",
+    "phone": "050-4101156"
+  },
+  {
+    "name": "St. Gloria Clinic",
+    "category": "Hospital",
+    "location": "Dansoman, Accra",
+    "address": "Dansoman, karikari Junction",
+    "phone": "0543-502664"
+  },
+  {
+    "name": "Emmanuel Eye Centre",
+    "category": "Optical",
+    "location": "East Legon, Accra",
+    "address": "Hse/no 2 Adamafio Link",
+    "phone": "0302 500578, 500778"
+  },
+  {
+    "name": "Permeff Eye Care",
+    "category": "Optical",
+    "location": "East Legon, Accra",
+    "address": "Opp UPSA Main gate",
+    "phone": "0243-286000"
+  },
+  {
+    "name": "Obaatan Pa Women's Hospital",
+    "category": "Hospital",
+    "location": "East Legon, Accra",
+    "address": "Near Miklin Hospital",
+    "phone": "057-0370546"
+  },
+  {
+    "name": "Quest Medical Imaging",
+    "category": "Diagnostics",
+    "location": "East Legon, Accra",
+    "address": "East Legon 27 Maseru street",
+    "phone": "050-1564217"
+  },
+  {
+    "name": "Del International Hospital",
+    "category": "Optical",
+    "location": "East Legon, Accra",
+    "address": "East Legon",
+    "phone": "0302-543256"
+  },
+  {
+    "name": "SYNLAB",
+    "category": "Laboratory",
+    "location": "East Legon, Accra",
+    "address": "Shiashi Opposite Allied Oil filling station",
+    "phone": "0593-842220"
+  },
+  {
+    "name": "MDS Lancet Laboratory",
+    "category": "Laboratory",
+    "location": "East Legon, Accra",
+    "address": "East Legon",
+    "phone": "050-4101164"
+  },
+  {
+    "name": "Dentoc Dental Clinic",
+    "category": "Dental",
+    "location": "East Legon, Accra",
+    "address": "Adjiringano Behind Ability Square",
+    "phone": "0244-881961"
+  },
+  {
+    "name": "The Mall Pharmacy",
+    "category": "Pharmacy",
+    "location": "East Legon, Accra",
+    "address": "Inside A&C Mall",
+    "phone": "0266-661115"
+  },
+  {
+    "name": "White Tooth Dental Clinic",
+    "category": "Dental",
+    "location": "East Legon, Accra",
+    "address": "Opposite A&C Mall",
+    "phone": "0546-114703"
+  },
+  {
+    "name": "Jacob Dental Clinic",
+    "category": "Dental",
+    "location": "East Legon, Accra",
+    "address": "Inside A&C Mall",
+    "phone": "0249-470375"
+  },
+  {
+    "name": "3M&C Medical Centre",
+    "category": "Hospital",
+    "location": "East Legon, Accra",
+    "address": "Lizzy's Sport Complex",
+    "phone": "0244-523921"
+  },
+  {
+    "name": "The Diagnostic Centre",
+    "category": "Diagnostics",
+    "location": "East Legon, Accra",
+    "address": "Behind Emmanuel Eye Centre",
+    "phone": "0302-211940"
+  },
+  {
+    "name": "Rinat Clinic",
+    "category": "Hospital",
+    "location": "East Legon, Accra",
+    "address": "Adjirigano East legon",
+    "phone": "0275-230237"
+  },
+  {
+    "name": "Holy Cross Clinic & Maternity",
+    "category": "Optical",
+    "location": "East Legon, Accra",
+    "address": "East Legon near KFC",
+    "phone": "0244-613440"
+  },
+  {
+    "name": "New Vision Dental Clinic",
+    "category": "Dental",
+    "location": "East Legon, Accra",
+    "address": "Ashaley Botwe ,School Junction",
+    "phone": "0257-091176"
+  },
+  {
+    "name": "Acres Medical Centre",
+    "category": "Hospital",
+    "location": "East Legon, Accra",
+    "address": "82 Lakeside Estates Community 1, Ashaley Botwe",
+    "phone": "0243-717979"
+  },
+  {
+    "name": "Opto vision",
+    "category": "Optical",
+    "location": "East Legon, Accra",
+    "address": "Attraco Junction,UPSA",
+    "phone": "0244-242587"
+  },
+  {
+    "name": "Dixxons Pharmacy",
+    "category": "Pharmacy",
+    "location": "East Legon, Accra",
+    "address": "East Legon near Hisense",
+    "phone": "0244-242587"
+  },
+  {
+    "name": "EyeSmith Center",
+    "category": "Optical",
+    "location": "East Legon, Accra",
+    "address": "American House building , Boundary Road",
+    "phone": "0501929901"
+  },
+  {
+    "name": "Yeboah Hospital",
+    "category": "Hospital",
+    "location": "East Legon, Accra",
+    "address": "East Legon",
+    "phone": "0302-985417"
+  },
+  {
+    "name": "Twumasiwaa Memorial Hospital",
+    "category": "Optical",
+    "location": "East Legon, Accra",
+    "address": "East Legon, ARS Taxi",
+    "phone": "0302-518933"
+  },
+  {
+    "name": "Garnet Medical Centre",
+    "category": "Hospital",
+    "location": "East Legon, Accra",
+    "address": "Adjirigano East legon",
+    "phone": "0248-228427"
+  },
+  {
+    "name": "Bemuah Royal  Hospital",
+    "category": "Hospital",
+    "location": "East Legon, Accra",
+    "address": "East Legon",
+    "phone": "0302-543652"
+  },
+  {
+    "name": "Imprexions Eye care",
+    "category": "Optical",
+    "location": "East Legon, Accra",
+    "address": "Adjiringano",
+    "phone": "0235-535960"
+  },
+  {
+    "name": "MDS Lancet Laboratory",
+    "category": "Laboratory",
+    "location": "East Legon, Accra",
+    "address": "Adjirigano East legon",
+    "phone": "050-4101220"
+  },
+  {
+    "name": "Busy Bite Dental Clinic",
+    "category": "Dental",
+    "location": "East Legon, Accra",
+    "address": "East Legon",
+    "phone": "024-9163857"
+  },
+  {
+    "name": "Malikem  Hospital",
+    "category": "Hospital",
+    "location": "East Legon, Accra",
+    "address": "West Trassaco",
+    "phone": "0248-299930"
+  },
+  {
+    "name": "Health Link Hospital",
+    "category": "Diagnostics",
+    "location": "East Legon, Accra",
+    "address": "Adjirigano East legon",
+    "phone": "0244-312779"
+  },
+  {
+    "name": "Top-Up Pharmacy",
+    "category": "Pharmacy",
+    "location": "East Legon, Accra",
+    "address": "East legon",
+    "phone": "050-1447384"
+  },
+  {
+    "name": "Metropolis H ealth care",
+    "category": "Laboratory",
+    "location": "East Legon, Accra",
+    "address": "Adjirigano East legon Opp Delish restaurant",
+    "phone": "0596-914901"
+  },
+  {
+    "name": "Prospect Health Services",
+    "category": "Diagnostics",
+    "location": "East Legon, Accra",
+    "address": "East legon Hills",
+    "phone": "0552774115"
+  },
+  {
+    "name": "Equity Pharmacy",
+    "category": "Pharmacy",
+    "location": "East Legon, Accra",
+    "address": "Adjiringao",
+    "phone": "020-2532489"
+  },
+  {
+    "name": "Robert & Sons Optical",
+    "category": "Optical",
+    "location": "East Legon, Accra",
+    "address": "East Legon",
+    "phone": "054-7993647"
+  },
+  {
+    "name": "Ghana  Canada Medical Centre",
+    "category": "Hospital",
+    "location": "East Legon, Accra",
+    "address": "Adjiringano Manor valley East legon",
+    "phone": "020-8303896 0244-968073"
+  },
+  {
+    "name": "Add Pharma",
+    "category": "Pharmacy",
+    "location": "East Legon, Accra",
+    "address": "East Legon, Opposite GH Link",
+    "phone": "0506-698190"
+  },
+  {
+    "name": "Amasha Partners Optical",
+    "category": "Optical",
+    "location": "Kaneshie, Accra",
+    "address": "North Kaneshie Off St. Theresa's Rd",
+    "phone": "0302- 7012386"
+  },
+  {
+    "name": "Eden Family Hospital",
+    "category": "Diagnostics",
+    "location": "Kaneshie, Accra",
+    "address": "North Kaneshie Off St. Theresa's Rd",
+    "phone": "0302-224984"
+  },
+  {
+    "name": "Theresa Clinic",
+    "category": "Hospital",
+    "location": "Kaneshie, Accra",
+    "address": "orgle road,Kaneshie",
+    "phone": "0302-225855"
+  },
+  {
+    "name": "Kaplets Pharmacy",
+    "category": "Pharmacy",
+    "location": "Kaneshie, Accra",
+    "address": "North Kaneshie Near Kaneshie Presby",
+    "phone": "0303940045"
+  },
+  {
+    "name": "St. Kathryn's Hospital(Lighthouse Mission Hospital)",
+    "category": "Diagnostics",
+    "location": "Kaneshie, Accra",
+    "address": "North Kaneshie",
+    "phone": "050-1400685"
+  },
+  {
+    "name": "ADD Pharma",
+    "category": "Pharmacy",
+    "location": "Kaneshie, Accra",
+    "address": "J.P PLAZA NEAR LIGHTHOUSE QUODESH",
+    "phone": "0242-013768"
+  },
+  {
+    "name": "Lakeside Clinic",
+    "category": "Hospital",
+    "location": "Kaneshie, Accra",
+    "address": "Mokose Link, North Industrial Area",
+    "phone": "0302-230496"
+  },
+  {
+    "name": "ADD Pharma",
+    "category": "Pharmacy",
+    "location": "Kaneshie, Accra",
+    "address": "Inside St.Kathryn's Hospital",
+    "phone": "050-1606322"
+  },
+  {
+    "name": "Brazza Maternity Home & Clinic",
+    "category": "Diagnostics",
+    "location": "Lapaz, Accra",
+    "address": "Kwashieman",
+    "phone": "0243-735210"
+  },
+  {
+    "name": "Black Swan Pharmacy",
+    "category": "Pharmacy",
+    "location": "Lapaz, Accra",
+    "address": "Kwashieman",
+    "phone": "020-0520842"
+  },
+  {
+    "name": "Mab International Hospital",
+    "category": "Diagnostics",
+    "location": "Lapaz, Accra",
+    "address": "Nyamekye",
+    "phone": "050-1497260"
+  },
+  {
+    "name": "Ark Medical Centre",
+    "category": "Diagnostics",
+    "location": "Lapaz, Accra",
+    "address": "Lapaz opp Abrantie spot",
+    "phone": "030-2941734"
+  },
+  {
+    "name": "Godly Favoured Eye Care Centre",
+    "category": "Optical",
+    "location": "Lapaz, Accra",
+    "address": "Lapaz",
+    "phone": "0302-901832"
+  },
+  {
+    "name": "Godly Favoured Eye Care Centre",
+    "category": "Optical",
+    "location": "Lapaz, Accra",
+    "address": "Abeka",
+    "phone": "0302-901833"
+  },
+  {
+    "name": "Rock Hospital",
+    "category": "Diagnostics",
+    "location": "Lapaz, Accra",
+    "address": "Odorkor Official Town,Nii Armah street",
+    "phone": "0277-411942"
+  },
+  {
+    "name": "Attu Clinic",
+    "category": "Hospital",
+    "location": "Lapaz, Accra",
+    "address": "North Odorkor,Kokompe",
+    "phone": "0302-310432"
+  },
+  {
+    "name": "Samalla Clinic",
+    "category": "Diagnostics",
+    "location": "Lapaz, Accra",
+    "address": "Mallam -Gbawe",
+    "phone": "030-331380"
+  },
+  {
+    "name": "Mary-Lucy Hospital",
+    "category": "Diagnostics",
+    "location": "Lapaz, Accra",
+    "address": "Awoshie",
+    "phone": "050-1562084"
+  },
+  {
+    "name": "Lapaz Community Hospital",
+    "category": "Diagnostics",
+    "location": "Lapaz, Accra",
+    "address": "Lapaz & Kisseman",
+    "phone": "020-8139724"
+  },
+  {
+    "name": "Kemet Hospital",
+    "category": "Diagnostics",
+    "location": "Lapaz, Accra",
+    "address": "Oduman,Manhean",
+    "phone": "0244-792628"
+  },
+  {
+    "name": "Solis Medical Centre",
+    "category": "Diagnostics",
+    "location": "Labadi, Accra",
+    "address": "Opp. Trade Fair Green court La",
+    "phone": "0244-980299"
+  },
+  {
+    "name": "New Vision Dental Clinic",
+    "category": "Dental",
+    "location": "Labadi, Accra",
+    "address": "Palm wine Junction ,Labadi",
+    "phone": "0243-321836"
+  },
+  {
+    "name": "Rhema Rapha Medical Centre",
+    "category": "Diagnostics",
+    "location": "Labadi, Accra",
+    "address": "Tsaeddo Trade Fair",
+    "phone": "0265-281379"
+  },
+  {
+    "name": "Medigrace Medical Centre",
+    "category": "Hospital",
+    "location": "Labadi, Accra",
+    "address": "Tseaddo, near Logos Rhema Church",
+    "phone": "0548-255944"
+  },
+  {
+    "name": "Amasha Partners Optical",
+    "category": "Optical",
+    "location": "Labadi, Accra",
+    "address": "Opp. Trade Fair",
+    "phone": "0302- 7012386"
+  },
+  {
+    "name": "3J's Pharmacy",
+    "category": "Pharmacy",
+    "location": "Labadi, Accra",
+    "address": "Trade Fair , Behind Kpogas Furniture",
+    "phone": "0552-5889918"
+  },
+  {
+    "name": "Add Pharma",
+    "category": "Pharmacy",
+    "location": "Labadi, Accra",
+    "address": "Watermelon Junction Bus Stop",
+    "phone": "0501-601120"
+  },
+  {
+    "name": "Pentecost Hospital",
+    "category": "Hospital",
+    "location": "Madina, Accra",
+    "address": "Madina Estate Obojo",
+    "phone": "0302-508396"
+  },
+  {
+    "name": "Esidem Hospital",
+    "category": "Hospital",
+    "location": "Madina, Accra",
+    "address": "IPS-ARS Road, Madina Estate",
+    "phone": "020-8161953"
+  },
+  {
+    "name": "Randy Pharmacy",
+    "category": "Pharmacy",
+    "location": "Madina, Accra",
+    "address": "Madina opposite Ecobank",
+    "phone": "0302-501091"
+  },
+  {
+    "name": "Permeff Eye Services",
+    "category": "Optical",
+    "location": "Madina, Accra",
+    "address": "Opposite IPS",
+    "phone": "057-7687695"
+  },
+  {
+    "name": "Save The Nations Sight Eye Clinic",
+    "category": "Optical",
+    "location": "Madina, Accra",
+    "address": "IPS Road,near Accra Traing College",
+    "phone": "024-4014656"
+  },
+  {
+    "name": "Esidem Hospital",
+    "category": "Hospital",
+    "location": "Mamobi, Accra",
+    "address": "Maamobi",
+    "phone": "020-8161953"
+  },
+  {
+    "name": "Krispat Hearing Centre",
+    "category": "Hospital",
+    "location": "Mamobi, Accra",
+    "address": "Pigfarm Juntion ,Opposite Pizza Inn",
+    "phone": "0593-726171"
+  },
+  {
+    "name": "Add Pharma",
+    "category": "Pharmacy",
+    "location": "Mamobi, Accra",
+    "address": "Pigfarm Total Filling Station",
+    "phone": "0501-548307"
+  },
+  {
+    "name": "North Legon Hospital",
+    "category": "Dental",
+    "location": "North Legon, Accra",
+    "address": "North Legon\u2026Libya Quarters road",
+    "phone": "0302 - 506666"
+  },
+  {
+    "name": "Eye Empire",
+    "category": "Optical",
+    "location": "North Legon, Accra",
+    "address": "North Legon,Boman Plaza",
+    "phone": "030-2984644"
+  },
+  {
+    "name": "Akcess Dental",
+    "category": "Dental",
+    "location": "North Legon, Accra",
+    "address": "North Legon ,Bethel street",
+    "phone": "050-9038969"
+  },
+  {
+    "name": "Delcielo Optical Services",
+    "category": "Optical",
+    "location": "North Legon, Accra",
+    "address": "Atlantic mall,Atomic Junction",
+    "phone": "0551-700088"
+  },
+  {
+    "name": "New Vision Dental Clinic",
+    "category": "Dental",
+    "location": "North Legon, Accra",
+    "address": "North Legon ,Agbogba",
+    "phone": "0559-497906"
+  },
+  {
+    "name": "Innes Eye & Vision care Centre",
+    "category": "Optical",
+    "location": "North Legon, Accra",
+    "address": "Haatso",
+    "phone": "0249-750544"
+  },
+  {
+    "name": "Lenzvision Optical Company",
+    "category": "Optical",
+    "location": "North Legon, Accra",
+    "address": "Haatso",
+    "phone": "0249-256519"
+  },
+  {
+    "name": "Sam J Specialist Hospital",
+    "category": "Hospital",
+    "location": "North Legon, Accra",
+    "address": "Haatso Ecomog",
+    "phone": "020-8853159"
+  },
+  {
+    "name": "Medcare Plus Clinic",
+    "category": "Hospital",
+    "location": "North Legon, Accra",
+    "address": "Old Ashongman off Ablor Adjei",
+    "phone": "0302-2555738"
+  },
+  {
+    "name": "Zoe Pharmacy",
+    "category": "Pharmacy",
+    "location": "North Legon, Accra",
+    "address": "Opposite University of Ghana Vetinary Centre (Atomic Road)",
+    "phone": "0242-625998"
+  },
+  {
+    "name": "Mini Clinic",
+    "category": "Hospital",
+    "location": "North Legon, Accra",
+    "address": "Opposite University of Ghana Vetinary Centre (Atomic Road)",
+    "phone": "0548168881"
+  },
+  {
+    "name": "Eye Express Limited",
+    "category": "Optical",
+    "location": "North Legon, Accra",
+    "address": "Kwabenya",
+    "phone": "0302-901479"
+  },
+  {
+    "name": "Total House Clinic",
+    "category": "Optical",
+    "location": "North Ridge, Accra",
+    "address": "Mobile House",
+    "phone": "024-4631775"
+  },
+  {
+    "name": "ADD Pharma",
+    "category": "Pharmacy",
+    "location": "North Ridge, Accra",
+    "address": "North Ridge Behind total service Station",
+    "phone": "050-524584"
+  },
+  {
+    "name": "G2 Laboratory",
+    "category": "Laboratory",
+    "location": "North Ridge, Accra",
+    "address": "no. 10 Osu Link",
+    "phone": "020-7736761"
+  },
+  {
+    "name": "Trust Hospital",
+    "category": "Optical",
+    "location": "Osu, Accra",
+    "address": "Oxford St. Osu",
+    "phone": "0302-761974-7"
+  },
+  {
+    "name": "Inter star Eye",
+    "category": "Optical",
+    "location": "Osu, Accra",
+    "address": "Osu",
+    "phone": "020-7457202"
+  },
+  {
+    "name": "Accra Medical Centre",
+    "category": "Hospital",
+    "location": "Osu, Accra",
+    "address": "Osu-Opposite Police Head Office",
+    "phone": "054-2898126"
+  },
+  {
+    "name": "Top Up Pharmacy",
+    "category": "Pharmacy",
+    "location": "Osu, Accra",
+    "address": "Osu",
+    "phone": "0242-226555"
+  },
+  {
+    "name": "Sonotech Medical & Diagnostic centre",
+    "category": "Hospital",
+    "location": "Osu, Accra",
+    "address": "Osu",
+    "phone": "0542-304361"
+  },
+  {
+    "name": "Ringway Chemist",
+    "category": "Pharmacy",
+    "location": "Osu, Accra",
+    "address": "Hse No.E177/3 North Link Ringway Estates",
+    "phone": "0302-220452"
+  },
+  {
+    "name": "Charisma Dental Clinic",
+    "category": "Dental",
+    "location": "Osu, Accra",
+    "address": "Osu",
+    "phone": "050-3605997"
+  },
+  {
+    "name": "Philta Eye Care",
+    "category": "Optical",
+    "location": "Osu, Accra",
+    "address": "Osu near prisons service",
+    "phone": "020-9216536"
+  },
+  {
+    "name": "Nuffield Clinic",
+    "category": "Hospital",
+    "location": "Osu, Accra",
+    "address": "Osu",
+    "phone": "020-1625954"
+  },
+  {
+    "name": "La Road Dental",
+    "category": "Dental",
+    "location": "Osu, Accra",
+    "address": "Osu close to Osu Police station",
+    "phone": "020-6301425"
+  },
+  {
+    "name": "Rabito Clinic",
+    "category": "Hospital",
+    "location": "Osu, Accra",
+    "address": "No. 10 Osu Link",
+    "phone": "0302-777465"
+  },
+  {
+    "name": "MDS Lancet Laboratory",
+    "category": "Laboratory",
+    "location": "Osu, Accra",
+    "address": "Orphan Crescent, Labone Arcade, Opposite Zen Gardens",
+    "phone": "0504101221"
+  },
+  {
+    "name": "ST.Thomas Eye Care",
+    "category": "Optical",
+    "location": "Osu, Accra",
+    "address": "Osu oxford street",
+    "phone": "0246-866580"
+  },
+  {
+    "name": "Robert & Sons Optical",
+    "category": "Optical",
+    "location": "Osu, Accra",
+    "address": "Osu,Near Glory Oil filling Station",
+    "phone": "0302-786248"
+  },
+  {
+    "name": "Danpong Hospital",
+    "category": "Hospital",
+    "location": "Spintex, Accra",
+    "address": "Spintex-Baatsona",
+    "phone": "0302-810479"
+  },
+  {
+    "name": "Amasha Partners Optical",
+    "category": "Optical",
+    "location": "Spintex, Accra",
+    "address": "Spintex- Lashibi",
+    "phone": "020-2598616"
+  },
+  {
+    "name": "Spintex Community Hospital",
+    "category": "Hospital",
+    "location": "Spintex, Accra",
+    "address": "Spintex off the shell signboard",
+    "phone": "0246-937268"
+  },
+  {
+    "name": "Gloryland Clinic",
+    "category": "Hospital",
+    "location": "Spintex, Accra",
+    "address": "Spintex Okpoi Gonno Hope villa",
+    "phone": "0544-994050"
+  },
+  {
+    "name": "Shepherd Care Medical Centre",
+    "category": "Hospital",
+    "location": "Spintex, Accra",
+    "address": "Klagon Lashibi road",
+    "phone": "0242-567414"
+  },
+  {
+    "name": "Eye Empire Clinic",
+    "category": "Optical",
+    "location": "Spintex, Accra",
+    "address": "Spintex,behind KFC 18 Junction",
+    "phone": "050-3826293"
+  },
+  {
+    "name": "MDS Lancet Laboratory",
+    "category": "Laboratory",
+    "location": "Spintex, Accra",
+    "address": "Serebuor Peaks, Opp. Pool bar, Parakou Estates",
+    "phone": "0504101189"
+  },
+  {
+    "name": "Lister Hospital",
+    "category": "Physiotherapy",
+    "location": "Spintex, Accra",
+    "address": "Spintex Rd.",
+    "phone": "0302-812325"
+  },
+  {
+    "name": "Rophi Hospital",
+    "category": "Hospital",
+    "location": "Spintex, Accra",
+    "address": "Spintex",
+    "phone": "0244-348414"
+  },
+  {
+    "name": "Efan Victory Hospital",
+    "category": "Optical",
+    "location": "Spintex, Accra",
+    "address": "Baatsona Highway,Spintex road",
+    "phone": "0243-229070"
+  },
+  {
+    "name": "Top- Up Pharmacy",
+    "category": "Pharmacy",
+    "location": "Spintex, Accra",
+    "address": "Spintex",
+    "phone": "0302-800941"
+  },
+  {
+    "name": "Inkoom Hospital",
+    "category": "Hospital",
+    "location": "Spintex, Accra",
+    "address": "Spintex, Opp. Coastal Est.",
+    "phone": "0302-811070"
+  },
+  {
+    "name": "Trust Clinic",
+    "category": "Hospital",
+    "location": "Sakumono, Accra",
+    "address": "Sakumono SSNIT Flat",
+    "phone": "0302-761974"
+  },
+  {
+    "name": "Jubail Specialist Hospital",
+    "category": "Hospital",
+    "location": "Sakumono, Accra",
+    "address": "Sakumono celebrity",
+    "phone": "0303-401167"
+  },
+  {
+    "name": "C&J Medicare Hospital",
+    "category": "Optical",
+    "location": "Sakumono, Accra",
+    "address": "Sakumono Estate Juncion  ,Comm.16",
+    "phone": "0244-641924"
+  },
+  {
+    "name": "Total Vision Eye Care",
+    "category": "Optical",
+    "location": "Sakumono, Accra",
+    "address": "Sakumono Estates",
+    "phone": "020-8157416"
+  },
+  {
+    "name": "Metropolis Health care",
+    "category": "Laboratory",
+    "location": "Sakumono, Accra",
+    "address": "Inside Sakumono Hospital",
+    "phone": "0246-893454"
+  },
+  {
+    "name": "Well Link Physiotherapy",
+    "category": "Physiotherapy",
+    "location": "Sakumono, Accra",
+    "address": "Sakumono Behind the Catholic Church",
+    "phone": "024-3153305"
+  },
+  {
+    "name": "Life Healthcare Clinic",
+    "category": "Dental",
+    "location": "Teshie-Nungua, Accra",
+    "address": "Junction Mall,Nungua Barrier",
+    "phone": "0302-823064"
+  },
+  {
+    "name": "The Mall Pharmacy",
+    "category": "Pharmacy",
+    "location": "Teshie-Nungua, Accra",
+    "address": "Junction Mall,Nungua Barrier",
+    "phone": "0266-661119"
+  },
+  {
+    "name": "Family Health Hospital",
+    "category": "Dental",
+    "location": "Teshie-Nungua, Accra",
+    "address": "Teshie-opp Kofi Annan Military TR",
+    "phone": "020-7557865"
+  },
+  {
+    "name": "Christian Medical Centre",
+    "category": "Hospital",
+    "location": "Teshie-Nungua, Accra",
+    "address": "Nungua Secondary School",
+    "phone": "0246-674124"
+  },
+  {
+    "name": "Lekma Hospital",
+    "category": "Dental",
+    "location": "Teshie-Nungua, Accra",
+    "address": "Teshie",
+    "phone": "0248-307648"
+  },
+  {
+    "name": "Kountry Eyecare limited",
+    "category": "Optical",
+    "location": "Teshie-Nungua, Accra",
+    "address": "Nungua Barrier Opp. Royal Ravico Hotel",
+    "phone": "0244-475495"
+  },
+  {
+    "name": "Crossroad Clinic",
+    "category": "Hospital",
+    "location": "Teshie-Nungua, Accra",
+    "address": "Nungua Barrier",
+    "phone": "0558-053341"
+  },
+  {
+    "name": "Fabby Chemist",
+    "category": "Pharmacy",
+    "location": "Teshie-Nungua, Accra",
+    "address": "Nungua-Tema Main road",
+    "phone": "0302-727361"
+  },
+  {
+    "name": "Manna Mission Hospital",
+    "category": "Dental",
+    "location": "Teshie-Nungua, Accra",
+    "address": "Teshie Tsuibleoo",
+    "phone": "020-5967750"
+  },
+  {
+    "name": "Lekma Polyclinic",
+    "category": "Dental",
+    "location": "Teshie-Nungua, Accra",
+    "address": "Nungua Buade",
+    "phone": "0595-5233526"
+  },
+  {
+    "name": "MDS Lancet Laboratory",
+    "category": "Laboratory",
+    "location": "Teshie-Nungua, Accra",
+    "address": "Opposite LEKMA Hospital, Tsuibleoo, Teshie.",
+    "phone": "0504101218"
+  },
+  {
+    "name": "Danpong Pharmacy",
+    "category": "Pharmacy",
+    "location": "Teshie-Nungua, Accra",
+    "address": "Nungua Secondary School",
+    "phone": "024-5814427"
+  },
+  {
+    "name": "Tema General Hospital",
+    "category": "Physiotherapy",
+    "location": "Tema, Accra",
+    "address": "Tema",
+    "phone": "0244-753239"
+  },
+  {
+    "name": "New Crystal Medical Centre",
+    "category": "Hospital",
+    "location": "Tema, Accra",
+    "address": "Ashaiman near lorry station",
+    "phone": "026-6291476"
+  },
+  {
+    "name": "International Maritime Hospital",
+    "category": "Optical",
+    "location": "Tema, Accra",
+    "address": "Tema Comm.3 Behind the GNPC Flats",
+    "phone": "030-3220030"
+  },
+  {
+    "name": "Narh Bita Hospital",
+    "category": "Dental",
+    "location": "Tema, Accra",
+    "address": "Community 4, Tema",
+    "phone": "0303-204425"
+  },
+  {
+    "name": "Tema Christian Eye Centre",
+    "category": "Optical",
+    "location": "Tema, Accra",
+    "address": "Community 1,Opposite Chopsticks.",
+    "phone": "030-3211999"
+  },
+  {
+    "name": "Port Medical Centre",
+    "category": "Optical",
+    "location": "Tema, Accra",
+    "address": "Tema comm. 1",
+    "phone": "020-8227073"
+  },
+  {
+    "name": "Top Up Pharmacy",
+    "category": "Pharmacy",
+    "location": "Tema, Accra",
+    "address": "Tema Comm.2",
+    "phone": "0302-200808"
+  },
+  {
+    "name": "Lagoon Hospital",
+    "category": "Hospital",
+    "location": "Tema, Accra",
+    "address": "Tema comm. 1",
+    "phone": "024-6447706"
+  },
+  {
+    "name": "Delcielo Optical Service",
+    "category": "Optical",
+    "location": "Tema, Accra",
+    "address": "Next to Tema China Mall",
+    "phone": "0551-111193"
+  },
+  {
+    "name": "Alma medical centre",
+    "category": "Optical",
+    "location": "Tema, Accra",
+    "address": "Tema",
+    "phone": "0549-253919"
+  },
+  {
+    "name": "Medray Diagnostics",
+    "category": "Laboratory",
+    "location": "Tema, Accra",
+    "address": "Tema comm.9",
+    "phone": "0543-566316"
+  },
+  {
+    "name": "Trinity Community Hospital",
+    "category": "Optical",
+    "location": "Tema, Accra",
+    "address": "Ashaiman",
+    "phone": "050-1354669"
+  },
+  {
+    "name": "Bethel Hospital",
+    "category": "Optical",
+    "location": "Tema, Accra",
+    "address": "Tema, Comm. 9 Near General Hospital",
+    "phone": "0242244157"
+  },
+  {
+    "name": "Britannia Medical Centre",
+    "category": "Optical",
+    "location": "Tema, Accra",
+    "address": "Ashaiman near Afariwaa Homes",
+    "phone": "020-2400733"
+  },
+  {
+    "name": "Okanta Memorial Clinic",
+    "category": "Hospital",
+    "location": "Tema, Accra",
+    "address": "27 Atankpa Tettey Street Ashaiman",
+    "phone": "0551-787787"
+  },
+  {
+    "name": "All care medical Centre",
+    "category": "Hospital",
+    "location": "Tema, Accra",
+    "address": "Ashaiman near Afariwaa junction",
+    "phone": "0242-888155"
+  },
+  {
+    "name": "Trust Clinic",
+    "category": "Physiotherapy",
+    "location": "Tema, Accra",
+    "address": "Inside SSNIT building, comm 2",
+    "phone": "0303-212992"
+  },
+  {
+    "name": "Krispat Hearing Centre",
+    "category": "Hospital",
+    "location": "Tema, Accra",
+    "address": "Off Tema General Hosp,Comm.7 Traffic light",
+    "phone": "030-3301107"
+  },
+  {
+    "name": "Raphal Medical Centre",
+    "category": "Physiotherapy",
+    "location": "Tema, Accra",
+    "address": "Community 10 near Data Link University",
+    "phone": "050-1255831"
+  },
+  {
+    "name": "Top Up Pharmacy",
+    "category": "Pharmacy",
+    "location": "Tema, Accra",
+    "address": "Community 9, Nashon, Opposite Tema General hospital",
+    "phone": "0244-651518"
+  },
+  {
+    "name": "Bond Clinic",
+    "category": "Hospital",
+    "location": "Tema, Accra",
+    "address": "Tema comm.1 Tema safebond",
+    "phone": "020-9548845"
+  },
+  {
+    "name": "Empat-Qaiquo Medical Centre",
+    "category": "Hospital",
+    "location": "Tema, Accra",
+    "address": "Tema comm 6 adj SOS Children's village",
+    "phone": "020-0337174"
+  },
+  {
+    "name": "Dosty Pharmacy",
+    "category": "Pharmacy",
+    "location": "Tema, Accra",
+    "address": "Comm. 6",
+    "phone": "0303-212288"
+  },
+  {
+    "name": "MDS Lancet Laboratory",
+    "category": "Laboratory",
+    "location": "Tema, Accra",
+    "address": "Community 9, Nashon, Opposite Tema General hospital",
+    "phone": "026-9602499"
+  },
+  {
+    "name": "Rabito Clinic",
+    "category": "Hospital",
+    "location": "Tema, Accra",
+    "address": "Tema comm 10-near womens hospital",
+    "phone": "054-3115551"
+  },
+  {
+    "name": "Blackwood Optometry",
+    "category": "Optical",
+    "location": "Tema, Accra",
+    "address": "Comm.3 Site A",
+    "phone": "0243-321472"
+  },
+  {
+    "name": "Greenville Hospital",
+    "category": "Hospital",
+    "location": "Tema, Accra",
+    "address": "Comm.25",
+    "phone": "0546-393000"
+  },
+  {
+    "name": "B&D Medical Laboratories",
+    "category": "Laboratory",
+    "location": "Tema, Accra",
+    "address": "Tema Community 9",
+    "phone": "0242-726521"
+  },
+  {
+    "name": "Sonotech Diagnostic & Medical Centre",
+    "category": "Hospital",
+    "location": "Tema, Accra",
+    "address": "Comm.9",
+    "phone": "0542-304361"
+  },
+  {
+    "name": "Lena Health Services",
+    "category": "Hospital",
+    "location": "Tema, Accra",
+    "address": "Comm.9",
+    "phone": "050-1583361"
+  },
+  {
+    "name": "Lena Pharmacy",
+    "category": "Pharmacy",
+    "location": "Tema, Accra",
+    "address": "Comm.9",
+    "phone": "0244-651518"
+  },
+  {
+    "name": "Sinel Specialist Hospital",
+    "category": "Hospital",
+    "location": "Tema, Accra",
+    "address": "Comm.10 Opp ECG Training School",
+    "phone": "0540-736732"
+  },
+  {
+    "name": "C&J Medicare Hospital",
+    "category": "Hospital",
+    "location": "Tema, Accra",
+    "address": "Comm 16",
+    "phone": "0501297940"
+  },
+  {
+    "name": "Bengali Hospital",
+    "category": "Hospital",
+    "location": "Tema, Accra",
+    "address": "Comm. 11",
+    "phone": "0303-3302626"
+  },
+  {
+    "name": "Dosty Pharmacy",
+    "category": "Pharmacy",
+    "location": "Tema, Accra",
+    "address": "Comm. 11",
+    "phone": "0303-308220"
+  },
+  {
+    "name": "Community 25 Medical Centre",
+    "category": "Hospital",
+    "location": "Tema, Accra",
+    "address": "Comm.25",
+    "phone": "0244-979459"
+  },
+  {
+    "name": "Mount Carmel Hospital",
+    "category": "Hospital",
+    "location": "Tema, Accra",
+    "address": "Comm.25",
+    "phone": "0245-156045"
+  },
+  {
+    "name": "Perfect Hand Healthcare Services",
+    "category": "Hospital",
+    "location": "Tema, Accra",
+    "address": "New Sebrepor,Michel camp road",
+    "phone": "030-3972591"
+  },
+  {
+    "name": "New Crystal Medical Centre",
+    "category": "Hospital",
+    "location": "Tema, Accra",
+    "address": "Micheal Camp Road",
+    "phone": "026-6291476"
+  },
+  {
+    "name": "Eye Empire Clinic",
+    "category": "Optical",
+    "location": "Tema, Accra",
+    "address": "Comm.11 Near Medass",
+    "phone": "030-3977047"
+  },
+  {
+    "name": "Kwady Chemist",
+    "category": "Pharmacy",
+    "location": "Tema, Accra",
+    "address": "Comm.11",
+    "phone": "024-9575509"
+  },
+  {
+    "name": "East Wing Clinic",
+    "category": "Hospital",
+    "location": "Tema, Accra",
+    "address": "Mataheko,Afienya Near AP Filling Station",
+    "phone": "0303-971941"
+  },
+  {
+    "name": "Trust Clinic",
+    "category": "Hospital",
+    "location": "Tema, Accra",
+    "address": "Ashaiman Adjei kojo",
+    "phone": "030-3936590"
+  },
+  {
+    "name": "Imprexions Eye care",
+    "category": "Optical",
+    "location": "Tema, Accra",
+    "address": "Michel camp road",
+    "phone": "0235-535960"
+  },
+  {
+    "name": "Dosty Pharmacy",
+    "category": "Pharmacy",
+    "location": "Tema, Accra",
+    "address": "Micheal Camp Road",
+    "phone": "0302-937580"
+  },
+  {
+    "name": "Dar -Bem Medical Centre",
+    "category": "Hospital",
+    "location": "Tema, Accra",
+    "address": "Ashaiman  Opposite GCB",
+    "phone": "0267-814117"
+  },
+  {
+    "name": "Dentoc Dental Clinic",
+    "category": "Dental",
+    "location": "Tema, Accra",
+    "address": "Ashaiman  Timber market close to CBG",
+    "phone": "0551-247839"
+  },
+  {
+    "name": "Mother of God Hospital",
+    "category": "Hospital",
+    "location": "Tema, Accra",
+    "address": "Ashaiman",
+    "phone": "050-3342580"
+  },
+  {
+    "name": "Shiloh Medical Centre",
+    "category": "Hospital",
+    "location": "Tema, Accra",
+    "address": "Afienya Mataheko",
+    "phone": "0248-184224"
+  },
+  {
+    "name": "Lena Pharmacy",
+    "category": "Pharmacy",
+    "location": "Tema, Accra",
+    "address": "Ashaiman",
+    "phone": "0244-651518"
+  },
+  {
+    "name": "Suncity Hospital",
+    "category": "Optical",
+    "location": "Tema, Accra",
+    "address": "Adjei kojo Ashaiman",
+    "phone": "0247-705050"
+  },
+  {
+    "name": "Metropolis Healthcare",
+    "category": "Laboratory",
+    "location": "Tema, Accra",
+    "address": "Tema community 9",
+    "phone": "0245-007059"
+  },
+  {
+    "name": "ADD Pharma",
+    "category": "Pharmacy",
+    "location": "Tema, Accra",
+    "address": "Tema Community 7, Night market",
+    "phone": "050-1403674"
+  },
+  {
+    "name": "SYNLAB",
+    "category": "Laboratory",
+    "location": "Tema, Accra",
+    "address": "Tema Community 9 Oppposite General Hosp.",
+    "phone": "0593-801919"
+  },
+  {
+    "name": "Shai-Osudoku District Hospital",
+    "category": "Hospital",
+    "location": "Tema, Accra",
+    "address": "Dodowa",
+    "phone": "020-8286364"
+  },
+  {
+    "name": "Jireh Medical Centre",
+    "category": "Optical",
+    "location": "Tema, Accra",
+    "address": "Tema Community 1",
+    "phone": "050-4446006"
+  },
+  {
+    "name": "Nyaho Medical Centre",
+    "category": "Pharmacy",
+    "location": "Tema, Accra",
+    "address": "Tema Community 1  Site 3",
+    "phone": "030-7086490"
+  },
+  {
+    "name": "Robert & Sons Optical",
+    "category": "Optical",
+    "location": "Tema, Accra",
+    "address": "Tema Community 6",
+    "phone": "0303-207060"
+  },
+  {
+    "name": "Greenville Hospital",
+    "category": "Pharmacy",
+    "location": "Golf City, Accra",
+    "address": "Community 25 Dawhenya-Adepa junction",
+    "phone": "054-6393000"
+  },
+  {
+    "name": "Mount Carmel Hospital",
+    "category": "Hospital",
+    "location": "Golf City, Accra",
+    "address": "Community 25 Dawhenya",
+    "phone": "0303-939896"
+  },
+  {
+    "name": "Darkwa Memorial Hospital",
+    "category": "Pharmacy",
+    "location": "Golf City, Accra",
+    "address": "Kpone Katamanso,",
+    "phone": "0552-755197"
+  },
+  {
+    "name": "Delcielo Optical Service",
+    "category": "Optical",
+    "location": "Weija, Accra",
+    "address": "MIC Group Plaza, Kasoa 2nd Stop",
+    "phone": "0551-110044"
+  },
+  {
+    "name": "Justab Hospital",
+    "category": "Hospital",
+    "location": "Weija, Accra",
+    "address": "Kasoa",
+    "phone": "0302-862611"
+  },
+  {
+    "name": "Finney Hospital &Fertility Centre",
+    "category": "Hospital",
+    "location": "Weija, Accra",
+    "address": "New Bortianor weija-Kasoa road",
+    "phone": "020-7731874"
+  },
+  {
+    "name": "Amporful Clinic",
+    "category": "Hospital",
+    "location": "Weija, Accra",
+    "address": "Kasoa- Opeikuma Junction",
+    "phone": "0244-575827"
+  },
+  {
+    "name": "MDS Lancet Laboratory",
+    "category": "Laboratory",
+    "location": "Weija, Accra",
+    "address": "Kasoa Pharma Trust building",
+    "phone": "050-4101219"
+  },
+  {
+    "name": "Top Up Pharmacy",
+    "category": "Pharmacy",
+    "location": "Weija, Accra",
+    "address": "Kasoa new market road",
+    "phone": "0596910875"
+  },
+  {
+    "name": "Mount Venom Hospital",
+    "category": "Hospital",
+    "location": "Weija, Accra",
+    "address": "New weija-Sampa Valley",
+    "phone": "024-4013015"
+  },
+  {
+    "name": "Vine Medical Centre",
+    "category": "Hospital",
+    "location": "Weija, Accra",
+    "address": "Close to SCC Bus Stop, Westhills Mall,Weija",
+    "phone": "0242-913097"
+  },
+  {
+    "name": "Dentoc Dental Clinic",
+    "category": "Dental",
+    "location": "Weija, Accra",
+    "address": "Weija SCC Block Fact(Inside all faith centre medical",
+    "phone": "0599-394549"
+  },
+  {
+    "name": "Royal Good Shepherd Hospital",
+    "category": "Hospital",
+    "location": "Weija, Accra",
+    "address": "Weija scc new weija",
+    "phone": "0302-917602"
+  },
+  {
+    "name": "Tetegu Community Hospital",
+    "category": "Hospital",
+    "location": "Weija, Accra",
+    "address": "Tetegu",
+    "phone": "0266-000563"
+  },
+  {
+    "name": "The Mall Pharmacy",
+    "category": "Pharmacy",
+    "location": "Weija, Accra",
+    "address": "West Hills Mall",
+    "phone": "0266-661117"
+  },
+  {
+    "name": "Sonotech Diagnostic & Medical Centre",
+    "category": "Hospital",
+    "location": "Weija, Accra",
+    "address": "West Hills Mall",
+    "phone": "0542-304361"
+  },
+  {
+    "name": "Robert & Sons Optical",
+    "category": "Optical",
+    "location": "Weija, Accra",
+    "address": "Weija near West Hills",
+    "phone": "027-4373517"
+  },
+  {
+    "name": "Central Kasoa Clinic",
+    "category": "Hospital",
+    "location": "Weija, Accra",
+    "address": "Kasoa",
+    "phone": "0263- 698 211"
+  },
+  {
+    "name": "EyeSmith Center",
+    "category": "Optical",
+    "location": "Weija, Accra",
+    "address": "Weija- Kasoa Road, Adjunct J.A Biney Plastic Company",
+    "phone": "0205776076"
+  },
+  {
+    "name": "Modern Care Clinic",
+    "category": "Pharmacy",
+    "location": "Weija, Accra",
+    "address": "Kasoa New Market road behind The Church of Pentecost  Mount Olives Assembly - Downtown",
+    "phone": "0245-202139"
+  },
+  {
+    "name": "Sandford World Clinic",
+    "category": "Hospital",
+    "location": "Weija, Accra",
+    "address": "Kasoa - Collomba Junction, Akweley, Kasoa",
+    "phone": "0501-317278"
+  },
+  {
+    "name": "Agogo Presby Hospital",
+    "category": "Hospital",
+    "location": "Weija, Ashanti Region",
+    "address": "Asante Akim Agogo",
+    "phone": "0247-800737"
+  },
+  {
+    "name": "Prima Medical Centre",
+    "category": "Hospital",
+    "location": "Ahodwo, Ashanti Region",
+    "address": "Paraquo Estate-Kumasi Near Headlines Int sch.",
+    "phone": "0322-040515"
+  },
+  {
+    "name": "Ahodwo New Cross Hospital",
+    "category": "Hospital",
+    "location": "Ahodwo, Ashanti Region",
+    "address": "Ahodwo Opp Royale Lamerta Hotel",
+    "phone": "0245400189"
+  },
+  {
+    "name": "SYNLAB",
+    "category": "Laboratory",
+    "location": "Ahodwo, Ashanti Region",
+    "address": "Ahodwo near Frm Fire city Pub",
+    "phone": "0246054009"
+  },
+  {
+    "name": "Adiebeba Hospital",
+    "category": "Hospital",
+    "location": "Ahodwo, Ashanti Region",
+    "address": "Adiebeba,AFTER Ahodwo round about",
+    "phone": "0544111166"
+  },
+  {
+    "name": "SYNLAB",
+    "category": "Laboratory",
+    "location": "Ahodwo, Ashanti Region",
+    "address": "opposite Komfo Anokye Teaching Hospital",
+    "phone": "0552560495"
+  },
+  {
+    "name": "MDS Lancet Laboratory",
+    "category": "Laboratory",
+    "location": "Ahodwo, Ashanti Region",
+    "address": "opposite Komfo Anokye Teaching Hospital",
+    "phone": "0501507995"
+  },
+  {
+    "name": "Daksa Dental",
+    "category": "Dental",
+    "location": "Ahodwo, Ashanti Region",
+    "address": "Ahodwo - Melcom Road off Daaban",
+    "phone": "0559470750"
+  },
+  {
+    "name": "Enhance Vision Optical Services",
+    "category": "Optical",
+    "location": "Ahodwo, Ashanti Region",
+    "address": "Kumasi Ahodwo Atinga Junction",
+    "phone": "0599-536668"
+  },
+  {
+    "name": "Fosphin Optical Ltd.",
+    "category": "Optical",
+    "location": "Ahodwo, Ashanti Region",
+    "address": "Ahodwo Atinga Juntion",
+    "phone": "0266872587"
+  },
+  {
+    "name": "Vital Pharmacy",
+    "category": "Pharmacy",
+    "location": "Ahodwo, Ashanti Region",
+    "address": "Kumasi Ahodwo",
+    "phone": "0240569228"
+  },
+  {
+    "name": "Asafo Agyei Hospital",
+    "category": "Hospital",
+    "location": "Ahodwo, Ashanti Region",
+    "address": "Ahodwo Off Sokoban Road",
+    "phone": "0244-455876"
+  },
+  {
+    "name": "Robert & Sons Opticals",
+    "category": "Optical",
+    "location": "Ahodwo, Ashanti Region",
+    "address": "Ahodwo same building with Say Cheers wine shop",
+    "phone": "0240084437"
+  },
+  {
+    "name": "Komfo Anokye Teaching Hospital",
+    "category": "Hospital",
+    "location": "Subin, Ashanti Region",
+    "address": "Bantama",
+    "phone": "0201340374"
+  },
+  {
+    "name": "Jaylex Health & Eye Consult",
+    "category": "Optical",
+    "location": "Subin, Ashanti Region",
+    "address": "Adum,Kama Plaza-Kumasi Same building with GCB",
+    "phone": "0246-775488"
+  },
+  {
+    "name": "Mikaddo Clinic & Pharmacy (Kama Clinic & Pharmacy)",
+    "category": "Pharmacy",
+    "location": "Subin, Ashanti Region",
+    "address": "Adum,Kama Plaza-Kumasi Same building with GCB",
+    "phone": "0267332295"
+  },
+  {
+    "name": "Trinity Hospital",
+    "category": "Hospital",
+    "location": "Subin, Ashanti Region",
+    "address": "Pankrono -  Kodua Junction",
+    "phone": "020-2097090"
+  },
+  {
+    "name": "Fankyenabra Hospital",
+    "category": "Hospital",
+    "location": "Subin, Ashanti Region",
+    "address": "Fankyenabra Kumasi - opposite Opoku Ware Sch.",
+    "phone": "0240-765811"
+  },
+  {
+    "name": "Anwiam Clinics",
+    "category": "Hospital",
+    "location": "Subin, Ashanti Region",
+    "address": "Afful Nkwanta",
+    "phone": "0555-039480"
+  },
+  {
+    "name": "Anwiam Clinics",
+    "category": "Hospital",
+    "location": "Subin, Ashanti Region",
+    "address": "Kumasi Kejetia Central Market",
+    "phone": "0555-039480"
+  },
+  {
+    "name": "A1 Hospital",
+    "category": "Hospital",
+    "location": "Subin, Ashanti Region",
+    "address": "Santasi Ahenema Kokoben",
+    "phone": "0246112637"
+  },
+  {
+    "name": "Gari Marvin Memorial Hospital",
+    "category": "Hospital",
+    "location": "Subin, Ashanti Region",
+    "address": "Kumasi Santasi Kotwi",
+    "phone": "0200646147"
+  },
+  {
+    "name": "Asafo Boakye Hospital",
+    "category": "Hospital",
+    "location": "Subin, Ashanti Region",
+    "address": "Ahenema Kokoben",
+    "phone": "0322029268"
+  },
+  {
+    "name": "Precise Specialist Clinic",
+    "category": "Hospital",
+    "location": "Subin, Ashanti Region",
+    "address": "Santasi Apire Last stop",
+    "phone": "0244-809653"
+  },
+  {
+    "name": "Royal Lewuse Hospital",
+    "category": "Hospital",
+    "location": "Subin, Ashanti Region",
+    "address": "Kumasi-Trede",
+    "phone": "0244-147484"
+  },
+  {
+    "name": "Beaver Clinic Limited",
+    "category": "Dental",
+    "location": "Subin, Ashanti Region",
+    "address": "First floor of the Medcourt pharmacy, opposite bar Naas, Nhyiaeso Kumasi",
+    "phone": "0302-771785"
+  },
+  {
+    "name": "Epaphras Hospital",
+    "category": "Hospital",
+    "location": "Subin, Ashanti Region",
+    "address": "Kumasi-Afrancho/Bronkong",
+    "phone": "0247-007817"
+  },
+  {
+    "name": "Tophill Hospital",
+    "category": "Hospital",
+    "location": "Subin, Ashanti Region",
+    "address": "Kumasi-Kronum cement mu",
+    "phone": "0241-714432"
+  },
+  {
+    "name": "Siaw Larbi Hospital",
+    "category": "Hospital",
+    "location": "Subin, Ashanti Region",
+    "address": "Old Tafo Near OKESS Kumasi",
+    "phone": "0209-128775"
+  },
+  {
+    "name": "Elim Pharmacy",
+    "category": "Pharmacy",
+    "location": "Subin, Ashanti Region",
+    "address": "Kumasi Asafo near Tobinco opposite GRA office",
+    "phone": "0233-681797"
+  },
+  {
+    "name": "South Patasi Hospital",
+    "category": "Hospital",
+    "location": "Subin, Ashanti Region",
+    "address": "Patasi near ICS Int. Sch",
+    "phone": "0244754170"
+  },
+  {
+    "name": "Peace and Love Hospital",
+    "category": "Hospital",
+    "location": "Subin, Ashanti Region",
+    "address": "Kumasi-Oduom",
+    "phone": "0244-681178"
+  },
+  {
+    "name": "Asbury Hospital",
+    "category": "Hospital",
+    "location": "Subin, Ashanti Region",
+    "address": "Anwomaso",
+    "phone": "0541823663"
+  },
+  {
+    "name": "God's Glory Hospital",
+    "category": "Hospital",
+    "location": "Subin, Ashanti Region",
+    "address": "Kronom Afrancho",
+    "phone": "020-8800880"
+  },
+  {
+    "name": "Recovery Pathways Clinic",
+    "category": "Hospital",
+    "location": "Subin, Ashanti Region",
+    "address": "Kumasi Asafo near Elim Pharmacy",
+    "phone": "0208162060"
+  },
+  {
+    "name": "Strong Eye care",
+    "category": "Optical",
+    "location": "Subin, Ashanti Region",
+    "address": "Kumasi-Anloga Junction",
+    "phone": "0242-845206"
+  },
+  {
+    "name": "Madona Health services",
+    "category": "Hospital",
+    "location": "Subin, Ashanti Region",
+    "address": "Kumasi Abuakwa Manhyia",
+    "phone": "0244-130598"
+  },
+  {
+    "name": "Vital Pharmacy",
+    "category": "Pharmacy",
+    "location": "Subin, Ashanti Region",
+    "address": "Suame, Anomagye Junction beside Post Office",
+    "phone": "0557-826157"
+  },
+  {
+    "name": "Vital Pharmacy",
+    "category": "Pharmacy",
+    "location": "Subin, Ashanti Region",
+    "address": "Kumasi- Santasi Roundabout Opp Unity oil",
+    "phone": "055-6699982"
+  },
+  {
+    "name": "Vital Pharmacy",
+    "category": "Pharmacy",
+    "location": "Subin, Ashanti Region",
+    "address": "Kumasi-Santasi Oteng Nkwanta",
+    "phone": "055-6700115"
+  },
+  {
+    "name": "Grand pharmacy",
+    "category": "Pharmacy",
+    "location": "Subin, Ashanti Region",
+    "address": "Kumasi Santasi Kagyase",
+    "phone": "0246-112637"
+  },
+  {
+    "name": "True Vine Hospital",
+    "category": "Hospital",
+    "location": "Subin, Ashanti Region",
+    "address": "Kumasi Pankrono Estate",
+    "phone": "0549-992333"
+  },
+  {
+    "name": "Eye ville Optical",
+    "category": "Optical",
+    "location": "Subin, Ashanti Region",
+    "address": "Kumasi Bantama near Presby Church",
+    "phone": "0243-255153"
+  },
+  {
+    "name": "White Star Dental Clinic",
+    "category": "Dental",
+    "location": "Subin, Ashanti Region",
+    "address": "Kumasi Bantama frm Radio Mercury Station",
+    "phone": "0202-525920"
+  },
+  {
+    "name": "Metro Health Service",
+    "category": "Hospital",
+    "location": "Subin, Ashanti Region",
+    "address": "Kumasi Abrepo Junction opp Angel FM",
+    "phone": "0548-009927"
+  },
+  {
+    "name": "Constant Hospital",
+    "category": "Hospital",
+    "location": "Subin, Ashanti Region",
+    "address": "Kumasi Pankrono  Near Methodist church",
+    "phone": "0506-124774"
+  },
+  {
+    "name": "Soyuz Medical Imaging and Diagnostic",
+    "category": "Laboratory",
+    "location": "Subin, Ashanti Region",
+    "address": "Kumasi Opposite Palmer International school",
+    "phone": "0244-363629"
+  },
+  {
+    "name": "County Hospital",
+    "category": "Hospital",
+    "location": "Subin, Ashanti Region",
+    "address": "Abrepo near Kumasi Girls SHS",
+    "phone": "0262-550155"
+  },
+  {
+    "name": "Rods and Cones Eye care Service",
+    "category": "Optical",
+    "location": "Subin, Ashanti Region",
+    "address": "Tanoso Opposite Chief Palace",
+    "phone": "03224-99247"
+  },
+  {
+    "name": "Well Point Hospital",
+    "category": "Hospital",
+    "location": "Subin, Ashanti Region",
+    "address": "Apatrapa Junction Tanoso",
+    "phone": "0244-448621"
+  },
+  {
+    "name": "Rods and Cones Eye care Service",
+    "category": "Optical",
+    "location": "Subin, Ashanti Region",
+    "address": "Asokwa Opposite Unity Oil fuel Station",
+    "phone": "050-0900180"
+  },
+  {
+    "name": "Delcielo Optical Services",
+    "category": "Optical",
+    "location": "Subin, Ashanti Region",
+    "address": "Adum opp stc yard-Kumasi",
+    "phone": "0502-239960"
+  },
+  {
+    "name": "Yanks Optical",
+    "category": "Optical",
+    "location": "Subin, Ashanti Region",
+    "address": "KNUST, Bomso Junction near kpogas furnitures",
+    "phone": "0244465071"
+  },
+  {
+    "name": "Maakro Community Hospital",
+    "category": "Hospital",
+    "location": "Subin, Ashanti Region",
+    "address": "Tarkwa Maakro Behind Bank of Africa",
+    "phone": "020-812248"
+  },
+  {
+    "name": "Abenkyiman Hospital",
+    "category": "Hospital",
+    "location": "Subin, Ashanti Region",
+    "address": "Anwiam Nkwanta, Bekwai Road",
+    "phone": "0547-420024"
+  },
+  {
+    "name": "Tanoso Community Hospital",
+    "category": "Hospital",
+    "location": "Subin, Ashanti Region",
+    "address": "TANOSO OPPOSITE YAA ASANTEWAA GIRLS' SENIOR HIGH",
+    "phone": "0540-167867"
+  },
+  {
+    "name": "SDA Hospital -Kwadaso",
+    "category": "Hospital",
+    "location": "Subin, Ashanti Region",
+    "address": "Kwadaso",
+    "phone": "0243-648447"
+  },
+  {
+    "name": "Derart Dental Clinic",
+    "category": "Dental",
+    "location": "Subin, Ashanti Region",
+    "address": "Kwadaso-Near Edwenase market",
+    "phone": "0597861825"
+  },
+  {
+    "name": "Akuaba Hospital",
+    "category": "Hospital",
+    "location": "Subin, Ashanti Region",
+    "address": "Odeneho- Kwaadaso near Lasab Hotel",
+    "phone": "0208190004"
+  },
+  {
+    "name": "First Care Hospital",
+    "category": "Hospital",
+    "location": "Subin, Ashanti Region",
+    "address": "Kumasi Odeneho kwadaso",
+    "phone": "050-1585298"
+  },
+  {
+    "name": "Bondock Clinic",
+    "category": "Hospital",
+    "location": "Subin, Ashanti Region",
+    "address": "Odeneho- Kwaadaso near Christian Service University",
+    "phone": "0200053232"
+  },
+  {
+    "name": "Living waters Hospital",
+    "category": "Hospital",
+    "location": "Subin, Ashanti Region",
+    "address": "Fumesua,Kumasi",
+    "phone": "050-2521273"
+  },
+  {
+    "name": "MDS Lancet Laboratory",
+    "category": "Laboratory",
+    "location": "Subin, Ashanti Region",
+    "address": "Suntreso Government Hospital",
+    "phone": "050-1507999"
+  },
+  {
+    "name": "Trustcare Specialist Hospital Ltd",
+    "category": "Hospital",
+    "location": "Subin, Ashanti Region",
+    "address": "Kumasi, South Suntreso Behind French Gardens",
+    "phone": "0208181056"
+  },
+  {
+    "name": "Quality Health Care Ltd",
+    "category": "Hospital",
+    "location": "Subin, Ashanti Region",
+    "address": "Mbrom-Kumasi",
+    "phone": "0277-701452"
+  },
+  {
+    "name": "Poku Transport Hospital",
+    "category": "Hospital",
+    "location": "Subin, Ashanti Region",
+    "address": "Asokwa",
+    "phone": "0551-239559"
+  },
+  {
+    "name": "SAQS Healthcare Services Limited",
+    "category": "Hospital",
+    "location": "Subin, Ashanti Region",
+    "address": "Asokwa Kumasi Mall",
+    "phone": "0244-569007"
+  },
+  {
+    "name": "SAQS Pharmacy",
+    "category": "Pharmacy",
+    "location": "Subin, Ashanti Region",
+    "address": "Kumasi city Mall",
+    "phone": "050-1584475"
+  },
+  {
+    "name": "Asokwa Children Hospital",
+    "category": "Hospital",
+    "location": "Subin, Ashanti Region",
+    "address": "Asokwa",
+    "phone": "0322-022841"
+  },
+  {
+    "name": "Krispat Hearing Centre",
+    "category": "Hospital",
+    "location": "Subin, Ashanti Region",
+    "address": "Oforikrom Bus stop,Kumasi",
+    "phone": "0247-584402"
+  },
+  {
+    "name": "Standard Practice Dental Clinic",
+    "category": "Dental",
+    "location": "Subin, Ashanti Region",
+    "address": "Kumasi",
+    "phone": "050-0234695"
+  },
+  {
+    "name": "Royal Lewuze Hospital",
+    "category": "Hospital",
+    "location": "Subin, Ashanti Region",
+    "address": "Sabin Akrofrom(Krade)",
+    "phone": "024-4147484"
+  },
+  {
+    "name": "First Vision Optical",
+    "category": "Optical",
+    "location": "Subin, Ashanti Region",
+    "address": "Ahinsan Estate near Our Ladies School Junction",
+    "phone": "0501046529"
+  },
+  {
+    "name": "Aninwah Medical Centre",
+    "category": "Hospital",
+    "location": "Subin, Ashanti Region",
+    "address": "Emena-Kumasi",
+    "phone": "054-0429936"
+  },
+  {
+    "name": "Ohwim Amanfrom Specialist Hospital",
+    "category": "Hospital",
+    "location": "Subin, Ashanti Region",
+    "address": "Ohwim Amanfrom off Barekese road",
+    "phone": "0500938567"
+  },
+  {
+    "name": "The Lens Eyecare",
+    "category": "Optical",
+    "location": "Subin, Ashanti Region",
+    "address": "Adum near Nsuase Police station",
+    "phone": "0208122522"
+  },
+  {
+    "name": "Teliah Dental Clinic",
+    "category": "Dental",
+    "location": "Subin, Ashanti Region",
+    "address": "Buokrom F-line",
+    "phone": "0240212619"
+  },
+  {
+    "name": "Star Eye care",
+    "category": "Optical",
+    "location": "Subin, Ashanti Region",
+    "address": "Ahodwo Daban inside Asafo Agyei Hospital",
+    "phone": "0244977018"
+  },
+  {
+    "name": "Rashbil Optical Limited",
+    "category": "Optical",
+    "location": "Subin, Ashanti Region",
+    "address": "Adum inside Baracks near KATH",
+    "phone": "0244405686"
+  },
+  {
+    "name": "Dominase SDA Hospital",
+    "category": "Hospital",
+    "location": "Subin, Ashanti Region",
+    "address": "Dominase",
+    "phone": "0242545358"
+  },
+  {
+    "name": "Panacea Pharmacy (6 Branches)",
+    "category": "Pharmacy",
+    "location": "Subin, Ashanti Region",
+    "address": "Asokwa, Ejisu, Santasi, Suame,Asafo labour",
+    "phone": "0559715267"
+  },
+  {
+    "name": "Family Care Hospital",
+    "category": "Hospital",
+    "location": "Subin, Ashanti Region",
+    "address": "Kodie-Mowire Off Offinso road",
+    "phone": "0596251172"
+  },
+  {
+    "name": "Active Point Dental Clinic",
+    "category": "Dental",
+    "location": "Subin, Ashanti Region",
+    "address": "Danyame opp NHIS office near ECG",
+    "phone": "0200703068"
+  },
+  {
+    "name": "Peace Speciality Hospital",
+    "category": "Hospital",
+    "location": "Subin, Ashanti Region",
+    "address": "Mamponteng behind the Assembly",
+    "phone": "0248835073"
+  },
+  {
+    "name": "Walter Aiden Specilaist Hospital",
+    "category": "Hospital",
+    "location": "Subin, Ashanti Region",
+    "address": "Asokwa near Baba Yara Sports Stadium",
+    "phone": "0546592555"
+  },
+  {
+    "name": "Signetcare Hospital",
+    "category": "Hospital",
+    "location": "Subin, Ashanti Region",
+    "address": "Asokwa near Baba Yara Sports Stadium",
+    "phone": "0246004657"
+  },
+  {
+    "name": "Hems Specialsit Clinic",
+    "category": "Hospital",
+    "location": "Subin, Ashanti Region",
+    "address": "Santasi opp Apire station",
+    "phone": "0547039070"
+  },
+  {
+    "name": "St. Jude Hospital",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Ashanti Region",
+    "address": "Obuasi-Bidieso",
+    "phone": "0244-770052"
+  },
+  {
+    "name": "Elim Pharmacy Limited",
+    "category": "Pharmacy",
+    "location": "Obuasi Municipal, Ashanti Region",
+    "address": "Obuasi-Wawasi Opp Golden pride",
+    "phone": "0242-681797"
+  },
+  {
+    "name": "Bryant Mission Hospital",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Ashanti Region",
+    "address": "Obuasi-Boete",
+    "phone": "0244-548792"
+  },
+  {
+    "name": "Estel Pharmacy",
+    "category": "Pharmacy",
+    "location": "Obuasi Municipal, Ashanti Region",
+    "address": "Obuasi Bogobiri Opp Nana Wiredu School",
+    "phone": "0596-712678"
+  },
+  {
+    "name": "Estel Pharmacy",
+    "category": "Pharmacy",
+    "location": "Obuasi Municipal, Ashanti Region",
+    "address": "Obuasi- Kumka Opp Bethel Society",
+    "phone": "0257-594088"
+  },
+  {
+    "name": "Estel Pharmacy",
+    "category": "Pharmacy",
+    "location": "Obuasi Municipal, Ashanti Region",
+    "address": "Obuasi- Kwabrafosu Sennet Junction",
+    "phone": "596912675"
+  },
+  {
+    "name": "Estel Pharmacy",
+    "category": "Pharmacy",
+    "location": "Obuasi Municipal, Ashanti Region",
+    "address": "Obuasi- Bidiem Opp Ips Building",
+    "phone": "0596-912674"
+  },
+  {
+    "name": "Estel Pharmacy",
+    "category": "Pharmacy",
+    "location": "Obuasi Municipal, Ashanti Region",
+    "address": "Obuasi- Boete Pida Chemist Opp Fire service",
+    "phone": "0596-912676"
+  },
+  {
+    "name": "Mefaco Pharmacy Limited",
+    "category": "Pharmacy",
+    "location": "Obuasi Municipal, Ashanti Region",
+    "address": "Obuasi-Kriku off AGA Hospital",
+    "phone": "0263-607848"
+  },
+  {
+    "name": "Bellview Eyecare & Optical Services",
+    "category": "Optical",
+    "location": "Obuasi Municipal, Ashanti Region",
+    "address": "Obuasi-Bidieso",
+    "phone": "050-6722050"
+  },
+  {
+    "name": "Lizmok Pharmacy Limited",
+    "category": "Pharmacy",
+    "location": "Obuasi Municipal, Ashanti Region",
+    "address": "Obuasi-Gausu opp Gausu market",
+    "phone": "0244-195065"
+  },
+  {
+    "name": "Rapheka Pharmacy Limited",
+    "category": "Pharmacy",
+    "location": "Obuasi Municipal, Ashanti Region",
+    "address": "Obuasi-Kunka Junction near Active Point Dental Clinic",
+    "phone": "0244-226160"
+  },
+  {
+    "name": "Bryant Mission Hospital Eyecare Centre",
+    "category": "Optical",
+    "location": "Obuasi Municipal, Ashanti Region",
+    "address": "Obuasi-Boete",
+    "phone": "0244-548792"
+  },
+  {
+    "name": "Neighbourhood Hospital",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Ashanti Region",
+    "address": "Obuasi Abompe New site",
+    "phone": "0246-417020"
+  },
+  {
+    "name": "Obuasi Ridge Hospital",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Ashanti Region",
+    "address": "Obuasi-Ridge",
+    "phone": "024-0610912"
+  },
+  {
+    "name": "Active Point Dental Clinic",
+    "category": "Dental",
+    "location": "Obuasi Municipal, Ashanti Region",
+    "address": "Obuasi-Kunka Junction near Rapheka Pharmacy",
+    "phone": "0200703068"
+  },
+  {
+    "name": "Quality Health Care",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Ashanti Region",
+    "address": "Mampong",
+    "phone": "0277-701452"
+  },
+  {
+    "name": "Zion Praise Hospital",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Ashanti Region",
+    "address": "Asonomaso Off Agona road",
+    "phone": "0243573080"
+  },
+  {
+    "name": "Calvary Health Services",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Ashanti Region",
+    "address": "Mampong Behind the market",
+    "phone": "0208002227"
+  },
+  {
+    "name": "Divine Favour Hospital",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Ashanti Region",
+    "address": "Agona behind Agona Sawmill",
+    "phone": "0201059272"
+  },
+  {
+    "name": "Effia-Nkwanta Regional Hospital",
+    "category": "Dental",
+    "location": "Obuasi Municipal, Western Region",
+    "address": "Sekondi-Takoradi",
+    "phone": "0559-81113"
+  },
+  {
+    "name": "Twin City Clinic",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Western Region",
+    "address": "Takoradi",
+    "phone": "03120-22282"
+  },
+  {
+    "name": "Takoradi High Street Clinic",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Western Region",
+    "address": "Harbour road-Takoradi",
+    "phone": "024-2523291"
+  },
+  {
+    "name": "Kabmore Pharmacy",
+    "category": "Pharmacy",
+    "location": "Obuasi Municipal, Western Region",
+    "address": "Takoradi",
+    "phone": "0244-576393"
+  },
+  {
+    "name": "Topview Hospital",
+    "category": "Dental",
+    "location": "Obuasi Municipal, Western Region",
+    "address": "Takoradi",
+    "phone": "0553109518"
+  },
+  {
+    "name": "St Benedict Hospital",
+    "category": "Dental",
+    "location": "Obuasi Municipal, Western Region",
+    "address": "Takoradi Inchaban",
+    "phone": "0547-204973"
+  },
+  {
+    "name": "Toptics Eyecare",
+    "category": "Optical",
+    "location": "Obuasi Municipal, Western Region",
+    "address": "Takoradi",
+    "phone": "0558077293"
+  },
+  {
+    "name": "Oasis Medical Consult",
+    "category": "Dental",
+    "location": "Obuasi Municipal, Western Region",
+    "address": "Takoradi",
+    "phone": "0556316301"
+  },
+  {
+    "name": "Essikado Government Hospital",
+    "category": "Dental",
+    "location": "Obuasi Municipal, Western Region",
+    "address": "Takoradi",
+    "phone": "020-8089461"
+  },
+  {
+    "name": "Ghana Ports & Harbour Authority Hospital",
+    "category": "Dental",
+    "location": "Obuasi Municipal, Western Region",
+    "address": "Takoradi",
+    "phone": "0244-417556"
+  },
+  {
+    "name": "Qui-Wal Hospital",
+    "category": "Dental",
+    "location": "Obuasi Municipal, Western Region",
+    "address": "Takoradi",
+    "phone": "0269-9705835"
+  },
+  {
+    "name": "Diascan Centre",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Western Region",
+    "address": "Takoradi",
+    "phone": "050-8288404"
+  },
+  {
+    "name": "B-Nart Medical Laboratory & Scan",
+    "category": "Laboratory",
+    "location": "Obuasi Municipal, Western Region",
+    "address": "Sekondi-Takoradi",
+    "phone": "020-4333883"
+  },
+  {
+    "name": "West View Medical Centre",
+    "category": "Dental",
+    "location": "Obuasi Municipal, Western Region",
+    "address": "Takoradi Airport Ridge",
+    "phone": "020-9899589"
+  },
+  {
+    "name": "UQ Specialist Medical Services",
+    "category": "Dental",
+    "location": "Obuasi Municipal, Western Region",
+    "address": "Takoradi",
+    "phone": "0244-534553"
+  },
+  {
+    "name": "Kwesimintsim Government Hospital",
+    "category": "Dental",
+    "location": "Obuasi Municipal, Western Region",
+    "address": "Takoradi  Episode Ave. Sawmill,Kwesimintsim",
+    "phone": "0244-711011"
+  },
+  {
+    "name": "Krispat Hearing Centre",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Western Region",
+    "address": "Apowa-Takoradi off Mpoho-Kajebril road",
+    "phone": "0549-954980"
+  },
+  {
+    "name": "Bethel Methodist Medical Centre",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Western Region",
+    "address": "Takoradi",
+    "phone": "0553-521125"
+  },
+  {
+    "name": "Rabito Clinic Limited",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Western Region",
+    "address": "Takoradi-Accra stn opp Daavi Ama liberation rd",
+    "phone": "026-5583293"
+  },
+  {
+    "name": "Nagel Memorial SDA Hospital",
+    "category": "Dental",
+    "location": "Obuasi Municipal, Western Region",
+    "address": "Takoradi",
+    "phone": "020-8288886"
+  },
+  {
+    "name": "New Crystal Medical Centre",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Western Region",
+    "address": "Anaji-Takoradi",
+    "phone": "050-1264746"
+  },
+  {
+    "name": "Westview Medical Centre",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Western Region",
+    "address": "Airport Ridge Takoradi",
+    "phone": "0242-576768"
+  },
+  {
+    "name": "Takoradi Hospital (European Hospital)",
+    "category": "Optical",
+    "location": "Obuasi Municipal, Western Region",
+    "address": "Takoradi",
+    "phone": "024-2314754"
+  },
+  {
+    "name": "Afful Lifeline Medical Centre",
+    "category": "Dental",
+    "location": "Obuasi Municipal, Western Region",
+    "address": "Shama",
+    "phone": "0246903660"
+  },
+  {
+    "name": "Tarkwa Municipal Hospital",
+    "category": "Dental",
+    "location": "Obuasi Municipal, Western Region",
+    "address": "Tarkwa",
+    "phone": "024-4118480"
+  },
+  {
+    "name": "Tarkwa Mine Hospital(Accra Medical Centre)",
+    "category": "Dental",
+    "location": "Obuasi Municipal, Western Region",
+    "address": "Tarkwa",
+    "phone": "020-8307948"
+  },
+  {
+    "name": "Pentecost Hospital",
+    "category": "Dental",
+    "location": "Obuasi Municipal, Western Region",
+    "address": "Tarkwa",
+    "phone": "0549515183"
+  },
+  {
+    "name": "Redeemer Hospital",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Western Region",
+    "address": "Tarkwa",
+    "phone": "0208201749"
+  },
+  {
+    "name": "Tarkwa Old Government Hospital",
+    "category": "Dental",
+    "location": "Obuasi Municipal, Western Region",
+    "address": "Tarkwa",
+    "phone": "024-1912678"
+  },
+  {
+    "name": "Premier Specialist Hospital",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Western Region",
+    "address": "Tarkwa",
+    "phone": "024-4711481"
+  },
+  {
+    "name": "St Mark Hospital",
+    "category": "Dental",
+    "location": "Obuasi Municipal, Western Region",
+    "address": "Wassa Akropong",
+    "phone": "0543-1933062"
+  },
+  {
+    "name": "Axim Government Hospital",
+    "category": "Dental",
+    "location": "Obuasi Municipal, Western Region",
+    "address": "Axim",
+    "phone": "0547-260660"
+  },
+  {
+    "name": "Greenshield Hospital",
+    "category": "Dental",
+    "location": "Obuasi Municipal, Western Region",
+    "address": "Sefwi wiawso",
+    "phone": "0248-768865"
+  },
+  {
+    "name": "Greenshield Hospital",
+    "category": "Dental",
+    "location": "Obuasi Municipal, Western Region",
+    "address": "Sefwi Bekwai",
+    "phone": "0248-768865"
+  },
+  {
+    "name": "Kendicks Pharmacy",
+    "category": "Pharmacy",
+    "location": "Obuasi Municipal, Western Region",
+    "address": "Tarkwa",
+    "phone": "020-2251018"
+  },
+  {
+    "name": "Kendicks Pharmacy",
+    "category": "Pharmacy",
+    "location": "Obuasi Municipal, Western Region",
+    "address": "Takoradi Effia Nkwanta",
+    "phone": "020-2251018"
+  },
+  {
+    "name": "Kendicks Pharmacy",
+    "category": "Pharmacy",
+    "location": "Obuasi Municipal, Western Region",
+    "address": "Takoradi market circle opp CBG",
+    "phone": "020-2251018"
+  },
+  {
+    "name": "Nimdee Pharmacy",
+    "category": "Pharmacy",
+    "location": "Obuasi Municipal, Western Region",
+    "address": "Takoradi market circle inside PZ Building",
+    "phone": "0546-580448"
+  },
+  {
+    "name": "Kabmore Pharmacy",
+    "category": "Pharmacy",
+    "location": "Obuasi Municipal, Western Region",
+    "address": "Takoradi",
+    "phone": "0244-576393"
+  },
+  {
+    "name": "Abuakwa Pharmacy",
+    "category": "Pharmacy",
+    "location": "Obuasi Municipal, Western Region",
+    "address": "Takoradi",
+    "phone": "020-7077531"
+  },
+  {
+    "name": "Premium Health Pharmacy Ltd",
+    "category": "Pharmacy",
+    "location": "Obuasi Municipal, Western Region",
+    "address": "Takoradi 612 axim road(Old Tigo Office)",
+    "phone": "0551-666344"
+  },
+  {
+    "name": "Westlink Pharmacy",
+    "category": "Pharmacy",
+    "location": "Obuasi Municipal, Western Region",
+    "address": "Station Rd., near Aboso taxi rank, Tarkwa",
+    "phone": "031-23203037"
+  },
+  {
+    "name": "Top-Up Pharmacy",
+    "category": "Pharmacy",
+    "location": "Obuasi Municipal, Western Region",
+    "address": "Kweikuma Near Effia Nkwantia Regional Hosp.after Frebe mall",
+    "phone": "0508-593848"
+  },
+  {
+    "name": "St. Pauls Dental Clinic",
+    "category": "Dental",
+    "location": "Obuasi Municipal, Western Region",
+    "address": "Opp PWD Takoradi",
+    "phone": "027-7424013"
+  },
+  {
+    "name": "Ezperanza Dental Clinic",
+    "category": "Dental",
+    "location": "Obuasi Municipal, Western Region",
+    "address": "Takoradi Inside the Mall",
+    "phone": "0544-352251"
+  },
+  {
+    "name": "Active Point Dental Clinic",
+    "category": "Dental",
+    "location": "Obuasi Municipal, Western Region",
+    "address": "Tarkwa",
+    "phone": "0200703068"
+  },
+  {
+    "name": "MDS Lancet Laboratory",
+    "category": "Laboratory",
+    "location": "Obuasi Municipal, Western Region",
+    "address": "Tarkwa ABA hospital Building",
+    "phone": "050-4101209"
+  },
+  {
+    "name": "MDS Lancet Laboratory",
+    "category": "Laboratory",
+    "location": "Obuasi Municipal, Western Region",
+    "address": "Tarkwa Hospital road",
+    "phone": "050-1633806"
+  },
+  {
+    "name": "MDS Lancet Laboratory",
+    "category": "Laboratory",
+    "location": "Obuasi Municipal, Western Region",
+    "address": "Sefwi wiawso opp Municipal Hospital",
+    "phone": "050-1633810"
+  },
+  {
+    "name": "MDS Lancet Laboratory",
+    "category": "Laboratory",
+    "location": "Obuasi Municipal, Western Region",
+    "address": "Takoradi",
+    "phone": "050-4101210"
+  },
+  {
+    "name": "South Western Eye Clinic",
+    "category": "Optical",
+    "location": "Obuasi Municipal, Western Region",
+    "address": "Takoradi New site rd OPP Housing Corporation",
+    "phone": "0558-506129"
+  },
+  {
+    "name": "Delcielo Optical Services",
+    "category": "Optical",
+    "location": "Obuasi Municipal, Western Region",
+    "address": "GPRTU Secretariat(Market Circle)Takoradi",
+    "phone": "0246-546178"
+  },
+  {
+    "name": "Imperial Eye Centre",
+    "category": "Optical",
+    "location": "Obuasi Municipal, Western Region",
+    "address": "Takoradi Fijai Junction Mays Plaza",
+    "phone": "020-8107505"
+  },
+  {
+    "name": "Vision Cratters Opticians",
+    "category": "Optical",
+    "location": "Obuasi Municipal, Western Region",
+    "address": "Takoradi",
+    "phone": "0243-529567"
+  },
+  {
+    "name": "Uretope Optical Centre",
+    "category": "Optical",
+    "location": "Obuasi Municipal, Western Region",
+    "address": "Takwa",
+    "phone": "0546-450052"
+  },
+  {
+    "name": "Imperial Eye Centre",
+    "category": "Optical",
+    "location": "Obuasi Municipal, Western Region",
+    "address": "Takoradi Apowa Adjacent Abroso car park",
+    "phone": "0554-678600"
+  },
+  {
+    "name": "Imperial Eye Centre",
+    "category": "Optical",
+    "location": "Obuasi Municipal, Western Region",
+    "address": "Tarkwa Amotoaye Off Tamso hotel de Hilda",
+    "phone": "0243-817908"
+  },
+  {
+    "name": "Jireh Medical Centre",
+    "category": "Optical",
+    "location": "Obuasi Municipal, Western Region",
+    "address": "Takoradi",
+    "phone": "0302-907141"
+  },
+  {
+    "name": "Amasha Partners Optical",
+    "category": "Optical",
+    "location": "Obuasi Municipal, Western Region",
+    "address": "Adjacent tigo office-Takoradi",
+    "phone": "030-3962219"
+  },
+  {
+    "name": "Eastern Regional Hospital",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Eastern Region",
+    "address": "Koforidua",
+    "phone": "0244-638587"
+  },
+  {
+    "name": "Koforidua SDA Hospital",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Eastern Region",
+    "address": "Nsukwao Koforidua",
+    "phone": "0249-819972"
+  },
+  {
+    "name": "Koforidua Clinic",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Eastern Region",
+    "address": "Nkubem - Next to Safe Gold Hotel Koforidua",
+    "phone": "0550-329219"
+  },
+  {
+    "name": "Newlands  Medical Centre",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Eastern Region",
+    "address": "Koforidua",
+    "phone": "0241-129418"
+  },
+  {
+    "name": "Healing For Africa Mission Clinic",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Eastern Region",
+    "address": "Koforidua",
+    "phone": "0530-808780"
+  },
+  {
+    "name": "Kade Government Hospital",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Eastern Region",
+    "address": "Kade",
+    "phone": "0243-836817"
+  },
+  {
+    "name": "Medicas Hospital",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Eastern Region",
+    "address": "Mampong Akwapim",
+    "phone": "050-1477340"
+  },
+  {
+    "name": "After that Pharmacy",
+    "category": "Pharmacy",
+    "location": "Obuasi Municipal, Eastern Region",
+    "address": "O green road",
+    "phone": "0244-866398"
+  },
+  {
+    "name": "Rabito Clinic",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Eastern Region",
+    "address": "Koforidua-ground floor of ssnit office",
+    "phone": "024-2262506"
+  },
+  {
+    "name": "CDC Hospital",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Eastern Region",
+    "address": "Koforidua Nightingale Memorial house",
+    "phone": "0204-584508"
+  },
+  {
+    "name": "Atekyem Hospital",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Eastern Region",
+    "address": "Koforidua",
+    "phone": "0208-165427"
+  },
+  {
+    "name": "Mpraeso General Hospital",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Eastern Region",
+    "address": "Mpraeso- Kwahu",
+    "phone": "0243-249135"
+  },
+  {
+    "name": "Holy Family Hospital",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Eastern Region",
+    "address": "Nkawkaw",
+    "phone": "0546-863581"
+  },
+  {
+    "name": "Amasha Partners",
+    "category": "Optical",
+    "location": "Obuasi Municipal, Eastern Region",
+    "address": "Koforidua",
+    "phone": "030-3962414"
+  },
+  {
+    "name": "Rev Bidi's Memorial Hospital",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Eastern Region",
+    "address": "Suhum",
+    "phone": "020-8351325"
+  },
+  {
+    "name": "MDS Lancet Laboratory",
+    "category": "Laboratory",
+    "location": "Obuasi Municipal, Eastern Region",
+    "address": "Opposite Regional Hospital",
+    "phone": "050-4101192"
+  },
+  {
+    "name": "ST. Joseph Hospital",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Eastern Region",
+    "address": "Koforidua",
+    "phone": "0257-015990"
+  },
+  {
+    "name": "Adweso Clinic",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Eastern Region",
+    "address": "Koforidua",
+    "phone": "0246-658047"
+  },
+  {
+    "name": "St.Dominic Hospital",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Eastern Region",
+    "address": "Akwatia",
+    "phone": "0243-559076"
+  },
+  {
+    "name": "Kenop Care Hospital",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Eastern Region",
+    "address": "Nkawkaw",
+    "phone": "0243-038761"
+  },
+  {
+    "name": "Ricomons Pharmacy",
+    "category": "Pharmacy",
+    "location": "Obuasi Municipal, Eastern Region",
+    "address": "New Abirem",
+    "phone": "0544-023939"
+  },
+  {
+    "name": "I&I Clinic",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Eastern Region",
+    "address": "New Abirem",
+    "phone": "024-5325581"
+  },
+  {
+    "name": "New life Hospital",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Eastern Region",
+    "address": "Nsawam",
+    "phone": "0544-744327"
+  },
+  {
+    "name": "Philta Medical Centre",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Eastern Region",
+    "address": "Nsawam",
+    "phone": "0550-590037"
+  },
+  {
+    "name": "MDS Lancet Laboratory",
+    "category": "Laboratory",
+    "location": "Obuasi Municipal, Eastern Region",
+    "address": "Nsawam",
+    "phone": "050-4101173"
+  },
+  {
+    "name": "The Community Hospital",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Eastern Region",
+    "address": "Oda",
+    "phone": "020-9048853"
+  },
+  {
+    "name": "Saviour Hospital",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Eastern Region",
+    "address": "Osiem",
+    "phone": "0542-091174"
+  },
+  {
+    "name": "Doctors Clinic",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Eastern Region",
+    "address": "New Abirem\u2026.",
+    "phone": "024-3119292"
+  },
+  {
+    "name": "Moshosho Pharmacy",
+    "category": "Pharmacy",
+    "location": "Obuasi Municipal, Eastern Region",
+    "address": "New Abirem opp the Government hospital",
+    "phone": "054-4554427"
+  },
+  {
+    "name": "New Abirem Government Hospital",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Eastern Region",
+    "address": "New Abirem",
+    "phone": "0248-249413"
+  },
+  {
+    "name": "St.Martin De Porres Hospital",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Eastern Region",
+    "address": "Agormanya-Roman",
+    "phone": "0547-455074"
+  },
+  {
+    "name": "Divine Victory Hospital",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Eastern Region",
+    "address": "Akim Oda Morning Star",
+    "phone": "020-2171044"
+  },
+  {
+    "name": "Kenop Pharmacy",
+    "category": "Pharmacy",
+    "location": "Obuasi Municipal, Eastern Region",
+    "address": "Oda beside Liberty Transport Service",
+    "phone": "024-1784645"
+  },
+  {
+    "name": "Atua Government Hospital",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Eastern Region",
+    "address": "Atua somanya",
+    "phone": "0249-312753"
+  },
+  {
+    "name": "Jubilee Hospital",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Eastern Region",
+    "address": "Oda Amankra near Dukes filling station",
+    "phone": "0241-784645"
+  },
+  {
+    "name": "Mikaddo Pharmacy",
+    "category": "Pharmacy",
+    "location": "Obuasi Municipal, Eastern Region",
+    "address": "Koforidua",
+    "phone": "03420-25752"
+  },
+  {
+    "name": "Kenop Pharmacy",
+    "category": "Pharmacy",
+    "location": "Obuasi Municipal, Eastern Region",
+    "address": "Oda",
+    "phone": "050-0196262"
+  },
+  {
+    "name": "Amasha Partners",
+    "category": "Optical",
+    "location": "Obuasi Municipal, Eastern Region",
+    "address": "Opposite Regional Hospital",
+    "phone": "030 3962414"
+  },
+  {
+    "name": "Ho Teaching Hospital (Trafalgar)",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Volta Region",
+    "address": "Off Ho-Denu road",
+    "phone": "0362-027318"
+  },
+  {
+    "name": "Trafalgar gate Pharmacy",
+    "category": "Pharmacy",
+    "location": "Obuasi Municipal, Volta Region",
+    "address": "OPP.Ho Teaching Hospital",
+    "phone": "0595-787655"
+  },
+  {
+    "name": "Royal Hospital",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Volta Region",
+    "address": "Ho-Police Depot,somey down",
+    "phone": "0245-366902"
+  },
+  {
+    "name": "Amasha Partners",
+    "category": "Optical",
+    "location": "Obuasi Municipal, Volta Region",
+    "address": "Opposite Housing Junction - Ho",
+    "phone": "020-7961952"
+  },
+  {
+    "name": "MDS Lancet Laboratory",
+    "category": "Laboratory",
+    "location": "Obuasi Municipal, Volta Region",
+    "address": "Hohoe Amet Guest House",
+    "phone": "050-1633791"
+  },
+  {
+    "name": "Cedar Ville Hospital",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Volta Region",
+    "address": "Hohoe,Kledzo",
+    "phone": "0545-455372"
+  },
+  {
+    "name": "Foresight Medical Centre",
+    "category": "Optical",
+    "location": "Obuasi Municipal, Volta Region",
+    "address": "Ho,Anagokordzi,off the sava road",
+    "phone": "020-7830251"
+  },
+  {
+    "name": "Rabito Clinic",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Volta Region",
+    "address": "Ho-big mkt road behind ola girl",
+    "phone": "027-6776328"
+  },
+  {
+    "name": "Central Aflao Hospital",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Volta Region",
+    "address": "Aflao,Avoeme",
+    "phone": "020-47129061"
+  },
+  {
+    "name": "Hoggar Clinic",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Volta Region",
+    "address": "Akatsi",
+    "phone": "0244-406432"
+  },
+  {
+    "name": "Danpong Pharmacy Limited",
+    "category": "Pharmacy",
+    "location": "Obuasi Municipal, Volta Region",
+    "address": "Ho",
+    "phone": "02799-76752"
+  },
+  {
+    "name": "Krispat Hearing Centre",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Volta Region",
+    "address": "Starlet Avenue,Opposite the High court,Ho",
+    "phone": "050-6132043"
+  },
+  {
+    "name": "Catholic Hospital Battor",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Volta Region",
+    "address": "Battor opp fire service station",
+    "phone": "0246-953704"
+  },
+  {
+    "name": "Lena Pharmacy",
+    "category": "Pharmacy",
+    "location": "Obuasi Municipal, Volta Region",
+    "address": "Ho  stadium road",
+    "phone": "0362-000236"
+  },
+  {
+    "name": "St Patrick Hospital",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Volta Region",
+    "address": "Kpando",
+    "phone": "0244-040407"
+  },
+  {
+    "name": "Margaret Marquant Hopsital",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Volta Region",
+    "address": "Kpando",
+    "phone": "0546-867379"
+  },
+  {
+    "name": "Akcess Dental Clinic",
+    "category": "Dental",
+    "location": "Obuasi Municipal, Volta Region",
+    "address": "Ho - Bankoe Beside NIB",
+    "phone": "0256-039622"
+  },
+  {
+    "name": "Cedarville Medical centre",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Volta Region",
+    "address": "Hohoe",
+    "phone": "0545-455372"
+  },
+  {
+    "name": "Foresight Clinic",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Volta Region",
+    "address": "Ho",
+    "phone": "0207-830251"
+  },
+  {
+    "name": "Rabito Clinic",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Volta Region",
+    "address": "Ho",
+    "phone": "0245-656431"
+  },
+  {
+    "name": "Hoggar Hospital",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Volta Region",
+    "address": "Akatsi",
+    "phone": "0249-647769"
+  },
+  {
+    "name": "Delcielo Optical Services",
+    "category": "Optical",
+    "location": "Obuasi Municipal, Volta Region",
+    "address": "Komla Dumor Road,Aflao",
+    "phone": "0242-034678"
+  },
+  {
+    "name": "Salaria Eye Med & Optical",
+    "category": "Optical",
+    "location": "Obuasi Municipal, Volta Region",
+    "address": "Ground Floor of Max International (On the High Court to Goil Road)",
+    "phone": "0245-512108"
+  },
+  {
+    "name": "Amasha Partners",
+    "category": "Optical",
+    "location": "Obuasi Municipal, Volta Region",
+    "address": "Ho",
+    "phone": "0551-684894"
+  },
+  {
+    "name": "Baiden Ghartey Memorial Hospital",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Central Region",
+    "address": "Cape coast",
+    "phone": "020-2650506"
+  },
+  {
+    "name": "Cape Coast Teaching Hospital",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Central Region",
+    "address": "Cape Coast",
+    "phone": "0244-062469"
+  },
+  {
+    "name": "Sandford World Clinic",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Central Region",
+    "address": "No 1 Block 172, New Kusukum, Mankessim (by the Mankessim \u2013Cape Coast Highway)",
+    "phone": "0201763259"
+  },
+  {
+    "name": "MDS Lancet Laboratory",
+    "category": "Laboratory",
+    "location": "Obuasi Municipal, Central Region",
+    "address": "Cape coast close central regional hosp.",
+    "phone": "050-4101212"
+  },
+  {
+    "name": "DIS Clinic",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Central Region",
+    "address": "Abura-Cape coast",
+    "phone": "026-8115303"
+  },
+  {
+    "name": "Life Sciences Medical Centre Ltd",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Central Region",
+    "address": "Opposit CCTH, Cape Coast",
+    "phone": "0546-2794470"
+  },
+  {
+    "name": "Kingsway Pharmacy",
+    "category": "Pharmacy",
+    "location": "Obuasi Municipal, Central Region",
+    "address": "Cape Coast",
+    "phone": "0244-616486"
+  },
+  {
+    "name": "Oak Tree Medical",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Central Region",
+    "address": "Cape coast",
+    "phone": "0209243573"
+  },
+  {
+    "name": "Bishop Ackon Memorial Christian Eye Centre",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Central Region",
+    "address": "Cape Coast",
+    "phone": "020-0427284"
+  },
+  {
+    "name": "Breman Jamra Polyclinic",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Central Region",
+    "address": "Breman",
+    "phone": "0242-744737"
+  },
+  {
+    "name": "Kleenmed Pharmacy",
+    "category": "Pharmacy",
+    "location": "Obuasi Municipal, Central Region",
+    "address": "Cape coast   savoy",
+    "phone": "0243-159968"
+  },
+  {
+    "name": "Regiben Pharmacy",
+    "category": "Pharmacy",
+    "location": "Obuasi Municipal, Central Region",
+    "address": "Winneba",
+    "phone": "0240-310431"
+  },
+  {
+    "name": "Klimovic Medical Centre",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Central Region",
+    "address": "Winneba",
+    "phone": "027-8076221"
+  },
+  {
+    "name": "Swedru Municipal Hospital",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Central Region",
+    "address": "Swedru",
+    "phone": "0544847006"
+  },
+  {
+    "name": "Geotina Pharmacy",
+    "category": "Pharmacy",
+    "location": "Obuasi Municipal, Central Region",
+    "address": "Swedru",
+    "phone": "0246-356575"
+  },
+  {
+    "name": "St.Mark Hospital",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Central Region",
+    "address": "Dunkwa Atechem",
+    "phone": "0246-078859"
+  },
+  {
+    "name": "MDS Lancet Laboratory",
+    "category": "Laboratory",
+    "location": "Obuasi Municipal, Central Region",
+    "address": "Swedru",
+    "phone": "050-4101350"
+  },
+  {
+    "name": "Great Redeemer Hospital",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Central Region",
+    "address": "Dunkwa Atechem Close to Oxford School",
+    "phone": "050-8000840"
+  },
+  {
+    "name": "First Class Hospital",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Central Region",
+    "address": "Assin Fosu",
+    "phone": "0555-892831"
+  },
+  {
+    "name": "St.Francis Xavier Hospital",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Central Region",
+    "address": "Assin Fosu",
+    "phone": "0244-934307"
+  },
+  {
+    "name": "Central Kasoa Clinic",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Central Region",
+    "address": "Kasoa-Bawjiase Road",
+    "phone": "0244-466574"
+  },
+  {
+    "name": "Sandford World Clinic",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Central Region",
+    "address": "No G683/c, 63-A Sarbah Road, behind Tantri Lorry Station, Cape Coast",
+    "phone": "0201-763259"
+  },
+  {
+    "name": "Saltpond Municipal Hospital",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Central Region",
+    "address": "Saltpond",
+    "phone": "0242-809786"
+  },
+  {
+    "name": "MDS Lancet Laboratory",
+    "category": "Laboratory",
+    "location": "Obuasi Municipal, Central Region",
+    "address": "Adjacent interbeton hospt",
+    "phone": "026-3010019"
+  },
+  {
+    "name": "Divine Love Hospital",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Bono/Ahafo Region",
+    "address": "Bibiani Opposite SG-SSB Bank",
+    "phone": "0244-655047"
+  },
+  {
+    "name": "Sunyani Regional Hospital",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Bono/Ahafo Region",
+    "address": "Sunyani",
+    "phone": "0245-830511"
+  },
+  {
+    "name": "Rabito Clinic Limited",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Bono/Ahafo Region",
+    "address": "Sunyani- behind the sport stadium",
+    "phone": "0552-657591"
+  },
+  {
+    "name": "Delcielo Optical Services",
+    "category": "Optical",
+    "location": "Obuasi Municipal, Bono/Ahafo Region",
+    "address": "Opposite Cocoa House",
+    "phone": "0551-700066"
+  },
+  {
+    "name": "Greenlight Pharmacy",
+    "category": "Pharmacy",
+    "location": "Obuasi Municipal, Bono/Ahafo Region",
+    "address": "Sunyani Opposite UMB Bank",
+    "phone": "020-9944881"
+  },
+  {
+    "name": "Greenlight Pharmacy",
+    "category": "Pharmacy",
+    "location": "Obuasi Municipal, Bono/Ahafo Region",
+    "address": "Sunyani Btn Zongo traffic and Regional Hosp.",
+    "phone": "020-9944881"
+  },
+  {
+    "name": "Sunyani Municipal Hospital",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Bono/Ahafo Region",
+    "address": "Sunyani Btn Zongo traffic and Regional Hosp.",
+    "phone": "020-0708748"
+  },
+  {
+    "name": "Scab Pharmacy",
+    "category": "Pharmacy",
+    "location": "Obuasi Municipal, Bono/Ahafo Region",
+    "address": "Sunyani  Pentecost House",
+    "phone": "0244-039593"
+  },
+  {
+    "name": "Six Stars Pharmacy",
+    "category": "Pharmacy",
+    "location": "Obuasi Municipal, Bono/Ahafo Region",
+    "address": "Sunyani  Pentecost House",
+    "phone": "0244-039593"
+  },
+  {
+    "name": "Greenlight Pharmacy",
+    "category": "Pharmacy",
+    "location": "Obuasi Municipal, Bono/Ahafo Region",
+    "address": "Sunyani Nana Bosoma Street Zongo",
+    "phone": "0245-454042"
+  },
+  {
+    "name": "Dentoc Dental Clinic",
+    "category": "Dental",
+    "location": "Obuasi Municipal, Bono/Ahafo Region",
+    "address": "Sunyani univerity roundabout towards berekum",
+    "phone": "0256-788712"
+  },
+  {
+    "name": "MDS Lancet Laboratory",
+    "category": "Laboratory",
+    "location": "Obuasi Municipal, Bono/Ahafo Region",
+    "address": "Sunyani Regional Hospital",
+    "phone": "050-4101206"
+  },
+  {
+    "name": "Adamwastl Healthcity",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Bono/Ahafo Region",
+    "address": "Kenyasi close to Divine Star Academy",
+    "phone": "0248-666208"
+  },
+  {
+    "name": "First Care Pharmacy",
+    "category": "Pharmacy",
+    "location": "Obuasi Municipal, Bono/Ahafo Region",
+    "address": "Kenyasi No2 Opposite Roman",
+    "phone": "0244-051578"
+  },
+  {
+    "name": "Banhart Hospital",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Bono/Ahafo Region",
+    "address": "Kenyasi",
+    "phone": "0244-602792"
+  },
+  {
+    "name": "MDS Lancet Laboratory",
+    "category": "Laboratory",
+    "location": "Obuasi Municipal, Bono/Ahafo Region",
+    "address": "Techiman Opp Holy Family Hospital",
+    "phone": "050-4101207"
+  },
+  {
+    "name": "Marigad Pharmacy",
+    "category": "Pharmacy",
+    "location": "Obuasi Municipal, Bono/Ahafo Region",
+    "address": "Hwidiem Close to St,Elizabeth Hospital",
+    "phone": "0557-178389"
+  },
+  {
+    "name": "St.Elizabeth Hospital",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Bono/Ahafo Region",
+    "address": "Hwidiem Ahafo",
+    "phone": "0322-298428"
+  },
+  {
+    "name": "Crosscare Hospital limited",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Bono/Ahafo Region",
+    "address": "Sunyani",
+    "phone": "0552-700541"
+  },
+  {
+    "name": "Goaso Municipal Hospital",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Bono/Ahafo Region",
+    "address": "Goaso",
+    "phone": "020-6378108"
+  },
+  {
+    "name": "Crosscare Hospital limited",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Bono/Ahafo Region",
+    "address": "Goaso",
+    "phone": "0544-710026"
+  },
+  {
+    "name": "Crosscare Hospital limited",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Bono/Ahafo Region",
+    "address": "Kenyasi",
+    "phone": "0246-234855"
+  },
+  {
+    "name": "Doctors Clinic",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Bono/Ahafo Region",
+    "address": "Kenyasi..Near Osei Kofi Social Centre",
+    "phone": "0205467271"
+  },
+  {
+    "name": "Heavens Diagnostic Centre",
+    "category": "Laboratory",
+    "location": "Obuasi Municipal, Bono/Ahafo Region",
+    "address": "Sunyani Opp Greenlight Pharm building Zongo",
+    "phone": "0558-096266"
+  },
+  {
+    "name": "Ohenewaa Memorial Clinic",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Bono/Ahafo Region",
+    "address": "Dormaa Ahenkro",
+    "phone": "0245-927383"
+  },
+  {
+    "name": "Saint Ignatius Eye Centre",
+    "category": "Optical",
+    "location": "Obuasi Municipal, Bono/Ahafo Region",
+    "address": "Sunyani",
+    "phone": "0558-073425"
+  },
+  {
+    "name": "SYN LAB",
+    "category": "Laboratory",
+    "location": "Obuasi Municipal, Bono/Ahafo Region",
+    "address": "Sunyani Opp. Exit Gate of",
+    "phone": "0593-805880"
+  },
+  {
+    "name": "Owusu Memorial Hospital",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Bono/Ahafo Region",
+    "address": "Sunyani  Akyerekoh Near Space FM",
+    "phone": "0279-472595"
+  },
+  {
+    "name": "Mossay Pharmacy",
+    "category": "Pharmacy",
+    "location": "Obuasi Municipal, Bono/Ahafo Region",
+    "address": "Sunyani Zongo  One Way",
+    "phone": "020-8235723"
+  },
+  {
+    "name": "3D Eye Care Limited",
+    "category": "Optical",
+    "location": "Obuasi Municipal, Bono/Ahafo Region",
+    "address": "Sunyani Pentecost House,VRA Road",
+    "phone": "0548-050645"
+  },
+  {
+    "name": "Saint Ignatius Eye Centre",
+    "category": "Optical",
+    "location": "Obuasi Municipal, Bono/Ahafo Region",
+    "address": "Berekum",
+    "phone": "020-6343675"
+  },
+  {
+    "name": "Methodist Hospital",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Bono/Ahafo Region",
+    "address": "Wenchi",
+    "phone": "020-8181340"
+  },
+  {
+    "name": "Medilab Diagnostic Services",
+    "category": "Laboratory",
+    "location": "Obuasi Municipal, Bono/Ahafo Region",
+    "address": "Kintampo road",
+    "phone": "035-2266525"
+  },
+  {
+    "name": "Amoako Healthcare City",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Bono/Ahafo Region",
+    "address": "Techiman Hansua, Opp. GHANA NUTS LTD.",
+    "phone": "0241-077606"
+  },
+  {
+    "name": "Flosaa Optical Services",
+    "category": "Optical",
+    "location": "Obuasi Municipal, Bono/Ahafo Region",
+    "address": "Techiman",
+    "phone": "020-2190987"
+  },
+  {
+    "name": "Holy Family Hospital",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Bono/Ahafo Region",
+    "address": "Techiman",
+    "phone": "0242-047400"
+  },
+  {
+    "name": "Healthlane Hospital",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Bono/Ahafo Region",
+    "address": "Sunyani, Bono 10 Boahene korkor Street",
+    "phone": "0243-866485"
+  },
+  {
+    "name": "Pisgah Advanced Medical Center",
+    "category": "Laboratory",
+    "location": "Obuasi Municipal, Bono/Ahafo Region",
+    "address": "Bechem Near the Police  Station",
+    "phone": "020-4124550"
+  },
+  {
+    "name": "Greenhill Medical Centre",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Bono/Ahafo Region",
+    "address": "Adjei Ano South, Sunyani",
+    "phone": "0208592211"
+  },
+  {
+    "name": "Oak Dental Clinic",
+    "category": "Dental",
+    "location": "Obuasi Municipal, Bono/Ahafo Region",
+    "address": "Abesim Near Sunyani  Geny Guest house",
+    "phone": "020-1660218"
+  },
+  {
+    "name": "Goodlens Eye Care",
+    "category": "Optical",
+    "location": "Obuasi Municipal, Bono/Ahafo Region",
+    "address": "Techiman Tamale station",
+    "phone": "0242-040124"
+  },
+  {
+    "name": "Goodlens Eye Care",
+    "category": "Optical",
+    "location": "Obuasi Municipal, Bono/Ahafo Region",
+    "address": "Sunyani STC main yard",
+    "phone": "0242-040124"
+  },
+  {
+    "name": "Fountain Care Hospital",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Bono/Ahafo Region",
+    "address": "Sampa",
+    "phone": "0244-7344233"
+  },
+  {
+    "name": "Sunkwa Kintampo Clinic",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Bono/Ahafo Region",
+    "address": "Kintampo",
+    "phone": "0595-920266"
+  },
+  {
+    "name": "SDA Hospital Sunyani",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Bono/Ahafo Region",
+    "address": "Sunyani",
+    "phone": "020-8238315"
+  },
+  {
+    "name": "Kabsad Scientific Hospital",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Northern Region",
+    "address": "Jakala Yili-Tamale",
+    "phone": "0204-113353"
+  },
+  {
+    "name": "Kalpohin Medical Centre (formerly 3M & C Medical Centre)",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Northern Region",
+    "address": "Kalponi",
+    "phone": "0246-667840"
+  },
+  {
+    "name": "Mansusu Clinic",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Northern Region",
+    "address": "Tamale-Bolga Road, Near Absa Junction, Gumani",
+    "phone": "0247-862163"
+  },
+  {
+    "name": "Habana Medical Service",
+    "category": "Pharmacy",
+    "location": "Obuasi Municipal, Northern Region",
+    "address": "Tamale-Kanvli-Nanton Road",
+    "phone": "0247-039123"
+  },
+  {
+    "name": "Tamale Urology & modern surgical centre",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Northern Region",
+    "address": "tamale",
+    "phone": "0556-492327"
+  },
+  {
+    "name": "SDA Hospital",
+    "category": "Pharmacy",
+    "location": "Obuasi Municipal, Northern Region",
+    "address": "Tamale, Changli",
+    "phone": "0246-224543"
+  },
+  {
+    "name": "Batieka Specialist Clinic",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Northern Region",
+    "address": "Tamale-Dungu",
+    "phone": "020-5520517"
+  },
+  {
+    "name": "New Life Medical Centre",
+    "category": "Pharmacy",
+    "location": "Obuasi Municipal, Northern Region",
+    "address": "Tamale,Kukuo",
+    "phone": "0244-778114"
+  },
+  {
+    "name": "Rabito Clinic",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Northern Region",
+    "address": "Tamale-along rivoli rd, near melcom",
+    "phone": "024-762794"
+  },
+  {
+    "name": "Marshal Medical Centre",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Northern Region",
+    "address": "OPPOSITE Bi water Junction,katariga",
+    "phone": "0243-307178"
+  },
+  {
+    "name": "Fuo Community Hospital",
+    "category": "Pharmacy",
+    "location": "Obuasi Municipal, Northern Region",
+    "address": "OPPOSITE DEEPER LIFE CHURCH, FUO, Tamale",
+    "phone": "0372021492"
+  },
+  {
+    "name": "La Mete Ghana, Tamale Urology & Modern Surgical Centre",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Northern Region",
+    "address": "Tamale -Yendi Road",
+    "phone": "0556492327"
+  },
+  {
+    "name": "Faith Community Hospital, Nakpanduri",
+    "category": "Pharmacy",
+    "location": "Obuasi Municipal, Northern Region",
+    "address": "Nakpanduri",
+    "phone": "0244-573983"
+  },
+  {
+    "name": "MDS Lancet Laboratory",
+    "category": "Laboratory",
+    "location": "Obuasi Municipal, Northern Region",
+    "address": "Tamale",
+    "phone": "O504101208"
+  },
+  {
+    "name": "Zoe Medical Centre (Main)",
+    "category": "Pharmacy",
+    "location": "Obuasi Municipal, Northern Region",
+    "address": "KPANVO-TARGET, TAMALE",
+    "phone": "0244-573983"
+  },
+  {
+    "name": "Zoe Medical Centre Annex",
+    "category": "Pharmacy",
+    "location": "Obuasi Municipal, Northern Region",
+    "address": "Melcom Road, Tamale",
+    "phone": "0372099196"
+  },
+  {
+    "name": "Global Medical Laboratory",
+    "category": "Laboratory",
+    "location": "Obuasi Municipal, Northern Region",
+    "address": "Opp Tamale Teaching Hospital",
+    "phone": "020-80553010"
+  },
+  {
+    "name": "Universal Health Service",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Northern Region",
+    "address": "DK 133 Dakpokpa,Tamale",
+    "phone": "020-9818477"
+  },
+  {
+    "name": "God Cares Community Hospital",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Northern Region",
+    "address": "Tamale Kasalgu Nyankpala Road",
+    "phone": "0243-914825"
+  },
+  {
+    "name": "Northern Community Eye Hospital",
+    "category": "Optical",
+    "location": "Obuasi Municipal, Northern Region",
+    "address": "Tamale Near Alui mahama Stadium",
+    "phone": "020-33106630"
+  },
+  {
+    "name": "Kings Diagnostics and Research Centre",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Northern Region",
+    "address": "Tamale",
+    "phone": "0546-479205"
+  },
+  {
+    "name": "Round Vision Care Opticals",
+    "category": "Optical",
+    "location": "Obuasi Municipal, Northern Region",
+    "address": "Tamale,Nobisco Poly Road",
+    "phone": "0244-097737"
+  },
+  {
+    "name": "Uprising Health Centre",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Northern Region",
+    "address": "Tamale,Gumani Round about",
+    "phone": "020-8384923"
+  },
+  {
+    "name": "Labhill Diagnostics",
+    "category": "Laboratory",
+    "location": "Obuasi Municipal, Northern Region",
+    "address": "Tamale,Opp SDA Hospital",
+    "phone": "020-1026091"
+  },
+  {
+    "name": "Maxx Dental Clinic",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Northern Region",
+    "address": "Tamale,Kukuo KU300",
+    "phone": "020-8042679"
+  },
+  {
+    "name": "Smile Optical Centre",
+    "category": "Optical",
+    "location": "Obuasi Municipal, Northern Region",
+    "address": "Tamale near Agric Traffic light",
+    "phone": "0244-973402"
+  },
+  {
+    "name": "Savanna Optical Centre",
+    "category": "Optical",
+    "location": "Obuasi Municipal, Northern Region",
+    "address": "1st floor Sabonkudi Plaza, Opposite VRA",
+    "phone": "0240222805"
+  },
+  {
+    "name": "Obarsi Pharmacy",
+    "category": "Pharmacy",
+    "location": "Obuasi Municipal, Northern Region",
+    "address": "Opposite SDA Hospital-Tamale",
+    "phone": "0545-206056"
+  },
+  {
+    "name": "Chamalt Pharmacy",
+    "category": "Pharmacy",
+    "location": "Obuasi Municipal, Northern Region",
+    "address": "Tamale",
+    "phone": "0244-601450"
+  },
+  {
+    "name": "Ilee Hospital",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Northern Region",
+    "address": "Tamale",
+    "phone": "0244-441617"
+  },
+  {
+    "name": "Central Gonja Hospital",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Northern Region",
+    "address": "Buipe-Tamale",
+    "phone": "0242-156226"
+  },
+  {
+    "name": "Holistic medical centre",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Northern Region",
+    "address": "Buipe-Tamale",
+    "phone": "0244707579"
+  },
+  {
+    "name": "Bolga Regional Hospital",
+    "category": "Pharmacy",
+    "location": "Obuasi Municipal, Upper East Region",
+    "address": "Bolga",
+    "phone": "0553-676836"
+  },
+  {
+    "name": "Afrikids Hospital",
+    "category": "Pharmacy",
+    "location": "Obuasi Municipal, Upper East Region",
+    "address": "Near Fire Service Station,Bolgatanga",
+    "phone": "0245-377592"
+  },
+  {
+    "name": "Amiah Hospital",
+    "category": "Pharmacy",
+    "location": "Obuasi Municipal, Upper East Region",
+    "address": "Zaare-soe,Off the Bolga Bongo Road",
+    "phone": "0247-282097"
+  },
+  {
+    "name": "Quality Medical Centre",
+    "category": "Pharmacy",
+    "location": "Obuasi Municipal, Upper East Region",
+    "address": "Bawku ,Kpalwega of Bawku-Manga road",
+    "phone": "0244-765138"
+  },
+  {
+    "name": "BC Bencyn Pharmacy",
+    "category": "Pharmacy",
+    "location": "Obuasi Municipal, Upper East Region",
+    "address": "Bolgatanga Station",
+    "phone": "0249-814388"
+  },
+  {
+    "name": "Endswell Pharmacy",
+    "category": "Pharmacy",
+    "location": "Obuasi Municipal, Upper East Region",
+    "address": "Bolga",
+    "phone": "0242-741440"
+  },
+  {
+    "name": "Kombat Pharmacy",
+    "category": "Pharmacy",
+    "location": "Obuasi Municipal, Upper East Region",
+    "address": "Bawku",
+    "phone": "0249-077820"
+  },
+  {
+    "name": "Upper West Regional Hospital",
+    "category": "Pharmacy",
+    "location": "Obuasi Municipal, Upper West Region",
+    "address": "Wa",
+    "phone": "0242-785898"
+  },
+  {
+    "name": "Homeland Clinic",
+    "category": "Pharmacy",
+    "location": "Obuasi Municipal, Upper West Region",
+    "address": "Wa -Sombo",
+    "phone": "0240-460884"
+  },
+  {
+    "name": "Messiah Health Restoration Centre",
+    "category": "Pharmacy",
+    "location": "Obuasi Municipal, Upper West Region",
+    "address": "Wa-Dobile Behind Dobile Police Station",
+    "phone": "0246-139966"
+  },
+  {
+    "name": "Yasseen Hospital",
+    "category": "Pharmacy",
+    "location": "Obuasi Municipal, Upper West Region",
+    "address": "Wa-Bamahu",
+    "phone": "0541-155108"
+  },
+  {
+    "name": "Rabito Clinic",
+    "category": "Pharmacy",
+    "location": "Obuasi Municipal, Upper West Region",
+    "address": "Wa",
+    "phone": "0240-367212"
+  },
+  {
+    "name": "Bliss Eye Care",
+    "category": "Optical",
+    "location": "Obuasi Municipal, Upper West Region",
+    "address": "Opposite Wa Regional Hospital",
+    "phone": "0244-972601"
+  },
+  {
+    "name": "Maalu Vision Opticals",
+    "category": "Optical",
+    "location": "Obuasi Municipal, Upper West Region",
+    "address": "Ghana Red cross society Bulding",
+    "phone": "0554-414416"
+  },
+  {
+    "name": "Methodist Diagnostic Service",
+    "category": "Laboratory",
+    "location": "Obuasi Municipal, Upper West Region",
+    "address": "Lawra off Lawsec Adj Municipal Hosp",
+    "phone": "020-8882878"
+  },
+  {
+    "name": "Extra Life Pharmacy",
+    "category": "Pharmacy",
+    "location": "Obuasi Municipal, Upper West Region",
+    "address": "Lawra-Ziekognuo",
+    "phone": "0247-667491"
+  },
+  {
+    "name": "Methodist Healthcare centre",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Upper West Region",
+    "address": "Lawra-Zinkaa Community",
+    "phone": "020-3190696"
+  },
+  {
+    "name": "Maalyiri Medical Centre",
+    "category": "Hospital",
+    "location": "Obuasi Municipal, Upper West Region",
+    "address": "Jirapa",
+    "phone": "553981944"
+  },
+  {
+    "name": "MDS Lancet Laboratory",
+    "category": "Laboratory",
+    "location": "Obuasi Municipal, Upper West Region",
+    "address": "Tamale near teaching hospital",
+    "phone": "026-3010080"
+  },
+  {
+    "name": "Obarsi Pharmacy",
+    "category": "Pharmacy",
+    "location": "Obuasi Municipal, Upper West Region",
+    "address": "Opposite SDA Hospital - Tamale",
+    "phone": "0372098243"
+  },
+  {
+    "name": "Savana Optical Centre",
+    "category": "Optical",
+    "location": "Obuasi Municipal, Upper West Region",
+    "address": "Tamale",
+    "phone": "0240-222805"
+  }
+]

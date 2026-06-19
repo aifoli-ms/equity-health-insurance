@@ -7,19 +7,17 @@ ESBUILD=$(find "$REPO_ROOT/node_modules/.pnpm" -path "*/esbuild/bin/esbuild" -ty
 # 1. Build the Vite SPA
 PORT=5000 BASE_PATH=/ pnpm run build
 
-# 2. Bundle the API handler into api/index.js (replaces the TS source)
-#    All workspace deps are inlined so Vercel's function builder has nothing to resolve
+# 2. Bundle the API handler into api/index.js
+#    The api/ directory is created fresh — it's not in git
+mkdir -p api
 "$ESBUILD" \
-  --bundle api/index.ts \
+  --bundle server/api.ts \
   --platform=node \
   --target=node20 \
   --format=esm \
-  --outfile=api/index.ts \
+  --outfile=api/index.js \
   --external:pg-native \
-  --tsconfig=api/tsconfig.json \
+  --tsconfig=tsconfig.json \
   '--banner:js=import{createRequire}from"module";const require=createRequire(import.meta.url);'
-
-# Remove server/ sources and tsconfig — the bundle is self-contained
-rm -rf server/ api/tsconfig.json
 
 echo "Build complete: SPA + bundled API"

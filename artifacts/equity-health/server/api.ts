@@ -1,8 +1,8 @@
 import express from "express";
-import plansRouter from "../server/routes/plans.js";
-import providersRouter from "../server/routes/providers.js";
-import faqsRouter from "../server/routes/faqs.js";
-import contactsRouter from "../server/routes/contacts.js";
+import plansRouter from "./routes/plans.js";
+import providersRouter from "./routes/providers.js";
+import faqsRouter from "./routes/faqs.js";
+import contactsRouter from "./routes/contacts.js";
 
 const app = express();
 app.use(express.json());
