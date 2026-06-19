@@ -1,5 +1,5 @@
 {
-  "buildCommand": "PORT=5000 BASE_PATH=/ pnpm run build",
+  "buildCommand": "PORT=5000 BASE_PATH=/ pnpm run build && ../../node_modules/.pnpm/esbuild@0.27.3/node_modules/esbuild/bin/esbuild --bundle api/index.ts --platform=node --target=node20 --format=esm --outfile=api/index.js --external:pg-native --tsconfig=api/tsconfig.json --banner:js='import{createRequire}from\"module\";const require=createRequire(import.meta.url);'",
   "outputDirectory": "dist/public",
   "installCommand": "cd ../.. && pnpm install",
   "framework": "vite",
