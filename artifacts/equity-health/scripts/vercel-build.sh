@@ -19,7 +19,8 @@ PORT=5000 BASE_PATH=/ pnpm run build
   --tsconfig=api/tsconfig.json \
   '--banner:js=import{createRequire}from"module";const require=createRequire(import.meta.url);'
 
-# Remove TS source and tsconfig so Vercel's builder uses the bundled JS as-is
+# Remove TS sources so Vercel's @vercel/node builder only sees the bundled JS
 rm api/index.ts api/tsconfig.json
+rm -rf server/
 
 echo "Build complete: SPA + bundled API"
