@@ -10,13 +10,13 @@ PORT=5000 BASE_PATH=/ pnpm run build
 # 2. Bundle the API handler (all deps inlined, no external imports)
 ESBUILD=$(find "$REPO_ROOT/node_modules/.pnpm" -path "*/esbuild/bin/esbuild" -type f | head -1)
 "$ESBUILD" \
-  --bundle api/index.ts \
+  --bundle _api/index.ts \
   --platform=node \
   --target=node20 \
   --format=esm \
   --outfile="$OUT/functions/api/index.func/index.mjs" \
   --external:pg-native \
-  --tsconfig=api/tsconfig.json \
+  --tsconfig=_api/tsconfig.json \
   '--banner:js=import{createRequire}from"module";const require=createRequire(import.meta.url);'
 
 # 3. Create function config
