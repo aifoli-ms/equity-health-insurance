@@ -7,10 +7,10 @@ import { Shield, Users, Building2, Clock, Award, HeartPulse, ArrowRight, Chevron
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 
 const HERO_IMAGES = [
-  "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1920&q=80&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=1920&q=80&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1538108149393-fbbd81895907?w=1920&q=80&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1551601651-2851e8522bf4?w=1920&q=80&auto=format&fit=crop",
+  "/images/hero/consultation-1.png",
+  "/images/hero/consultation-2.png",
+  "/images/hero/consultation-3.png",
+  "/images/hero/presentation.png",
 ];
 
 export default function Home() {
@@ -56,7 +56,7 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-[100dvh] w-full">
       {/* Hero Section */}
-      <section className="relative w-full text-white overflow-hidden py-20 md:py-32 lg:py-40">
+      <section className="relative w-full text-white overflow-hidden h-[100dvh] flex flex-col justify-center pt-16">
         {/* Background image carousel */}
         {HERO_IMAGES.map((src, i) => (
           <img
@@ -64,12 +64,12 @@ export default function Home() {
             src={src}
             alt=""
             aria-hidden="true"
-            className="absolute inset-0 w-full h-full object-cover transition-opacity duration-1000"
+            className="absolute inset-0 w-full h-full object-cover object-top transition-opacity duration-1000"
             style={{ opacity: i === activeImg ? 1 : 0 }}
           />
         ))}
         {/* Dark overlay for text legibility */}
-        <div className="absolute inset-0 bg-gradient-to-r from-black/75 via-black/55 to-black/35" />
+        <div className="absolute inset-0 bg-black/70" />
 
         {/* Slide indicators */}
         <div className="absolute bottom-6 left-1/2 -translate-x-1/2 flex gap-2 z-10">
@@ -280,7 +280,7 @@ export default function Home() {
         </div>
       </section>
       {/* Testimonials */}
-      <section className="py-20 md:py-32 bg-bg-surface w-full">
+      <section className="py-20 md:py-32 bg-bg-surface w-full overflow-hidden">
         <div className="container mx-auto px-4 md:px-6">
           <motion.div
             initial="hidden"
@@ -294,56 +294,95 @@ export default function Home() {
               Hear from individuals and businesses who trust Equity Health Insurance for their healthcare needs.
             </p>
           </motion.div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {[
-              {
-                quote: "Equity Health made the entire process seamless — from enrollment to claims. My family feels secure knowing we have reliable coverage whenever we need it.",
-                name: "Akua Mensah",
-                role: "Family Plan Member",
-                photo: "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=200&h=200&q=80&fit=crop&crop=face",
-              },
-              {
-                quote: "As an HR manager, finding the right group plan was critical. Equity Health offered us competitive rates and outstanding support for our 120+ employees.",
-                name: "Kwame Asante",
-                role: "HR Manager, Goldfields Corp.",
-                photo: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=200&h=200&q=80&fit=crop&crop=face",
-              },
-              {
-                quote: "Their claims processing is remarkably fast. I was reimbursed within days, and the customer service team kept me informed every step of the way.",
-                name: "Esi Owusu-Adjei",
-                role: "Individual Plan Member",
-                photo: "https://images.unsplash.com/photo-1589156280159-27698a70f29e?w=200&h=200&q=80&fit=crop&crop=face",
-              },
-            ].map((t, i) => (
-              <motion.div
-                key={i}
-                initial="hidden"
-                whileInView="visible"
-                viewport={{ once: true, margin: "-40px" }}
-                variants={{
-                  hidden: { opacity: 0, y: 20 },
-                  visible: { opacity: 1, y: 0, transition: { duration: 0.4, delay: i * 0.1 } },
-                }}
-                className="bg-white rounded-2xl p-8 shadow-sm border border-brand-navy-light/10 flex flex-col"
-              >
-                <Quote className="w-8 h-8 text-brand-red/30 mb-4 shrink-0" />
-                <p className="text-brand-navy leading-relaxed flex-grow">{t.quote}</p>
-                <div className="flex items-center gap-4 mt-6 pt-6 border-t border-brand-navy-light/10">
-                  <img
-                    src={t.photo}
-                    alt={t.name}
-                    className="w-12 h-12 rounded-full object-cover border-2 border-brand-red-light"
-                  />
-                  <div>
-                    <div className="font-bold text-brand-navy text-sm">{t.name}</div>
-                    <div className="text-xs text-text-muted">{t.role}</div>
-                  </div>
-                </div>
-              </motion.div>
-            ))}
-          </div>
         </div>
+
+        {(() => {
+          const row1 = [
+            {
+              quote: "Equity Health made the entire process seamless — from enrollment to claims. My family feels secure knowing we have reliable coverage whenever we need it.",
+              name: "Akua Mensah",
+              role: "Family Plan Member",
+              photo: "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=200&h=200&q=80&fit=crop&crop=face",
+            },
+            {
+              quote: "As an HR manager, finding the right group plan was critical. Equity Health offered us competitive rates and outstanding support for our 120+ employees.",
+              name: "Kwame Asante",
+              role: "HR Manager, Goldfields Corp.",
+              photo: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=200&h=200&q=80&fit=crop&crop=face",
+            },
+            {
+              quote: "Their claims processing is remarkably fast. I was reimbursed within days, and the customer service team kept me informed every step of the way.",
+              name: "Esi Owusu-Adjei",
+              role: "Individual Plan Member",
+              photo: "https://images.unsplash.com/photo-1589156280159-27698a70f29e?w=200&h=200&q=80&fit=crop&crop=face",
+            },
+            {
+              quote: "Switching to Equity Health was the best decision for our company. The onboarding was smooth and our staff love the wide network of hospitals available.",
+              name: "Nana Yaw Boateng",
+              role: "CEO, Ashanti Logistics",
+              photo: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&q=80&fit=crop&crop=face",
+            },
+          ];
+          const row2 = [
+            {
+              quote: "I never thought health insurance could be this straightforward. The team walked me through every option and I found a plan that fits my budget perfectly.",
+              name: "Abena Osei",
+              role: "Individual Plan Member",
+              photo: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&h=200&q=80&fit=crop&crop=face",
+            },
+            {
+              quote: "We've been with Equity Health for three years now. Their consistency in service delivery and claims handling is unmatched in the Ghanaian market.",
+              name: "Dr. Kofi Adjei",
+              role: "Medical Director, Cape Coast Clinic",
+              photo: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=200&h=200&q=80&fit=crop&crop=face",
+            },
+            {
+              quote: "What impressed me most is how quickly they handle emergencies. When my daughter needed urgent care, everything was sorted within minutes.",
+              name: "Fatima Ibrahim",
+              role: "Family Plan Member",
+              photo: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=200&h=200&q=80&fit=crop&crop=face",
+            },
+            {
+              quote: "The digital claims portal saves us hours every month. Our HR team can track everything in real time — no more paperwork headaches.",
+              name: "Samuel Tetteh",
+              role: "HR Director, Volta Mining",
+              photo: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&h=200&q=80&fit=crop&crop=face",
+            },
+          ];
+
+          const TestimonialCard = ({ t }: { t: typeof row1[0] }) => (
+            <div className="bg-white rounded-2xl p-8 shadow-sm border border-brand-navy-light/10 flex flex-col w-[400px] shrink-0">
+              <Quote className="w-8 h-8 text-brand-red/30 mb-4 shrink-0" />
+              <p className="text-brand-navy leading-relaxed flex-grow">{t.quote}</p>
+              <div className="flex items-center gap-4 mt-6 pt-6 border-t border-brand-navy-light/10">
+                <img
+                  src={t.photo}
+                  alt={t.name}
+                  className="w-12 h-12 rounded-full object-cover border-2 border-brand-red-light"
+                />
+                <div>
+                  <div className="font-bold text-brand-navy text-sm">{t.name}</div>
+                  <div className="text-xs text-text-muted">{t.role}</div>
+                </div>
+              </div>
+            </div>
+          );
+
+          return (
+            <div className="flex flex-col gap-6">
+              <div className="marquee-row scroll-left">
+                {[...row1, ...row1].map((t, i) => (
+                  <TestimonialCard key={i} t={t} />
+                ))}
+              </div>
+              <div className="marquee-row scroll-right">
+                {[...row2, ...row2].map((t, i) => (
+                  <TestimonialCard key={i} t={t} />
+                ))}
+              </div>
+            </div>
+          );
+        })()}
       </section>
     </div>
   );
