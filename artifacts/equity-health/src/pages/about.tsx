@@ -136,7 +136,7 @@ export default function About() {
     <div className="w-full">
 
       {/* Hero */}
-      <section className="bg-brand-navy text-white pt-12 pb-16 md:pt-20 md:pb-24">
+      <section className="bg-brand-navy text-white pt-8 pb-16 md:pt-12 md:pb-24">
         <div className="container mx-auto px-4 md:px-6">
           <motion.div
             initial="hidden"

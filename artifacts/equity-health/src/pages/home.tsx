@@ -7,10 +7,10 @@ import { Shield, Users, Building2, Clock, Award, HeartPulse, ArrowRight, Chevron
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 
 const HERO_IMAGES = [
-  "/images/hero/consultation-1.png",
-  "/images/hero/consultation-2.png",
-  "/images/hero/consultation-3.png",
-  "/images/hero/presentation.png",
+  "/images/hero/consultation-1.jpg",
+  "/images/hero/consultation-2.jpg",
+  "/images/hero/consultation-3.jpg",
+  "/images/hero/presentation.jpg",
 ];
 
 export default function Home() {
@@ -56,7 +56,7 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-[100dvh] w-full">
       {/* Hero Section */}
-      <section className="relative w-full text-white overflow-hidden h-[100dvh] flex flex-col justify-center pt-16">
+      <section className="relative w-full text-white overflow-hidden h-[calc(100dvh-5rem)] flex flex-col justify-center">
         {/* Background image carousel */}
         {HERO_IMAGES.map((src, i) => (
           <img
@@ -136,7 +136,7 @@ export default function Home() {
       </section>
 
       {/* Plans Section */}
-      <section className="py-20 md:py-32 bg-bg-surface w-full">
+      {plans.length > 0 && <section className="py-20 md:py-32 bg-bg-surface w-full">
         <div className="container mx-auto px-4 md:px-6">
           <motion.div 
             initial="hidden"
@@ -229,7 +229,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section>}
 
       {/* Why Choose Us */}
       <section className="py-20 md:py-32 bg-bg-main w-full">

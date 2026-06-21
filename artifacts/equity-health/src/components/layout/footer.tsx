@@ -9,8 +9,10 @@ export function Footer() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 mb-6">
           <div>
-            <h3 className="text-lg font-bold">Equity Health Insurance</h3>
-            <p className="text-text-muted text-sm mt-1">Comprehensive, value-for-money healthcare insurance across Ghana.</p>
+            <Link href="/">
+              <img src="/images/logo-white.png" alt="Equity Health Insurance" className="h-10" />
+            </Link>
+            <p className="text-text-muted text-sm mt-2">Comprehensive, value-for-money healthcare insurance across Ghana.</p>
           </div>
           <div className="flex gap-3">
             <a href="https://www.facebook.com/TheEquityHealthInsurance" target="_blank" rel="noopener noreferrer" className="bg-brand-navy-light hover:bg-brand-red p-2 rounded-full transition-colors" aria-label="Facebook">

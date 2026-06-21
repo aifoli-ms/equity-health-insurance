@@ -25,7 +25,7 @@ export default function Providers() {
   };
 
   return (
-    <div className="min-h-[100dvh] w-full bg-bg-surface py-12 md:py-20">
+    <div className="min-h-[100dvh] w-full bg-bg-surface py-8 md:py-12">
       <div className="container mx-auto px-4 md:px-6">
 
         <div className="max-w-3xl mb-12">
