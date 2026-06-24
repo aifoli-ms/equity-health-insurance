@@ -178,10 +178,10 @@ export const management: TeamMember[] = [
     expertise: ["Regulatory Compliance", "Fraud Detection & Prevention", "Internal Controls", "Budget Oversight", "Financial Risk Management", "Strategic Planning"],
   },
   {
-    name: "Godfred Akoto",
-    role: "Head of IT",
-    slug: toSlug("Godfred Akoto"),
-    photo: "https://www.equityhealthinsurance.com/wp-content/uploads/2025/07/Godfred-Akoto-IT-manager-1.jpg",
+    name: "Anthony Baiden Danyie",
+    role: "Chief Information Technology Officer",
+    slug: toSlug("Anthony Baiden Danyie"),
+    photo: "/images/cto.jpeg",
     group: "management",
     bio: "Godfred Akoto is the Head of IT at Equity Health Insurance, where he leads the company's technological strategy and digital transformation agenda. He is responsible for ensuring the stability, security, and scalability of the organization's IT infrastructure, while driving innovation to enhance client services and internal operations. With a proven ability to simplify systems and implement cost-effective solutions, Godfred has successfully consolidated departmental IT platforms, reduced infrastructure expenses, and introduced digital products that improve client engagement and retention. He has also overseen the implementation of disaster recovery and business continuity frameworks to safeguard operational resilience. He continues to advance his expertise in IT governance, health tech systems, and cloud security, keeping Equity aligned with best practices and emerging technologies.",
     qualifications: [
