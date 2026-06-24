@@ -1,5 +1,7 @@
 import { motion } from "framer-motion";
-import { Shield, HeartPulse, Users, Award, Target, Eye, Zap, Heart, Lightbulb, Handshake } from "lucide-react";
+import { Link } from "wouter";
+import { Shield, Users, Award, Target, Eye, Zap, Heart, Lightbulb, Handshake } from "lucide-react";
+import { board, management } from "@/data/team";
 
 const stats = [
   { value: "35+", label: "Years Experience" },
@@ -41,23 +43,6 @@ const values = [
   },
 ];
 
-const board = [
-  { name: "Brig. Gen. (Rtd.) Dr Joseph Mensah Ayettey", role: "Board Chairman", photo: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&h=400&q=80&fit=crop&crop=face" },
-  { name: "Dr Elton Fredrick Afari", role: "Chief Executive Officer", photo: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&q=80&fit=crop&crop=face" },
-  { name: "Mrs. Acheampomaah Opoku Afari Esq.", role: "Director / Board Secretary", photo: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&q=80&fit=crop&crop=face" },
-  { name: "Dr. Ernest Ofori Asamoah", role: "Independent Director", photo: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&q=80&fit=crop&crop=face" },
-  { name: "Nathan Kwabena Adisi", role: "Independent Director", photo: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&h=400&q=80&fit=crop&crop=face" },
-];
-
-const management = [
-  { name: "Dr Joseph Wesley Ansah", role: "Chief Operations Officer" },
-  { name: "Prosper Atsyor", role: "Chief Finance Officer" },
-  { name: "Eric N.K Addae", role: "Risk & Internal Audit Manager" },
-  { name: "Genevieve Aba Esaaba Otoo", role: "Claims Manager" },
-  { name: "Mr Isaac Kankam-Okyere", role: "HSP Manager" },
-  { name: "Rudolf Kwami Akutu", role: "Head of Internal Audit" },
-  { name: "Godfred Akoto", role: "IT Manager" },
-];
 
 function stripHonorifics(name: string): string[] {
   let cleaned = name.replace(/\s+Esq\.?\s*$/i, "");
@@ -305,15 +290,16 @@ export default function About() {
                 whileInView="visible"
                 viewport={vp}
                 variants={fadeUp}
-                className="text-center"
               >
-                <img
-                  src={member.photo}
-                  alt={member.name}
-                  className="w-24 h-24 rounded-full object-cover mx-auto mb-3 border-2 border-brand-navy-light/20"
-                />
-                <h3 className="font-bold text-brand-navy text-sm">{member.name}</h3>
-                <p className="text-xs text-text-muted mt-1">{member.role}</p>
+                <Link href={`/team/${member.slug}`} className="block text-center group cursor-pointer">
+                  <img
+                    src={member.photo}
+                    alt={member.name}
+                    className="w-24 h-24 rounded-full object-cover mx-auto mb-3 border-2 border-brand-navy-light/20 group-hover:border-brand-red transition-colors"
+                  />
+                  <h3 className="font-bold text-brand-navy text-sm group-hover:text-brand-red transition-colors">{member.name}</h3>
+                  <p className="text-xs text-text-muted mt-1">{member.role}</p>
+                </Link>
               </motion.div>
             ))}
           </div>
@@ -330,8 +316,8 @@ export default function About() {
           </motion.div>
 
           <div className="flex flex-col items-center gap-8">
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-6 md:gap-8">
-              {management.slice(0, 3).map((member, i) => {
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8">
+              {management.map((member, i) => {
                 const avatar = managementAvatars.get(member.name)!;
                 return (
                   <motion.div
@@ -341,41 +327,25 @@ export default function About() {
                     whileInView="visible"
                     viewport={vp}
                     variants={fadeUp}
-                    className="text-center"
                   >
-                    <div
-                      className="w-24 h-24 rounded-full flex items-center justify-center text-white text-lg font-bold mx-auto mb-3"
-                      style={{ backgroundColor: avatar.bg }}
-                    >
-                      {avatar.initials}
-                    </div>
-                    <h3 className="font-bold text-brand-navy text-sm">{member.name}</h3>
-                    <p className="text-xs text-text-muted mt-1">{member.role}</p>
-                  </motion.div>
-                );
-              })}
-            </div>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8">
-              {management.slice(3).map((member, i) => {
-                const avatar = managementAvatars.get(member.name)!;
-                return (
-                  <motion.div
-                    key={member.name}
-                    custom={i + 3}
-                    initial="hidden"
-                    whileInView="visible"
-                    viewport={vp}
-                    variants={fadeUp}
-                    className="text-center"
-                  >
-                    <div
-                      className="w-24 h-24 rounded-full flex items-center justify-center text-white text-lg font-bold mx-auto mb-3"
-                      style={{ backgroundColor: avatar.bg }}
-                    >
-                      {avatar.initials}
-                    </div>
-                    <h3 className="font-bold text-brand-navy text-sm">{member.name}</h3>
-                    <p className="text-xs text-text-muted mt-1">{member.role}</p>
+                    <Link href={`/team/${member.slug}`} className="block text-center group cursor-pointer">
+                      {member.photo ? (
+                        <img
+                          src={member.photo}
+                          alt={member.name}
+                          className="w-24 h-24 rounded-full object-cover mx-auto mb-3 border-2 border-brand-navy-light/20 group-hover:border-brand-red transition-colors"
+                        />
+                      ) : (
+                        <div
+                          className="w-24 h-24 rounded-full flex items-center justify-center text-white text-lg font-bold mx-auto mb-3 border-2 border-transparent group-hover:border-brand-red transition-colors"
+                          style={{ backgroundColor: avatar.bg }}
+                        >
+                          {avatar.initials}
+                        </div>
+                      )}
+                      <h3 className="font-bold text-brand-navy text-sm group-hover:text-brand-red transition-colors">{member.name}</h3>
+                      <p className="text-xs text-text-muted mt-1">{member.role}</p>
+                    </Link>
                   </motion.div>
                 );
               })}
@@ -401,7 +371,7 @@ export default function About() {
             href="/contact"
             className="inline-flex items-center justify-center bg-brand-red hover:bg-brand-red/90 text-white font-semibold h-14 px-10 rounded-md transition-colors"
           >
-            Schedule a Consultation
+            Request a Quote
           </a>
         </motion.div>
       </section>

@@ -13,6 +13,7 @@ import Plans from "@/pages/plans";
 import PlanDetail from "@/pages/plan-detail";
 import Providers from "@/pages/providers";
 import Contact from "@/pages/contact";
+import TeamMember from "@/pages/team-member";
 import NotFound from "@/pages/not-found";
 
 const queryClient = new QueryClient();
@@ -28,6 +29,7 @@ function Router() {
           <Route path="/plans/:slug" component={PlanDetail} />
           <Route path="/providers" component={Providers} />
           <Route path="/about" component={About} />
+          <Route path="/team/:slug" component={TeamMember} />
           <Route path="/contact" component={Contact} />
           <Route component={NotFound} />
         </Switch>

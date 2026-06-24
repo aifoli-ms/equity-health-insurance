@@ -1,3 +1,4 @@
 .vercel
 api/
 .env*.local
+.firecrawl/
