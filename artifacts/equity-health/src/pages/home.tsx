@@ -109,13 +109,13 @@ export default function Home() {
               </div>
             </motion.div>
 
-            {/* Trust panel */}
+            {/* Trust panel — desktop only */}
             <motion.div
               initial={{ opacity: 0, x: 30 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.2 }}
-              className="lg:shrink-0 lg:w-72 xl:w-80"
+              className="hidden lg:block lg:shrink-0 lg:w-72 xl:w-80"
             >
               <div className="bg-black/40 backdrop-blur-md rounded-2xl border border-white/15 divide-y divide-white/10 overflow-hidden">
                 {[
@@ -157,7 +157,7 @@ export default function Home() {
                 {plans.map((plan) => (
                   <div
                     key={plan.slug}
-                    className="flex-[0_0_25%] min-w-0 pl-6"
+                    className="flex-[0_0_85%] sm:flex-[0_0_50%] lg:flex-[0_0_33.333%] xl:flex-[0_0_25%] min-w-0 pl-6"
                   >
                     <Card className="h-full flex flex-col bg-white border-brand-navy-light/10 shadow-sm hover:shadow-md transition-shadow">
                       <CardHeader>
@@ -196,18 +196,18 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Side nav buttons */}
+            {/* Side nav buttons — hidden on mobile where swipe is used */}
             <button
               onClick={scrollPrev}
               aria-label="Previous plan"
-              className="absolute -left-8 top-[45%] -translate-y-1/2 text-brand-navy/30 hover:text-brand-red transition-colors"
+              className="hidden md:flex absolute -left-8 top-[45%] -translate-y-1/2 text-brand-navy/30 hover:text-brand-red transition-colors"
             >
               <ChevronLeft className="w-7 h-7" strokeWidth={1.5} />
             </button>
             <button
               onClick={scrollNext}
               aria-label="Next plan"
-              className="absolute -right-8 top-[45%] -translate-y-1/2 text-brand-navy/30 hover:text-brand-red transition-colors"
+              className="hidden md:flex absolute -right-8 top-[45%] -translate-y-1/2 text-brand-navy/30 hover:text-brand-red transition-colors"
             >
               <ChevronRight className="w-7 h-7" strokeWidth={1.5} />
             </button>
@@ -351,7 +351,7 @@ export default function Home() {
           ];
 
           const TestimonialCard = ({ t }: { t: typeof row1[0] }) => (
-            <div className="bg-white rounded-2xl p-8 shadow-sm border border-brand-navy-light/10 flex flex-col w-[400px] shrink-0">
+            <div className="bg-white rounded-2xl p-5 sm:p-8 shadow-sm border border-brand-navy-light/10 flex flex-col w-[260px] sm:w-[320px] md:w-[400px] shrink-0">
               <Quote className="w-8 h-8 text-brand-red/30 mb-4 shrink-0" />
               <p className="text-brand-navy leading-relaxed flex-grow">{t.quote}</p>
               <div className="flex items-center gap-4 mt-6 pt-6 border-t border-brand-navy-light/10">

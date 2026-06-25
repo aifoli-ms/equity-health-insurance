@@ -54,7 +54,7 @@ export default function PlanDetail() {
               <h1 className="text-3xl md:text-5xl font-bold mb-4">{plan.name}</h1>
               <p className="text-white/70 text-lg md:text-xl">{plan.tagline}</p>
             </div>
-            <div className="bg-black/40 backdrop-blur-md p-6 rounded-xl border border-white/15 shrink-0 min-w-[280px]">
+            <div className="bg-black/40 backdrop-blur-md p-6 rounded-xl border border-white/15 w-full md:w-auto md:shrink-0 md:min-w-[280px]">
               <div className="text-white/60 text-sm font-medium mb-1">Starting from</div>
               <div className="flex items-baseline mb-4">
                 <span className="text-4xl font-bold text-white">GH₵{plan.monthlyPremium}</span>
