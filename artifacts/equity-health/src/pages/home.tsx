@@ -101,34 +101,11 @@ export default function Home() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link href="/contact" className="inline-flex items-center justify-center bg-brand-red hover:bg-brand-red/90 text-white font-semibold h-14 px-8 rounded-md transition-colors" data-testid="button-hero-consultation">
-                  Schedule Consultation
+                  Request a Quote
                 </Link>
                 <Link href="/plans" className="inline-flex items-center justify-center bg-brand-navy-light hover:bg-brand-navy-light/80 text-white font-medium h-14 px-8 rounded-md transition-colors border border-brand-navy-light" data-testid="button-hero-plans">
                   Explore Plans
                 </Link>
-              </div>
-            </motion.div>
-
-            {/* Trust panel — desktop only */}
-            <motion.div
-              initial={{ opacity: 0, x: 30 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6, delay: 0.2 }}
-              className="hidden lg:block lg:shrink-0 lg:w-72 xl:w-80"
-            >
-              <div className="bg-black/40 backdrop-blur-md rounded-2xl border border-white/15 divide-y divide-white/10 overflow-hidden">
-                {[
-                  { value: "35+", label: "Combined Years of Experience" },
-                  { value: "682+", label: "Trusted Clients" },
-                  { value: "23+", label: "Staff Members" },
-                  { value: "Nationwide", label: "Coverage Across Ghana" },
-                ].map((stat) => (
-                  <div key={stat.label} className="px-6 py-4">
-                    <div className="text-2xl font-bold text-white mb-0.5">{stat.value}</div>
-                    <div className="text-xs font-semibold uppercase tracking-widest text-white/60">{stat.label}</div>
-                  </div>
-                ))}
               </div>
             </motion.div>
           </div>
@@ -249,12 +226,12 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12">
             {[
-              { icon: Shield, title: "Local Expertise, Global Standards", desc: "We combine in-depth knowledge of Ghana's healthcare landscape with world-class best practices in insurance." },
-              { icon: Building2, title: "Wide Accredited Network", desc: "Access hospitals, clinics, pharmacies, dental, laboratories, diagnostics and optical centres across the country." },
-              { icon: Clock, title: "Fast Claims Processing", desc: "Our claims process is simple, efficient, and technology-driven for quick turnaround." },
-              { icon: Users, title: "Customer-Centered Service", desc: "We go beyond insurance to build lasting relationships with our clients." },
-              { icon: HeartPulse, title: "Transparent & Affordable Pricing", desc: "No hidden charges — our packages are clear, competitive, and fair." },
-              { icon: Award, title: "Award-Winning Company", desc: "Recognized for outstanding service excellence, customer care, and integrity." },
+              { icon: Shield, title: "Local Expertise, Global Standards", desc: "We combine in-depth knowledge of Ghana's healthcare landscape with world-class best practices in insurance.", color: "red" },
+              { icon: Building2, title: "Wide Accredited Network", desc: "Access hospitals, clinics, pharmacies, dental, laboratories, diagnostics and optical centres across the country.", color: "navy" },
+              { icon: Clock, title: "Prompt Payment of Claims", desc: "Our claims process is simple, efficient, and technology-driven for quick turnaround.", color: "red" },
+              { icon: Users, title: "Customer-Centered Service", desc: "We go beyond insurance to build lasting relationships with our clients.", color: "navy" },
+              { icon: HeartPulse, title: "Transparent & Affordable Pricing", desc: "No hidden charges — our packages are clear, competitive, and fair.", color: "red" },
+              { icon: Award, title: "Award-Winning Company", desc: "Recognized for outstanding service excellence, customer care, and integrity.", color: "navy" },
             ].map((feature, i) => (
               <motion.div
                 key={i}
@@ -265,10 +242,23 @@ export default function Home() {
                   hidden: { opacity: 0, y: 20 },
                   visible: { opacity: 1, y: 0, transition: { duration: 0.4, delay: i * 0.08 } }
                 }}
-                className="flex gap-4 items-start"
+                className="group flex gap-5 items-start"
               >
-                <div className="bg-brand-red-light text-brand-red p-3 rounded-lg shrink-0">
-                  <feature.icon className="w-6 h-6" />
+                <div className="relative shrink-0">
+                  <div
+                    className={`absolute inset-0 rounded-2xl blur-lg opacity-30 transition-opacity duration-300 group-hover:opacity-60 ${
+                      feature.color === "red" ? "bg-brand-red" : "bg-brand-navy"
+                    }`}
+                  />
+                  <div
+                    className={`relative w-14 h-14 rounded-2xl flex items-center justify-center text-white shadow-md transition-transform duration-300 ease-out group-hover:scale-110 group-hover:-rotate-6 ${
+                      feature.color === "red"
+                        ? "bg-gradient-to-br from-brand-red to-brand-red/70"
+                        : "bg-gradient-to-br from-brand-navy-light to-brand-navy"
+                    }`}
+                  >
+                    <feature.icon className="w-7 h-7" />
+                  </div>
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-brand-navy mb-2">{feature.title}</h3>

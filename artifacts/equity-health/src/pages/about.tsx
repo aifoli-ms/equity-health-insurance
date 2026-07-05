@@ -6,7 +6,6 @@ import { board, management } from "@/data/team";
 const stats = [
   { value: "35+", label: "Years Experience" },
   { value: "682+", label: "Happy Clients" },
-  { value: "23+", label: "Staff Members" },
   { value: "Nationwide", label: "Coverage Across Ghana" },
 ];
 
@@ -15,31 +14,37 @@ const values = [
     icon: Handshake,
     title: "Respect",
     desc: "We value treating everyone with dignity, fairness, and courtesy.",
+    color: "red",
   },
   {
     icon: Shield,
     title: "Integrity",
     desc: "We uphold the highest ethical standards and maintain transparency.",
+    color: "navy",
   },
   {
     icon: Zap,
     title: "Speed",
     desc: "We provide prompt service to ensure timely assistance.",
+    color: "red",
   },
   {
     icon: Heart,
     title: "Empathy",
     desc: "We understand and empathize with customers' unique needs.",
+    color: "navy",
   },
   {
     icon: Lightbulb,
     title: "Innovation",
     desc: "We seek innovative solutions to enhance the health insurance experience.",
+    color: "red",
   },
   {
     icon: Users,
     title: "Teamwork",
     desc: "We foster collaboration, communication, and mutual respect among our employees.",
+    color: "navy",
   },
 ];
 
@@ -108,6 +113,7 @@ function resolveAvatars(members: { name: string }[]) {
 }
 
 const managementAvatars = resolveAvatars(management);
+const boardAvatars = resolveAvatars(board);
 
 const fadeUp = {
   hidden: { opacity: 0, y: 30 },
@@ -115,6 +121,27 @@ const fadeUp = {
 };
 
 const vp = { once: true, margin: "-100px" as const };
+
+function IconBadge({ icon: Icon, color }: { icon: typeof Award; color: "red" | "navy" }) {
+  return (
+    <div className="relative shrink-0">
+      <div
+        className={`absolute inset-0 rounded-2xl blur-lg opacity-30 transition-opacity duration-300 group-hover:opacity-60 ${
+          color === "red" ? "bg-brand-red" : "bg-brand-navy"
+        }`}
+      />
+      <div
+        className={`relative w-14 h-14 rounded-2xl flex items-center justify-center text-white shadow-md transition-transform duration-300 ease-out group-hover:scale-110 ${
+          color === "red"
+            ? "bg-gradient-to-br from-brand-red to-brand-red/70"
+            : "bg-gradient-to-br from-brand-navy-light to-brand-navy"
+        }`}
+      >
+        <Icon className="w-7 h-7" />
+      </div>
+    </div>
+  );
+}
 
 export default function About() {
   return (
@@ -148,7 +175,7 @@ export default function About() {
       {/* Stats bar */}
       <section className="bg-brand-red">
         <div className="container mx-auto px-4 md:px-6">
-          <div className="grid grid-cols-2 md:grid-cols-4 divide-x divide-white/20">
+          <div className="grid grid-cols-1 sm:grid-cols-3 divide-x-0 sm:divide-x divide-white/20">
             {stats.map((s, i) => (
               <motion.div
                 key={s.label}
@@ -177,10 +204,8 @@ export default function About() {
               viewport={vp}
               variants={fadeUp}
             >
-              <div className="flex items-center gap-3 mb-6">
-                <div className="bg-brand-red-light text-brand-red p-3 rounded-lg">
-                  <Award className="w-6 h-6" />
-                </div>
+              <div className="group flex items-center gap-4 mb-6">
+                <IconBadge icon={Award} color="red" />
                 <h2 className="text-2xl font-bold text-brand-navy">Our Objective</h2>
               </div>
               <p className="text-text-muted text-lg leading-relaxed">
@@ -197,10 +222,8 @@ export default function About() {
               custom={1}
               variants={fadeUp}
             >
-              <div className="flex items-center gap-3 mb-6">
-                <div className="bg-brand-red-light text-brand-red p-3 rounded-lg">
-                  <Target className="w-6 h-6" />
-                </div>
+              <div className="group flex items-center gap-4 mb-6">
+                <IconBadge icon={Target} color="navy" />
                 <h2 className="text-2xl font-bold text-brand-navy">Our Mission</h2>
               </div>
               <p className="text-text-muted text-lg leading-relaxed">
@@ -216,10 +239,8 @@ export default function About() {
               custom={2}
               variants={fadeUp}
             >
-              <div className="flex items-center gap-3 mb-6">
-                <div className="bg-brand-red-light text-brand-red p-3 rounded-lg">
-                  <Eye className="w-6 h-6" />
-                </div>
+              <div className="group flex items-center gap-4 mb-6">
+                <IconBadge icon={Eye} color="red" />
                 <h2 className="text-2xl font-bold text-brand-navy">Our Vision</h2>
               </div>
               <p className="text-text-muted text-lg leading-relaxed">
@@ -253,11 +274,9 @@ export default function About() {
                 whileInView="visible"
                 viewport={vp}
                 variants={fadeUp}
-                className="flex gap-5 items-start"
+                className="group flex gap-5 items-start"
               >
-                <div className="bg-brand-red-light text-brand-red p-3 rounded-lg shrink-0">
-                  <v.icon className="w-6 h-6" />
-                </div>
+                <IconBadge icon={v.icon} color={v.color as "red" | "navy"} />
                 <div>
                   <h3 className="text-lg font-bold text-brand-navy mb-2">{v.title}</h3>
                   <p className="text-text-muted leading-relaxed">{v.desc}</p>
@@ -282,26 +301,38 @@ export default function About() {
           </motion.div>
 
           <div className="grid grid-cols-2 md:grid-cols-5 gap-6 md:gap-8">
-            {board.map((member, i) => (
-              <motion.div
-                key={member.name}
-                custom={i}
-                initial="hidden"
-                whileInView="visible"
-                viewport={vp}
-                variants={fadeUp}
-              >
-                <Link href={`/team/${member.slug}`} className="block text-center group cursor-pointer">
-                  <img
-                    src={member.photo}
-                    alt={member.name}
-                    className="w-24 h-24 rounded-full object-cover mx-auto mb-3 border-2 border-brand-navy-light/20 group-hover:border-brand-red transition-colors"
-                  />
-                  <h3 className="font-bold text-brand-navy text-sm group-hover:text-brand-red transition-colors">{member.name}</h3>
-                  <p className="text-xs text-text-muted mt-1">{member.role}</p>
-                </Link>
-              </motion.div>
-            ))}
+            {board.map((member, i) => {
+              const avatar = boardAvatars.get(member.name)!;
+              return (
+                <motion.div
+                  key={member.name}
+                  custom={i}
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={vp}
+                  variants={fadeUp}
+                >
+                  <Link href={`/team/${member.slug}`} className="block text-center group cursor-pointer">
+                    {member.photo ? (
+                      <img
+                        src={member.photo}
+                        alt={member.name}
+                        className="w-24 h-24 rounded-full object-cover mx-auto mb-3 border-2 border-brand-navy-light/20 group-hover:border-brand-red transition-colors"
+                      />
+                    ) : (
+                      <div
+                        className="w-24 h-24 rounded-full flex items-center justify-center text-white text-lg font-bold mx-auto mb-3 border-2 border-transparent group-hover:border-brand-red transition-colors"
+                        style={{ backgroundColor: avatar.bg }}
+                      >
+                        {avatar.initials}
+                      </div>
+                    )}
+                    <h3 className="font-bold text-brand-navy text-sm group-hover:text-brand-red transition-colors">{member.name}</h3>
+                    <p className="text-xs text-text-muted mt-1">{member.role}</p>
+                  </Link>
+                </motion.div>
+              );
+            })}
           </div>
 
           {/* Management */}

@@ -100,7 +100,6 @@ export const management: TeamMember[] = [
     name: "Dr Joseph Wesley Ansah",
     role: "Chief Operations Officer",
     slug: toSlug("Joseph Wesley Ansah"),
-    photo: "https://www.equityhealthinsurance.com/wp-content/uploads/2025/09/Dr-Joseph-Wesley-Ansah.jpg",
     group: "management",
     bio: "Dr. Joseph Wesley Ansah is a Public Health Specialist and Registered Medical Practitioner with extensive experience in healthcare management and health insurance. He has held leadership roles as Medical Superintendent at Cosmopolitan Medical Centre and 3M&C Medical Centre, and has also served with the West African Rescue Association (WARA) in Ghana. As Chief Operations Officer at Equity Health Insurance, Dr. Ansah oversees operations, ensuring integrity-driven claims management and customer-focused service delivery. He also serves as Medical Director of Medcare Plus Clinic, a subsidiary of Equity Health Insurance. His career reflects a strong commitment to advancing healthcare standards and improving lives across Ghana.",
     qualifications: ["Public Health Specialist", "Registered Medical Practitioner"],
@@ -118,7 +117,6 @@ export const management: TeamMember[] = [
     name: "Mr Prosper Atsyor",
     role: "Finance Manager",
     slug: toSlug("Prosper Atsyor"),
-    photo: "https://www.equityhealthinsurance.com/wp-content/uploads/2025/08/CFO-Prosper-Atsyor.jpg",
     group: "management",
     bio: "Mr. Prosper Atsyor is an accomplished finance professional with over twelve years of experience in accounting, financial analysis, and management across banking, healthcare, and the insurance industry. At Equity Health Insurance, he provides strategic oversight of the company's financial operations, ensuring robust analysis, sound planning, and sustainable growth. His career journey has included roles such as Finance and Administrative Director, Branch Manager, Head of Internal Audit, and Accountant, reflecting his steady progression in leadership and technical expertise. Known for his integrity, innovation, and collaborative leadership style, Prosper is committed to excellence in financial management and continues to make a significant impact in advancing the organization's goals while mentoring and inspiring his team.",
     qualifications: [
@@ -133,7 +131,6 @@ export const management: TeamMember[] = [
     name: "Mr Eric N.K Addae",
     role: "Head of Risk",
     slug: toSlug("Eric NK Addae"),
-    photo: "https://www.equityhealthinsurance.com/wp-content/uploads/2025/07/HEAD-OF-RISK-1-Eric-N.K-Addae-scaled.jpg",
     group: "management",
     bio: "Mr. Eric N.K. Addae is the Head of Risk at Equity Health Insurance, where he oversees all risk-related functions of the company. With over a decade of expertise spanning IT systems deployment, monitoring, and security, he ensures the stability and resilience of EHI's operations. Before joining EHI, he served as Director of Information Technology at Cosmopolitan Health Insurance for six years, leading key innovations such as Cosmo Care and Cosmo Vodafone Mobile Health. His career also includes leadership and technical roles at Bell Global Management Services, the National Youth Employment Programme, Update Systems Limited, and Orchid Soft Systems in India. Eric's vast technical expertise, leadership acumen, and risk management skills make him a key pillar in safeguarding EHI's systems, ensuring operational excellence and innovation.",
     qualifications: [
@@ -147,7 +144,6 @@ export const management: TeamMember[] = [
     name: "Genevieve Aba Esaaba Otoo",
     role: "Claims Manager",
     slug: toSlug("Genevieve Aba Esaaba Otoo"),
-    photo: "https://www.equityhealthinsurance.com/wp-content/uploads/2025/11/Genevieve-Aba-Esaaba-Otoo-Claims-Manager-1-copy.jpg",
     group: "management",
     bio: "Genevieve Aba Esaaba Otoo is the Head of Claims at Equity Health Insurance, where she leads with strategic oversight to ensure efficient claims processing and timely payments to healthcare providers. With extensive experience in Ghana's private health insurance sector, she previously held key roles at Cosmopolitan Health Insurance and Nationwide Medical Insurance, contributing to the successful management of stakeholder relations. Known for her assertive and proactive approach, Genevieve brings deep expertise and commitment to strengthening operational excellence and client service at Equity Health Insurance.",
     qualifications: [
@@ -161,7 +157,6 @@ export const management: TeamMember[] = [
     name: "Mr Isaac Kankam-Okyere",
     role: "Health Service Provider Manager",
     slug: toSlug("Isaac Kankam-Okyere"),
-    photo: "https://www.equityhealthinsurance.com/wp-content/uploads/2025/11/Isaac-Kankam-Okyere-Health-Service-Provider-Manager-Equity-Health-Insurance-Ltd-1.jpg",
     group: "management",
     bio: "Mr. Isaac Kankam-Okyere is the Health Service Provider Manager at Equity Health Insurance, where he leads provider engagement and relationship management to ensure quality service delivery across the healthcare network. He previously served as Head of the Member Care and Case Management Unit at Apex Health Insurance, with earlier roles spanning client membership, health service management, and relations. Known for his strong communication and problem-solving skills, Isaac is committed to building sustainable provider partnerships, enhancing client satisfaction, and driving operational excellence in healthcare service delivery.",
     qualifications: [
@@ -174,7 +169,6 @@ export const management: TeamMember[] = [
     name: "Rudolf Kwami Akutu",
     role: "Head of Internal Audit",
     slug: toSlug("Rudolf Kwami Akutu"),
-    photo: "https://www.equityhealthinsurance.com/wp-content/uploads/2025/11/Rudolf-Kwami-Akutu-Head-of-Internal-Audit-1.jpg",
     group: "management",
     bio: "Rudolf Kwami Akutu serves as the Head of Internal Audit at Equity Health Insurance, where he provides strategic oversight on compliance, internal controls, and financial risk management. With over nine years of professional experience, he has built a strong track record in financial management across both public and private sectors. Before joining Equity, Rudolf worked as a Senior Accountant at the Ghana Health Service, overseeing budgetary controls, donor fund management, and financial reporting for key national health programs. He began his career at ETC Agro Ghana Limited and later advanced to leadership roles at DIMD Ghana Limited, where he championed operational efficiency and team development. His leadership at Equity has strengthened internal controls, minimized fraud, and enhanced regulatory compliance, ensuring that financial operations align with the company's long-term strategic goals.",
     qualifications: [
