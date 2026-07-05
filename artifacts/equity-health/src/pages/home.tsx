@@ -16,12 +16,20 @@ const HERO_IMAGES = [
 export default function Home() {
   const { data: plans = [] } = usePlans();
   const [activeImg, setActiveImg] = useState(0);
+  const [loadedCount, setLoadedCount] = useState(1);
 
   useEffect(() => {
     const id = setInterval(() => {
       setActiveImg((i) => (i + 1) % HERO_IMAGES.length);
     }, 5000);
     return () => clearInterval(id);
+  }, []);
+
+  useEffect(() => {
+    // Defer fetching the remaining hero slides until after the first one has
+    // rendered, so they don't compete with it for bandwidth on initial load.
+    const id = setTimeout(() => setLoadedCount(HERO_IMAGES.length), 1500);
+    return () => clearTimeout(id);
   }, []);
 
   const [emblaRef, emblaApi] = useEmblaCarousel({ align: "start", loop: true });
@@ -58,12 +66,15 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative w-full text-white overflow-hidden h-[calc(100dvh-5rem)] flex flex-col justify-center">
         {/* Background image carousel */}
-        {HERO_IMAGES.map((src, i) => (
+        {HERO_IMAGES.slice(0, loadedCount).map((src, i) => (
           <img
             key={src}
             src={src}
             alt=""
             aria-hidden="true"
+            loading={i === 0 ? "eager" : "lazy"}
+            fetchPriority={i === 0 ? "high" : "low"}
+            decoding="async"
             className="absolute inset-0 w-full h-full object-cover object-top transition-opacity duration-1000"
             style={{ opacity: i === activeImg ? 1 : 0 }}
           />
@@ -348,6 +359,8 @@ export default function Home() {
                 <img
                   src={t.photo}
                   alt={t.name}
+                  loading="lazy"
+                  decoding="async"
                   className="w-12 h-12 rounded-full object-cover border-2 border-brand-red-light"
                 />
                 <div>

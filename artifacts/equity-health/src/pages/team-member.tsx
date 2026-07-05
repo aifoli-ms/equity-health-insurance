@@ -64,6 +64,8 @@ export default function TeamMember() {
               <img
                 src={member.photo}
                 alt={member.name}
+                fetchPriority="high"
+                decoding="async"
                 className="w-36 h-36 md:w-44 md:h-44 rounded-2xl object-cover border-4 border-white/20 shrink-0"
               />
             ) : (
@@ -195,6 +197,8 @@ export default function TeamMember() {
                         <img
                           src={m.photo}
                           alt={m.name}
+                          loading="lazy"
+                          decoding="async"
                           className="w-24 h-24 rounded-full object-cover mx-auto mb-3 border-2 border-brand-navy-light/20 group-hover:border-brand-red transition-colors"
                         />
                       ) : (

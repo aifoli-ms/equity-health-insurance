@@ -317,6 +317,8 @@ export default function About() {
                       <img
                         src={member.photo}
                         alt={member.name}
+                        loading="lazy"
+                        decoding="async"
                         className="w-24 h-24 rounded-full object-cover mx-auto mb-3 border-2 border-brand-navy-light/20 group-hover:border-brand-red transition-colors"
                       />
                     ) : (

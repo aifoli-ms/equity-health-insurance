@@ -36,9 +36,11 @@ export default function PlanDetail() {
       {/* Header */}
       <section className="relative text-white py-16 md:py-24 overflow-hidden">
         <img
-          src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1920&q=80&auto=format&fit=crop"
+          src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1600&q=65&auto=format&fit=crop"
           alt=""
           aria-hidden="true"
+          fetchPriority="high"
+          decoding="async"
           className="absolute inset-0 w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/40" />

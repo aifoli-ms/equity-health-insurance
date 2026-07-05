@@ -52,6 +52,8 @@ export default function WellnessHub() {
                 <img
                   src={tip.image}
                   alt={tip.title}
+                  loading="lazy"
+                  decoding="async"
                   className="w-full aspect-[16/10] object-cover"
                 />
                 <div className="p-6 md:p-7">
