@@ -12,7 +12,7 @@ export function Footer() {
             <Link href="/">
               <img src="/images/logo-white.png" alt="Equity Health Insurance" className="h-10" />
             </Link>
-            <p className="text-text-muted text-sm mt-2">Comprehensive, value-for-money healthcare insurance across Ghana.</p>
+            <p className="text-text-muted text-sm mt-2">Comprehensive, value-for-money healthcare insurance across all sixteen regions in Ghana.</p>
           </div>
           <div className="flex gap-3">
             <a href="https://www.facebook.com/TheEquityHealthInsurance" target="_blank" rel="noopener noreferrer" className="bg-brand-navy-light hover:bg-brand-red p-2 rounded-full transition-colors" aria-label="Facebook">
