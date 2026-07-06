@@ -57,13 +57,8 @@ export default function PlanDetail() {
               <p className="text-white/70 text-lg md:text-xl">{plan.tagline}</p>
             </div>
             <div className="bg-black/40 backdrop-blur-md p-6 rounded-xl border border-white/15 w-full md:w-auto md:shrink-0 md:min-w-[280px]">
-              <div className="text-white/60 text-sm font-medium mb-1">Starting from</div>
-              <div className="flex items-baseline mb-4">
-                <span className="text-4xl font-bold text-white">GH₵{plan.monthlyPremium}</span>
-                <span className="text-white/60 ml-2">/mo</span>
-              </div>
               <Link href="/contact" className="w-full inline-flex justify-center items-center bg-brand-red hover:bg-brand-red/90 text-white font-semibold py-3 rounded-md transition-colors" data-testid={`button-enroll-${plan.slug}`}>
-                Schedule Consultation
+                Request a Quote
               </Link>
             </div>
           </div>

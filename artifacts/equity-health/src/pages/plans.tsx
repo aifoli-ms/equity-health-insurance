@@ -67,10 +67,6 @@ export default function Plans() {
                     <p className="text-text-muted text-sm">{plan.targetAudience}</p>
                   </CardHeader>
                   <CardContent className="flex-grow pt-0">
-                    <div className="flex items-baseline mb-5">
-                      <span className="text-2xl font-bold text-brand-navy">GH₵{plan.monthlyPremium}</span>
-                      <span className="text-text-muted text-sm ml-2">/month</span>
-                    </div>
                     <p className="text-xs font-semibold text-text-muted uppercase tracking-wider mb-3">Plan includes:</p>
                     <ul className="space-y-2">
                       {plan.features.slice(0, 4).map((f, i) => (

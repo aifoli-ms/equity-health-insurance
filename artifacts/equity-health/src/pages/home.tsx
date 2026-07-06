@@ -156,10 +156,6 @@ export default function Home() {
                         <p className="text-text-muted text-sm mt-1">{plan.targetAudience}</p>
                       </CardHeader>
                       <CardContent className="flex-grow">
-                        <div className="flex items-baseline mb-5">
-                          <span className="text-3xl font-bold text-brand-navy">GH₵{plan.monthlyPremium}</span>
-                          <span className="text-text-muted ml-2">/month</span>
-                        </div>
                         <p className="text-xs font-semibold text-text-muted uppercase tracking-wider mb-3">Plan includes:</p>
                         <ul className="space-y-2">
                           {plan.features.slice(0, 4).map((f, i) => (
