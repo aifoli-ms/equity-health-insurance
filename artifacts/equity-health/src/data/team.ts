@@ -3,10 +3,21 @@ export interface TeamMember {
   role: string;
   slug: string;
   photo?: string;
-  group: "board" | "management";
+  group: "board" | "executive" | "management";
   bio: string;
   qualifications?: string[];
   expertise?: string[];
+}
+
+export function groupLabel(group: TeamMember["group"]): string {
+  switch (group) {
+    case "board":
+      return "Board of Directors";
+    case "executive":
+      return "Executive Management Team";
+    case "management":
+      return "Management Team";
+  }
 }
 
 function toSlug(name: string): string {
@@ -95,29 +106,28 @@ export const board: TeamMember[] = [
   },
 ];
 
-export const management: TeamMember[] = [
+export const executive: TeamMember[] = [
   {
     name: "Dr Joseph Wesley Ansah",
-    role: "Chief Operations Officer",
+    role: "Chief Medical Officer",
     slug: toSlug("Joseph Wesley Ansah"),
-    group: "management",
-    bio: "Dr. Joseph Wesley Ansah is a Public Health Specialist and Registered Medical Practitioner with extensive experience in healthcare management and health insurance. He has held leadership roles as Medical Superintendent at Cosmopolitan Medical Centre and 3M&C Medical Centre, and has also served with the West African Rescue Association (WARA) in Ghana. As Chief Operations Officer at Equity Health Insurance, Dr. Ansah oversees operations, ensuring integrity-driven claims management and customer-focused service delivery. He also serves as Medical Director of Medcare Plus Clinic, a subsidiary of Equity Health Insurance. His career reflects a strong commitment to advancing healthcare standards and improving lives across Ghana.",
+    group: "executive",
+    bio: "Dr. Joseph Wesley Ansah is a Public Health Specialist and Registered Medical Practitioner with extensive experience in healthcare management and health insurance. He has held leadership roles as Medical Superintendent at Cosmopolitan Medical Centre and 3M&C Medical Centre, and has also served with the West African Rescue Association (WARA) in Ghana. As Chief Medical Officer at Equity Health Insurance, Dr. Ansah oversees operations, ensuring integrity-driven claims management and customer-focused service delivery. He also serves as Medical Director of Medcare Plus Clinic, a subsidiary of Equity Health Insurance. His career reflects a strong commitment to advancing healthcare standards and improving lives across Ghana.",
     qualifications: ["Public Health Specialist", "Registered Medical Practitioner"],
     expertise: ["Healthcare Management", "Health Insurance Operations", "Claims Management", "Medical Administration"],
   },
   {
-    name: "Maureen Pentsil",
-    role: "Chief Marketing and Customer Experience Officer",
-    slug: toSlug("Maureen Pentsil"),
-    photo: "/images/cmo.jpeg",
-    group: "management",
+    name: "Mr. Sampson Kwesi Sarfo",
+    role: "Chief Enterprise Officer",
+    slug: toSlug("Sampson Kwesi Sarfo"),
+    group: "executive",
     bio: "",
   },
   {
     name: "Mr Prosper Atsyor",
-    role: "Finance Manager",
+    role: "Chief Financial Officer",
     slug: toSlug("Prosper Atsyor"),
-    group: "management",
+    group: "executive",
     bio: "Mr. Prosper Atsyor is an accomplished finance professional with over twelve years of experience in accounting, financial analysis, and management across banking, healthcare, and the insurance industry. At Equity Health Insurance, he provides strategic oversight of the company's financial operations, ensuring robust analysis, sound planning, and sustainable growth. His career journey has included roles such as Finance and Administrative Director, Branch Manager, Head of Internal Audit, and Accountant, reflecting his steady progression in leadership and technical expertise. Known for his integrity, innovation, and collaborative leadership style, Prosper is committed to excellence in financial management and continues to make a significant impact in advancing the organization's goals while mentoring and inspiring his team.",
     qualifications: [
       "Chartered Accountant — Institute of Chartered Accountants Ghana",
@@ -126,6 +136,24 @@ export const management: TeamMember[] = [
       "HND in Accountancy — Cape Coast Technical University",
     ],
     expertise: ["Financial Analysis", "Strategic Financial Planning", "Budget Management", "Financial Reporting", "Banking & Insurance Finance"],
+  },
+  {
+    name: "Mrs. Justine Avevor",
+    role: "Chief Commercial Officer",
+    slug: toSlug("Justine Avevor"),
+    group: "executive",
+    bio: "",
+  },
+];
+
+export const management: TeamMember[] = [
+  {
+    name: "Maureen Pentsil",
+    role: "Chief Marketing and Customer Experience Officer",
+    slug: toSlug("Maureen Pentsil"),
+    photo: "/images/cmo.jpeg",
+    group: "management",
+    bio: "",
   },
   {
     name: "Mr Eric N.K Addae",
@@ -193,7 +221,7 @@ export const management: TeamMember[] = [
   },
 ];
 
-export const allMembers = [...board, ...management];
+export const allMembers = [...board, ...executive, ...management];
 
 export function findMemberBySlug(slug: string): TeamMember | undefined {
   return allMembers.find((m) => m.slug === slug);

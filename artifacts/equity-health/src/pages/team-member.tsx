@@ -1,7 +1,7 @@
 import { useRoute, Link } from "wouter";
 import { motion } from "framer-motion";
 import { ArrowLeft, Briefcase, GraduationCap, Award } from "lucide-react";
-import { findMemberBySlug, allMembers } from "@/data/team";
+import { findMemberBySlug, allMembers, groupLabel } from "@/data/team";
 
 function stripHonorifics(name: string): string[] {
   let cleaned = name.replace(/\s+Esq\.?\s*$/i, "");
@@ -78,7 +78,7 @@ export default function TeamMember() {
             )}
             <div>
               <div className="inline-block bg-brand-red/20 text-brand-red text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full mb-4">
-                {member.group === "board" ? "Board of Directors" : "Executive Management Team"}
+                {groupLabel(member.group)}
               </div>
               <h1 className="text-3xl md:text-5xl font-bold leading-tight mb-3">{member.name}</h1>
               <p className="text-xl md:text-2xl text-white/70">{member.role}</p>
@@ -175,7 +175,7 @@ export default function TeamMember() {
               className="mb-10"
             >
               <h2 className="text-2xl font-bold text-brand-navy">
-                Other {member.group === "board" ? "Board Members" : "Executive Management Team Members"}
+                Other {member.group === "board" ? "Board Members" : `${groupLabel(member.group)} Members`}
               </h2>
             </motion.div>
 

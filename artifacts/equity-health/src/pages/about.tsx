@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { Link } from "wouter";
 import { Shield, Users, Award, Target, Eye, Zap, Heart, Lightbulb, Handshake } from "lucide-react";
-import { board, management } from "@/data/team";
+import { board, executive, management } from "@/data/team";
 
 const stats = [
   { value: "35+", label: "Years Experience" },
@@ -81,38 +81,53 @@ const AVATAR_COLORS = [
 function resolveAvatars(members: { name: string }[]) {
   const entries = members.map((m) => {
     const parts = stripHonorifics(m.name);
-    return { name: m.name, parts, initials: getDefaultInitials(parts) };
+    return { name: m.name, parts, defaultInitials: getDefaultInitials(parts) };
   });
 
-  const countByInitials = new Map<string, string[]>();
+  // Group by the plain 2-letter initials first, to find who *would* collide.
+  const countByDefault = new Map<string, string[]>();
   for (const e of entries) {
-    const list = countByInitials.get(e.initials) ?? [];
+    const list = countByDefault.get(e.defaultInitials) ?? [];
     list.push(e.name);
-    countByInitials.set(e.initials, list);
+    countByDefault.set(e.defaultInitials, list);
+  }
+
+  // Only upgrade a name to its 3-letter monogram if it actually collides
+  // and has a middle name to disambiguate with — this can resolve the
+  // collision on its own without anyone needing a different color.
+  const displayInitials = new Map<string, string>();
+  for (const e of entries) {
+    const collides = countByDefault.get(e.defaultInitials)!.length > 1;
+    if (collides && e.parts.length > 2) {
+      displayInitials.set(e.name, (e.parts[0][0] + e.parts[1][0] + e.parts[e.parts.length - 1][0]).toUpperCase());
+    } else {
+      displayInitials.set(e.name, e.defaultInitials);
+    }
+  }
+
+  // Re-check collisions using the initials actually shown — a monogram
+  // upgrade may have already made a name unique.
+  const countByDisplay = new Map<string, string[]>();
+  for (const e of entries) {
+    const initials = displayInitials.get(e.name)!;
+    const list = countByDisplay.get(initials) ?? [];
+    list.push(e.name);
+    countByDisplay.set(initials, list);
   }
 
   const result = new Map<string, { initials: string; bg: string }>();
-
   for (const e of entries) {
-    const colliders = countByInitials.get(e.initials)!;
-    if (colliders.length <= 1) {
-      result.set(e.name, { initials: e.initials, bg: AVATAR_COLORS[0] });
-      continue;
-    }
-
-    if (e.parts.length > 2) {
-      const threeChar = (e.parts[0][0] + e.parts[1][0] + e.parts[e.parts.length - 1][0]).toUpperCase();
-      result.set(e.name, { initials: threeChar, bg: AVATAR_COLORS[0] });
-    } else {
-      const colorIdx = nameHash(e.name) % (AVATAR_COLORS.length - 1) + 1;
-      result.set(e.name, { initials: e.initials, bg: AVATAR_COLORS[colorIdx] });
-    }
+    const initials = displayInitials.get(e.name)!;
+    const stillColliding = countByDisplay.get(initials)!.length > 1;
+    const bg = stillColliding ? AVATAR_COLORS[(nameHash(e.name) % (AVATAR_COLORS.length - 1)) + 1] : AVATAR_COLORS[0];
+    result.set(e.name, { initials, bg });
   }
 
   return result;
 }
 
 const managementAvatars = resolveAvatars(management);
+const executiveAvatars = resolveAvatars(executive);
 const boardAvatars = resolveAvatars(board);
 
 const fadeUp = {
@@ -337,7 +352,7 @@ export default function About() {
             })}
           </div>
 
-          {/* Management */}
+          {/* Executive Management */}
           <motion.div
             initial="hidden"
             whileInView="visible"
@@ -346,6 +361,54 @@ export default function About() {
             className="text-center mt-20 mb-10"
           >
             <h2 className="text-2xl md:text-3xl font-bold text-brand-navy mb-4">Executive Management Team</h2>
+          </motion.div>
+
+          <div className="flex flex-col items-center gap-8">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8">
+              {executive.map((member, i) => {
+                const avatar = executiveAvatars.get(member.name)!;
+                return (
+                  <motion.div
+                    key={member.name}
+                    custom={i}
+                    initial="hidden"
+                    whileInView="visible"
+                    viewport={vp}
+                    variants={fadeUp}
+                  >
+                    <Link href={`/team/${member.slug}`} className="block text-center group cursor-pointer">
+                      {member.photo ? (
+                        <img
+                          src={member.photo}
+                          alt={member.name}
+                          className="w-24 h-24 rounded-full object-cover mx-auto mb-3 border-2 border-brand-navy-light/20 group-hover:border-brand-red transition-colors"
+                        />
+                      ) : (
+                        <div
+                          className="w-24 h-24 rounded-full flex items-center justify-center text-white text-lg font-bold mx-auto mb-3 border-2 border-transparent group-hover:border-brand-red transition-colors"
+                          style={{ backgroundColor: avatar.bg }}
+                        >
+                          {avatar.initials}
+                        </div>
+                      )}
+                      <h3 className="font-bold text-brand-navy text-sm group-hover:text-brand-red transition-colors">{member.name}</h3>
+                      <p className="text-xs text-text-muted mt-1">{member.role}</p>
+                    </Link>
+                  </motion.div>
+                );
+              })}
+            </div>
+          </div>
+
+          {/* Management */}
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={vp}
+            variants={fadeUp}
+            className="text-center mt-20 mb-10"
+          >
+            <h2 className="text-2xl md:text-3xl font-bold text-brand-navy mb-4">Management Team</h2>
           </motion.div>
 
           <div className="flex flex-col items-center gap-8">
