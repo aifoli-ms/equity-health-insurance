@@ -148,9 +148,9 @@ export const executive: TeamMember[] = [
 
 export const management: TeamMember[] = [
   {
-    name: "Maureen Pentsil",
+    name: "Ms. Maureen Tessa Pentsil",
     role: "Chief Marketing and Customer Experience Officer",
-    slug: toSlug("Maureen Pentsil"),
+    slug: toSlug("Ms. Maureen Tessa Pentsil"),
     photo: "/images/cmo.jpeg",
     group: "management",
     bio: "",
