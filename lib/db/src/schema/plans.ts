@@ -8,6 +8,7 @@ export const plansTable = pgTable("plans", {
   name: text("name").notNull(),
   category: text("category").notNull(),
   tagline: text("tagline").notNull(),
+  description: text("description"),
   monthlyPremium: integer("monthly_premium").notNull(),
   targetAudience: text("target_audience").notNull(),
   popular: boolean("popular").default(false),

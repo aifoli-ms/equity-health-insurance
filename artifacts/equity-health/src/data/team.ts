@@ -120,6 +120,7 @@ export const executive: TeamMember[] = [
     name: "Mr. Sampson Kwesi Sarfo",
     role: "Chief Enterprise Officer",
     slug: toSlug("Sampson Kwesi Sarfo"),
+    photo: "/images/chiefenterprise.jpeg",
     group: "executive",
     bio: "",
   },
@@ -144,17 +145,46 @@ export const executive: TeamMember[] = [
     group: "executive",
     bio: "",
   },
-];
-
-export const management: TeamMember[] = [
+  {
+    name: "Mr Awudu Smaila",
+    role: "General Manager – Retail",
+    slug: toSlug("Awudu Smaila"),
+    photo: "/images/gm-retail.jpeg",
+    group: "executive",
+    bio: "",
+  },
+  {
+    name: "Mr Emmanuel Yaw Osei",
+    role: "General Manager – Operations",
+    slug: toSlug("Emmanuel Yaw Osei"),
+    photo: "/images/gm-operations.jpeg",
+    group: "executive",
+    bio: "",
+  },
   {
     name: "Ms. Maureen Tessa Pentsil",
     role: "Chief Marketing and Customer Experience Officer",
     slug: toSlug("Ms. Maureen Tessa Pentsil"),
     photo: "/images/cmo.jpeg",
-    group: "management",
+    group: "executive",
     bio: "",
   },
+  {
+    name: "Anthony Baiden Danyie",
+    role: "Chief Information Technology Officer",
+    slug: toSlug("Anthony Baiden Danyie"),
+    photo: "/images/cto.jpeg",
+    group: "executive",
+    bio: "Godfred Akoto is the Head of IT at Equity Health Insurance, where he leads the company's technological strategy and digital transformation agenda. He is responsible for ensuring the stability, security, and scalability of the organization's IT infrastructure, while driving innovation to enhance client services and internal operations. With a proven ability to simplify systems and implement cost-effective solutions, Godfred has successfully consolidated departmental IT platforms, reduced infrastructure expenses, and introduced digital products that improve client engagement and retention. He has also overseen the implementation of disaster recovery and business continuity frameworks to safeguard operational resilience. He continues to advance his expertise in IT governance, health tech systems, and cloud security, keeping Equity aligned with best practices and emerging technologies.",
+    qualifications: [
+      "BSc in Information Technology — Ghana Communication Technology University",
+      "Certifications in Cloud Computing, Cybersecurity, and Product Management",
+    ],
+    expertise: ["IT Strategy & Governance", "Digital Transformation", "Cloud Computing & Security", "Disaster Recovery", "Health Tech Systems"],
+  },
+];
+
+export const management: TeamMember[] = [
   {
     name: "Mr Eric N.K Addae",
     role: "Head of Risk",
@@ -205,19 +235,6 @@ export const management: TeamMember[] = [
       "MBA in Finance (in progress) — University of Cape Coast",
     ],
     expertise: ["Regulatory Compliance", "Fraud Detection & Prevention", "Internal Controls", "Budget Oversight", "Financial Risk Management", "Strategic Planning"],
-  },
-  {
-    name: "Anthony Baiden Danyie",
-    role: "Chief Information Technology Officer",
-    slug: toSlug("Anthony Baiden Danyie"),
-    photo: "/images/cto.jpeg",
-    group: "management",
-    bio: "Godfred Akoto is the Head of IT at Equity Health Insurance, where he leads the company's technological strategy and digital transformation agenda. He is responsible for ensuring the stability, security, and scalability of the organization's IT infrastructure, while driving innovation to enhance client services and internal operations. With a proven ability to simplify systems and implement cost-effective solutions, Godfred has successfully consolidated departmental IT platforms, reduced infrastructure expenses, and introduced digital products that improve client engagement and retention. He has also overseen the implementation of disaster recovery and business continuity frameworks to safeguard operational resilience. He continues to advance his expertise in IT governance, health tech systems, and cloud security, keeping Equity aligned with best practices and emerging technologies.",
-    qualifications: [
-      "BSc in Information Technology — Ghana Communication Technology University",
-      "Certifications in Cloud Computing, Cybersecurity, and Product Management",
-    ],
-    expertise: ["IT Strategy & Governance", "Digital Transformation", "Cloud Computing & Security", "Disaster Recovery", "Health Tech Systems"],
   },
 ];
 

@@ -1,6 +1,6 @@
 import { useParams, Link } from "wouter";
 import { usePlan } from "@/hooks/use-api";
-import { CheckCircle2, ArrowLeft, Loader2 } from "lucide-react";
+import { ArrowLeft, Loader2, ArrowRight } from "lucide-react";
 import { motion } from "framer-motion";
 
 export default function PlanDetail() {
@@ -18,8 +18,8 @@ export default function PlanDetail() {
   if (!plan) {
     return (
       <div className="min-h-[60vh] flex flex-col items-center justify-center bg-bg-surface px-4 text-center">
-        <h1 className="text-4xl font-bold text-brand-navy mb-4">Plan Not Found</h1>
-        <p className="text-text-muted mb-8">The health insurance plan you are looking for does not exist.</p>
+        <h1 className="text-4xl font-bold text-brand-navy mb-4">Policy Not Found</h1>
+        <p className="text-text-muted mb-8">The health insurance policy you are looking for does not exist.</p>
         <Link href="/" className="inline-flex items-center text-brand-red font-medium hover:underline">
           <ArrowLeft className="w-4 h-4 mr-2" /> Return to Home
         </Link>
@@ -27,9 +27,7 @@ export default function PlanDetail() {
     );
   }
 
-  const midpoint = Math.ceil(plan.features.length / 2);
-  const featuresCol1 = plan.features.slice(0, midpoint);
-  const featuresCol2 = plan.features.slice(midpoint);
+  const descriptionParagraphs = plan.description ? plan.description.split("\n\n") : [];
 
   return (
     <div className="w-full min-h-[100dvh] bg-bg-surface">
@@ -46,7 +44,7 @@ export default function PlanDetail() {
         <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/40" />
         <div className="container mx-auto px-4 md:px-6 relative z-10">
           <Link href="/plans" className="inline-flex items-center text-brand-red-light hover:text-white mb-8 text-sm font-medium transition-colors">
-            <ArrowLeft className="w-4 h-4 mr-2" /> Back to Plans
+            <ArrowLeft className="w-4 h-4 mr-2" /> Back to Policies
           </Link>
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-8">
             <div className="max-w-2xl">
@@ -65,37 +63,40 @@ export default function PlanDetail() {
         </div>
       </section>
 
-      {/* Coverage */}
-      <section className="py-16 md:py-24">
-        <div className="container mx-auto px-4 md:px-6">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-          >
-            <h2 className="text-2xl font-bold text-brand-navy mb-10 border-b border-brand-navy-light/10 pb-4">Coverage & Benefits</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-5">
-              <ul className="space-y-5">
-                {featuresCol1.map((feature, i) => (
-                  <li key={i} className="flex items-start gap-3">
-                    <CheckCircle2 className="w-6 h-6 text-whatsapp-green shrink-0 mt-0.5" />
-                    <span className="text-brand-navy font-medium">{feature}</span>
-                  </li>
-                ))}
-              </ul>
-              <ul className="space-y-5">
-                {featuresCol2.map((feature, i) => (
-                  <li key={i} className="flex items-start gap-3">
-                    <CheckCircle2 className="w-6 h-6 text-whatsapp-green shrink-0 mt-0.5" />
-                    <span className="text-brand-navy font-medium">{feature}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </motion.div>
-        </div>
-      </section>
-
+      {/* Description */}
+      {descriptionParagraphs.length > 0 && (
+        <section className="py-14 md:py-20 bg-white border-b border-brand-navy-light/10">
+          <div className="container mx-auto px-4 md:px-6 max-w-3xl">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5 }}
+              className="space-y-5"
+            >
+              {descriptionParagraphs.map((para, i) => {
+                const isCallout = i === descriptionParagraphs.length - 1;
+                return isCallout ? (
+                  <p key={i} className="text-brand-navy font-semibold text-lg leading-relaxed">
+                    {para}
+                  </p>
+                ) : (
+                  <p key={i} className="text-brand-navy/80 text-base leading-relaxed">
+                    {para}
+                  </p>
+                );
+              })}
+              <div className="pt-2">
+                <Link
+                  href="/contact"
+                  className="inline-flex items-center gap-2 bg-brand-red hover:bg-brand-red/90 text-white font-semibold px-6 py-3 rounded-md transition-colors group"
+                >
+                  Get in Touch <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                </Link>
+              </div>
+            </motion.div>
+          </div>
+        </section>
+      )}
 
     </div>
   );

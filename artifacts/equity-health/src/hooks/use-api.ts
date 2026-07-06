@@ -6,6 +6,7 @@ interface Plan {
   name: string;
   category: string;
   tagline: string;
+  description: string | null;
   monthlyPremium: number;
   targetAudience: string;
   popular: boolean | null;

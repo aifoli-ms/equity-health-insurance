@@ -2,8 +2,8 @@ import { motion } from "framer-motion";
 import { Link } from "wouter";
 import { useState, useEffect, useCallback } from "react";
 import useEmblaCarousel from "embla-carousel-react";
-import { usePlans } from "@/hooks/use-api";
-import { Shield, Users, Building2, Clock, Award, HeartPulse, ArrowRight, ChevronLeft, ChevronRight, CheckCircle2, Quote } from "lucide-react";
+import { policies } from "@/data/policies";
+import { Shield, Users, Building2, Clock, Award, HeartPulse, ArrowRight, ChevronLeft, ChevronRight, Quote } from "lucide-react";
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 
 const HERO_IMAGES = [
@@ -14,7 +14,6 @@ const HERO_IMAGES = [
 ];
 
 export default function Home() {
-  const { data: plans = [] } = usePlans();
   const [activeImg, setActiveImg] = useState(0);
   const [loadedCount, setLoadedCount] = useState(1);
 
@@ -110,6 +109,9 @@ export default function Home() {
               <p className="text-lg md:text-xl text-white/80 mb-8 max-w-2xl leading-relaxed">
                 We provide comprehensive, value-for-money and unrivalled healthcare insurance benefits and plans that suit every medical need and pocket through a network of reliable, accredited Health Service Providers across Ghana.
               </p>
+              <p className="text-base md:text-lg text-white/60 italic -mt-4 mb-8">
+                Equity Health Insurance &mdash; Here for you.
+              </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link href="/contact" className="inline-flex items-center justify-center bg-brand-red hover:bg-brand-red/90 text-white font-semibold h-14 px-8 rounded-md transition-colors" data-testid="button-hero-consultation">
                   Request a Quote
@@ -123,8 +125,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Plans Section */}
-      {plans.length > 0 && <section className="py-20 md:py-32 bg-bg-surface w-full">
+      {/* Policies Section */}
+      <section className="py-20 md:py-32 bg-bg-surface w-full">
         <div className="container mx-auto px-4 md:px-6">
           <motion.div 
             initial="hidden"
@@ -133,44 +135,34 @@ export default function Home() {
             variants={fadeInUp}
             className="text-center mb-16"
           >
-            <h2 className="text-3xl md:text-4xl font-bold text-brand-navy mb-4">Our Plans</h2>
-            <p className="text-text-muted text-lg max-w-2xl mx-auto">
-              Coverage designed for every stage of life and business. Find the perfect plan that fits your budget and health needs.
+            <h2 className="text-3xl md:text-4xl font-bold text-brand-navy mb-4">Our Health Policies</h2>
+            <p className="text-text-muted text-lg max-w-3xl mx-auto">
+              Our five health policies are designed to provide reliable and flexible medical cover for every stage of life. From corporate teams and families to individuals, students, and retirees, we offer tailored solutions that support access to quality healthcare, financial protection, and peace of mind.
             </p>
           </motion.div>
 
           <div className="relative">
             <div ref={emblaRef} className="overflow-hidden cursor-grab active:cursor-grabbing">
               <div className="-ml-6 flex">
-                {plans.map((plan) => (
+                {policies.map((policy) => (
                   <div
-                    key={plan.slug}
-                    className="flex-[0_0_85%] sm:flex-[0_0_50%] lg:flex-[0_0_33.333%] xl:flex-[0_0_25%] min-w-0 pl-6"
+                    key={policy.slug}
+                    className="flex-[0_0_85%] sm:flex-[0_0_50%] lg:flex-[0_0_33.333%] min-w-0 pl-6"
                   >
                     <Card className="h-full flex flex-col bg-white border-brand-navy-light/10 shadow-sm hover:shadow-md transition-shadow">
                       <CardHeader>
                         <div className="mb-2 text-sm font-semibold text-brand-red bg-brand-red-light/30 inline-block px-3 py-1 rounded-full w-fit">
-                          {plan.category}
+                          {policy.category}
                         </div>
-                        <CardTitle className="text-xl text-brand-navy leading-snug">{plan.name}</CardTitle>
-                        <p className="text-text-muted text-sm mt-1">{plan.targetAudience}</p>
+                        <CardTitle className="text-xl text-brand-navy leading-snug">{policy.name}</CardTitle>
                       </CardHeader>
                       <CardContent className="flex-grow">
-                        <p className="text-xs font-semibold text-text-muted uppercase tracking-wider mb-3">Plan includes:</p>
-                        <ul className="space-y-2">
-                          {plan.features.slice(0, 4).map((f, i) => (
-                            <li key={i} className="flex items-start gap-2 text-sm text-brand-navy">
-                              <CheckCircle2 className="w-4 h-4 text-whatsapp-green shrink-0 mt-0.5" />
-                              {f}
-                            </li>
-                          ))}
-                          {plan.features.length > 4 && (
-                            <li className="text-sm text-text-muted">+{plan.features.length - 4} more benefits</li>
-                          )}
-                        </ul>
+                        <p className="text-sm text-brand-navy/80 leading-relaxed">
+                          {policy.tagline}
+                        </p>
                       </CardContent>
                       <CardFooter>
-                        <Link href={`/plans/${plan.slug}`} className="w-full flex items-center justify-center border-2 border-brand-navy text-brand-navy hover:bg-brand-navy hover:text-white font-medium py-3 rounded-md transition-colors group" data-testid={`link-plan-${plan.slug}`}>
+                        <Link href={`/policies/${policy.slug}`} className="w-full flex items-center justify-center border-2 border-brand-navy text-brand-navy hover:bg-brand-navy hover:text-white font-medium py-3 rounded-md transition-colors group" data-testid={`link-policy-${policy.slug}`}>
                           Learn More <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
                         </Link>
                       </CardFooter>
@@ -183,14 +175,14 @@ export default function Home() {
             {/* Side nav buttons — hidden on mobile where swipe is used */}
             <button
               onClick={scrollPrev}
-              aria-label="Previous plan"
+              aria-label="Previous policy"
               className="hidden md:flex absolute -left-8 top-[45%] -translate-y-1/2 text-brand-navy/30 hover:text-brand-red transition-colors"
             >
               <ChevronLeft className="w-7 h-7" strokeWidth={1.5} />
             </button>
             <button
               onClick={scrollNext}
-              aria-label="Next plan"
+              aria-label="Next policy"
               className="hidden md:flex absolute -right-8 top-[45%] -translate-y-1/2 text-brand-navy/30 hover:text-brand-red transition-colors"
             >
               <ChevronRight className="w-7 h-7" strokeWidth={1.5} />
@@ -198,11 +190,11 @@ export default function Home() {
 
             {/* Dot indicators */}
             <div className="flex justify-center gap-2 mt-8">
-              {plans.map((_, i) => (
+              {policies.map((_, i) => (
                 <button
                   key={i}
                   onClick={() => emblaApi?.scrollTo(i)}
-                  aria-label={`Go to plan ${i + 1}`}
+                  aria-label={`Go to policy ${i + 1}`}
                   className={`h-2 rounded-full transition-all duration-300 ${
                     i === selectedIndex
                       ? "bg-brand-red w-6"
@@ -213,7 +205,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>}
+      </section>
 
       {/* Why Choose Us */}
       <section className="py-20 md:py-32 bg-bg-main w-full">
