@@ -345,7 +345,7 @@ export default function About() {
             variants={fadeUp}
             className="text-center mt-20 mb-10"
           >
-            <h2 className="text-2xl md:text-3xl font-bold text-brand-navy mb-4">Management Team</h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-brand-navy mb-4">Executive Management Team</h2>
           </motion.div>
 
           <div className="flex flex-col items-center gap-8">
