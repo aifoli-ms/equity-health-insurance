@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { HeartPulse } from "lucide-react";
+import { useEffect, useState } from "react";
 import { wellnessTips } from "@/data/wellness-tips";
 
 const fadeUp = {
@@ -10,6 +11,17 @@ const fadeUp = {
 const vp = { once: true, margin: "-100px" as const };
 
 export default function WellnessHub() {
+  const [activeTip, setActiveTip] = useState(0);
+  const [isPaused, setIsPaused] = useState(false);
+
+  useEffect(() => {
+    if (isPaused) return;
+    const id = setInterval(() => {
+      setActiveTip((i) => (i + 1) % wellnessTips.length);
+    }, 3000);
+    return () => clearInterval(id);
+  }, [isPaused]);
+
   return (
     <div className="w-full">
 
@@ -35,41 +47,57 @@ export default function WellnessHub() {
         </div>
       </section>
 
-      {/* Tips grid */}
+      {/* Tips rotator */}
       <section className="py-16 md:py-24 bg-bg-surface">
         <div className="container mx-auto px-4 md:px-6">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10">
-            {wellnessTips.map((tip, i) => (
-              <motion.article
-                key={tip.slug}
-                custom={i}
-                initial="hidden"
-                whileInView="visible"
-                viewport={vp}
-                variants={fadeUp}
-                className="bg-white rounded-xl shadow-sm overflow-hidden border border-brand-navy-light/10"
-              >
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={vp}
+            variants={fadeUp}
+            onMouseEnter={() => setIsPaused(true)}
+            onMouseLeave={() => setIsPaused(false)}
+            className="relative bg-white rounded-2xl shadow-sm overflow-hidden border border-brand-navy-light/10 max-w-4xl mx-auto"
+          >
+            <div className="relative aspect-[16/9] md:aspect-[21/9]">
+              {wellnessTips.map((tip, i) => (
                 <img
+                  key={tip.slug}
                   src={tip.image}
                   alt={tip.title}
-                  loading="lazy"
+                  loading={i === 0 ? "eager" : "lazy"}
                   decoding="async"
-                  className="w-full aspect-[16/10] object-cover"
+                  className="absolute inset-0 w-full h-full object-cover transition-opacity duration-1000"
+                  style={{ opacity: i === activeTip ? 1 : 0 }}
                 />
-                <div className="p-6 md:p-7">
-                  <div className="flex items-center gap-2 mb-3">
-                    <span className="bg-brand-red-light text-brand-red text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full">
-                      {tip.category}
-                    </span>
-                  </div>
-                  <h2 className="text-xl md:text-2xl font-bold text-brand-navy mb-2 leading-snug">
-                    {tip.title}
-                  </h2>
-                  <p className="text-text-muted leading-relaxed">{tip.summary}</p>
-                </div>
-              </motion.article>
-            ))}
-          </div>
+              ))}
+            </div>
+            <div className="p-6 md:p-10">
+              <div className="flex items-center gap-2 mb-3">
+                <span className="bg-brand-red-light text-brand-red text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full">
+                  {wellnessTips[activeTip].category}
+                </span>
+              </div>
+              <h2 className="text-xl md:text-3xl font-bold text-brand-navy mb-3 leading-snug">
+                {wellnessTips[activeTip].title}
+              </h2>
+              <p className="text-text-muted text-base md:text-lg leading-relaxed">
+                {wellnessTips[activeTip].summary}
+              </p>
+            </div>
+
+            {/* Slide indicators */}
+            <div className="flex justify-center gap-2 pb-6 md:pb-8">
+              {wellnessTips.map((tip, i) => (
+                <button
+                  key={tip.slug}
+                  onClick={() => setActiveTip(i)}
+                  aria-label={`Show tip: ${tip.title}`}
+                  className={`h-2 rounded-full transition-all duration-300 ${i === activeTip ? "bg-brand-red w-6" : "bg-brand-navy-light/20 hover:bg-brand-navy-light/40 w-2"}`}
+                />
+              ))}
+            </div>
+          </motion.div>
         </div>
       </section>
 
